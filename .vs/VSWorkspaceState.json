@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TestXaml"
   ],
-  "SelectedNode": "\\C:\\Users\\exota\\Source\\Repos\\sae-billel-aurian",
+  "SelectedNode": "\\TestXaml\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

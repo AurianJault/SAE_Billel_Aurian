@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\exota\source\repos\sae-billel-aurian\TestXaml\obj\Debug\net5.0-windows\
+C:\Users\ASUS\source\repos\sae-billel-aurian\TestXaml\obj\Debug\net5.0-windows\
 TestXaml
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\exota\source\repos\sae-billel-aurian\TestXaml\App.xaml
-11407045341
+C:\Users\ASUS\source\repos\sae-billel-aurian\TestXaml\App.xaml
+5288655555
 
-5608191590
-193-1891726104
-MainWindow.xaml;
+91239335008
+195-1698323266
+MainWindow.xaml;Window1.xaml;Window2.xaml;Window3.xaml;Window4.xaml;
 
-False
+True
 

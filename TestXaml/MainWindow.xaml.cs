@@ -18,11 +18,23 @@ namespace TestXaml
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+
+
+    //
+    // Create a VideoDrawing that repeats.
+    //
+
+    
+
+
+
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
         }
+
     }
 }
