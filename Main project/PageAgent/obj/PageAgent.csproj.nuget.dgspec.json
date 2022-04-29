@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\PageAgent\\PageAgent\\PageAgent\\PageAgent.csproj": {}
+    "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Main project\\PageAgent\\PageAgent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\PageAgent\\PageAgent\\PageAgent\\PageAgent.csproj": {
+    "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Main project\\PageAgent\\PageAgent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\PageAgent\\PageAgent\\PageAgent\\PageAgent.csproj",
+        "projectUniqueName": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Main project\\PageAgent\\PageAgent.csproj",
         "projectName": "PageAgent",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\PageAgent\\PageAgent\\PageAgent\\PageAgent.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\PageAgent\\PageAgent\\PageAgent\\obj\\",
+        "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Main project\\PageAgent\\PageAgent.csproj",
+        "packagesPath": "C:\\Users\\exota\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Main project\\PageAgent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\exota\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

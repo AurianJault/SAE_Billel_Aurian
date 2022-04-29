@@ -29,3 +29,34 @@ C:\Users\ASUS\source\repos\PageAgent\PageAgent\PageAgent\obj\Debug\net6.0-window
 C:\Users\ASUS\source\repos\PageAgent\PageAgent\PageAgent\obj\Debug\net6.0-windows\Window4.baml
 C:\Users\ASUS\source\repos\PageAgent\PageAgent\PageAgent\bin\Debug\net6.0-windows\video\neon.mp4
 C:\Users\ASUS\source\repos\PageAgent\PageAgent\PageAgent\obj\Debug\net6.0-windows\PageAgent_Content.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\bin\Debug\net6.0-windows\PageAgent.exe
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\bin\Debug\net6.0-windows\video\neon.mp4
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\bin\Debug\net6.0-windows\PageAgent.deps.json
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\bin\Debug\net6.0-windows\PageAgent.runtimeconfig.json
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\bin\Debug\net6.0-windows\PageAgent.dll
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\bin\Debug\net6.0-windows\PageAgent.pdb
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.csproj.AssemblyReference.cache
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window2.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window3.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window4.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent_Content.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent_MarkupCompile.cache
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent_MarkupCompile.lref
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window2.baml
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window3.baml
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\Window4.baml
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.g.resources
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.AssemblyInfoInputs.cache
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.AssemblyInfo.cs
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.csproj.CoreCompileInputs.cache
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.dll
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\refint\PageAgent.dll
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.pdb
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\PageAgent.genruntimeconfig.cache
+C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Main project\PageAgent\obj\Debug\net6.0-windows\ref\PageAgent.dll
