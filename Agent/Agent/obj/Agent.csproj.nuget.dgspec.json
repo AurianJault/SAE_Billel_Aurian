@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
         "projectName": "Agent",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
