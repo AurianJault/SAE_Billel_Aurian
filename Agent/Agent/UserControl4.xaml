@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="Agent.UserControl4"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="page">
+        <ContentControl x:Name="Initiateur1">
+
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="111*"/>
+                    <ColumnDefinition Width="41*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.Background>
+                    <ImageBrush ImageSource="/ImageBG.jpeg"/>
+                </Grid.Background>
+                <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Menu Margin="0,80,70,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Background="Transparent" Grid.ColumnSpan="2" Width="155" Height="25" >
+                    <ComboBox Width="150" Height="23">
+                        <ComboBoxItem IsSelected="True">Duelliste</ComboBoxItem>
+                        <ComboBoxItem>
+
+                            <Button x:Name="Initiateur" Content="Initiateur"/>
+
+                        </ComboBoxItem>
+
+                        <ComboBoxItem>
+                            <ContentControl x:Name="Controlleur1">
+                                <Button x:Name="Controlleur" Content="Controlleur"/>
+                            </ContentControl>
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            <ContentControl x:Name="Sentinelle1">
+                                <Button x:Name="Sentinelle" Content="Sentinelle" />
+                            </ContentControl>
+
+                        </ComboBoxItem>
+                    </ComboBox>
+                </Menu>
+                <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,65,0,0" VerticalAlignment="Top" Height="30" Width="30">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Twitter-EmblèmeV2.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Height="30" Width="30">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/fb_icon_325x325.png"/>
+                    </Button.Background>
+                </Button>
+                <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="46" Margin="229,20,0,0" Stroke="Red" VerticalAlignment="Top" Width="302" Fill="#FFC7A0A0"/>
+                <Label Grid.Column="1" Content="𝘿𝙚́𝙘𝙤𝙪𝙫𝙧𝙚𝙯 𝙩𝙤𝙪𝙩𝙚𝙨 𝙡𝙚𝙨 𝙢𝙖𝙣𝙞𝙚̀𝙧𝙚𝙨 𝙙𝙚 𝙥𝙤𝙨𝙚𝙧 𝙡𝙚 𝙨𝙥𝙞𝙠𝙚 &#xA;&#x9;𝙚𝙩 𝙙𝙚 𝙙𝙤𝙢𝙞𝙣𝙚𝙧 𝙫𝙤𝙨 𝙚𝙣𝙣𝙚𝙢𝙞𝙨 !  " HorizontalAlignment="Left" Margin="229,20,0,0" VerticalAlignment="Top" Height="46" Width="302"/>
+
+                <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Height="111" Width="178" Click="ClickNeon" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/FIipg6hXMAMRxH3.jpg"/>
+                    </Button.Background>
+                </Button>
+
+
+                <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="269,138,0,0" VerticalAlignment="Top" Height="111" Width="182">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/yoru.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Column="1" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top" Height="111" Width="178">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/1293780-jett-amp_main_media_schema-4.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="269,295,0,0" VerticalAlignment="Top" Height="111" Width="182">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/1293816-phoenix-amp_main_media_schema-3.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="35" Margin="114,77,0,0" Stroke="Red" VerticalAlignment="Top" Width="116" Fill="#FFC7A0A0"/>
+                <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="548,138,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/reyna.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="548,295,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/raze.jog.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Label Grid.Column="1" Content="𝔻𝕌𝔼𝕃𝕃𝕀𝕊𝕋𝔼" HorizontalAlignment="Left" Margin="114,80,0,0" VerticalAlignment="Top" Height="49" Width="80"/>
+                <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="194,80,0,0" Stroke="#FFC7A0A0" VerticalAlignment="Top" Width="29" RenderTransformOrigin="0.009,0.108">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="/Duelist.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+            </Grid>
+        </ContentControl>
+    </ContentControl>
+</UserControl>
