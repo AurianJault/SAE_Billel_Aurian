@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj": {}
+    "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj": {
+    "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj",
+        "projectUniqueName": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
         "projectName": "Agent",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\Agent.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\Agent\\Agent\\obj\\",
+        "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
+        "packagesPath": "C:\\Users\\exota\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\exota\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
