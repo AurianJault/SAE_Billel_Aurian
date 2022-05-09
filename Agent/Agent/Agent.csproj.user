@@ -7,7 +7,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Update="NeonSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -20,8 +19,6 @@
     <Compile Update="NeonSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-=======
->>>>>>> baba2c499c4dc97d7076f49ae3ea8021de1d03db
     <Compile Update="UserControl1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,15 +34,11 @@
     <Compile Update="USNeon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Window1.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-<<<<<<< HEAD
     <Page Update="NeonSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -58,8 +51,6 @@
     <Page Update="NeonSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
-=======
->>>>>>> baba2c499c4dc97d7076f49ae3ea8021de1d03db
     <Page Update="UserControl1.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -73,9 +64,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USNeon.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Window1.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -4,17 +4,12 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\
-=======
-C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\
->>>>>>> baba2c499c4dc97d7076f49ae3ea8021de1d03db
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\obj\Debug\net6.0-windows\
 Agent
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-<<<<<<< HEAD
-C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\App.xaml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\App.xaml
 10-1419144781
 4-1651438564
 121277832117
@@ -22,14 +17,4 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\App.xaml
 MainWindow.xaml;NeonSpellA.xaml;NeonSpellC.xaml;NeonSpellE.xaml;NeonSpellX.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;UserControl4.xaml;USNeon.xaml;
 
 False
-=======
-C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\App.xaml
-71735000951
-1661291783
-9273886349
-194-1951243044
-MainWindow.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;UserControl4.xaml;USNeon.xaml;Window1.xaml;
-
-True
->>>>>>> baba2c499c4dc97d7076f49ae3ea8021de1d03db
 
