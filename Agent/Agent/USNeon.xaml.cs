@@ -29,10 +29,17 @@ namespace Agent
         {
             Duelliste.Content = new UserControl4();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ENeon(object sender, RoutedEventArgs e)
         {
-
+            NeonSpell.Content = new NeonSpellE();
+        }
+        private void CNeon(object sender, RoutedEventArgs e)
+        {
+            NeonSpell.Content = new NeonSpellC();
+        }
+        private void XNeon(object sender, RoutedEventArgs e)
+        {
+            NeonSpell.Content = new NeonSpellC();
         }
     }
 }

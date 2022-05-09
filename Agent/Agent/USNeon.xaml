@@ -9,13 +9,9 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="450" Width="801">
+                <Grid Height="31" Width="445">
 
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="8*"/>
-                        <ColumnDefinition Width="111*"/>
-                        <ColumnDefinition Width="41*"/>
-                    </Grid.ColumnDefinitions>
+
                     <Grid.Background>
                         <ImageBrush ImageSource="/ImageBG.jpeg"/>
                     </Grid.Background>
@@ -35,16 +31,11 @@
 
                 </Grid>
                 <Grid Height="450" Background="#FFC3B8B8">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="422*"/>
-                        <ColumnDefinition Width="143*"/>
-                        <ColumnDefinition Width="236*"/>
-                    </Grid.ColumnDefinitions>
-                    <Rectangle HorizontalAlignment="Left" Height="227" Margin="331,131,0,0" Stroke="#FFC66B3D" VerticalAlignment="Top" Width="403" Grid.ColumnSpan="3" />
-                    <MediaElement Source="VideoSpell/Neon/Neon_A.mp4" Margin="327,131,62,92" Grid.ColumnSpan="3"></MediaElement>
 
 
-                    <Button Content="" HorizontalAlignment="Left" Margin="75,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="87" Click="Button_Click">
+
+
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="87" >
                         <Button.Background>
                             <ImageBrush ImageSource="/Neon_Q-Relay_Bolt.png"/>
                         </Button.Background>
@@ -56,7 +47,7 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-                    <Button  HorizontalAlignment="Left" Margin="75,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="87">
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="87" Click="ENeon">
                         <Button.Background>
                             <ImageBrush ImageSource="/Neon_E-High_Gear.png"/>
                         </Button.Background>
@@ -68,7 +59,7 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-                    <Button HorizontalAlignment="Left" Margin="75,265,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="87">
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="87" Click="CNeon">
                         <Button.Background>
                             <ImageBrush ImageSource="/Neon_C-Fast_Lane.png"/>
                         </Button.Background>
@@ -80,7 +71,7 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-                    <Button  HorizontalAlignment="Left" Margin="75,339,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="87">
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="87" Click="XNeon">
                         <Button.Background>
                             <ImageBrush ImageSource="/Neon_X-Overdrive.png"/>
                         </Button.Background>
@@ -92,8 +83,8 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-                    <Rectangle HorizontalAlignment="Left" Height="43" Margin="176,24,0,0" Stroke="Black" VerticalAlignment="Top" Width="448" Fill="#FF886262" Grid.ColumnSpan="3" />
-                    <TextBlock HorizontalAlignment="Left" Margin="178,24,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="43" Width="444" Grid.ColumnSpan="3">
+
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,330,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="128">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
@@ -101,16 +92,28 @@
                                 <RotateTransform Angle="0.322"/>
                                 <TranslateTransform/>
                             </TransformGroup>
-                        </TextBlock.RenderTransform>
-                    </TextBlock>
-                    <Rectangle HorizontalAlignment="Left" Height="68" Margin="176,116,0,0" Stroke="Black" VerticalAlignment="Top" Width="122"/>
-                    <Rectangle HorizontalAlignment="Left" Height="68" Margin="176,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="122"/>
-                    <Rectangle HorizontalAlignment="Left" Height="68" Margin="176,265,0,0" Stroke="Black" VerticalAlignment="Top" Width="122"/>
-                    <Rectangle HorizontalAlignment="Left" Height="68" Margin="176,339,0,0" Stroke="Black" VerticalAlignment="Top" Width="122"/>
-                    <Label Content="Label" HorizontalAlignment="Left" Margin="176,116,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
-                    <Label Content="Label" HorizontalAlignment="Left" Margin="176,0,0,0" VerticalAlignment="Center" Height="68" Width="122"/>
-                    <Label Content="Label" HorizontalAlignment="Left" Margin="176,266,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
-                    <Label Content="Label" HorizontalAlignment="Left" Margin="176,339,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES NEON "/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+
+                    <Label Content="𝘈 - É𝘊𝘓𝘈𝘐𝘙 𝘙𝘌𝘓𝘈𝘐𝘚" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘌 - 𝘝𝘐𝘛𝘌𝘚𝘚𝘌 𝘚𝘜𝘗É𝘙𝘐𝘌𝘜𝘙𝘌" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="𝘊 - 𝘝𝘖𝘐𝘌 𝘙𝘈𝘗𝘐𝘋𝘌" HorizontalAlignment="Left" Margin="102,270,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘟 - 𝘜𝘓𝘛𝘙𝘈-𝘝𝘐𝘛𝘌𝘚𝘚𝘌" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" Text="Lancez INSTANTANÉMENT un éclair d'énergie qui rebondit une fois. Chaque fois qu'il rencontre une surface, l'éclair électrifie le sol en dessous avec un coup de jus." VerticalAlignment="Top" Height="41" Width="240" FontSize="9"/>
+
+
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="247"/>
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="103,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="240" FontSize="9"><Run Text="Chargez INSTANTANÉMENT le pouvoir de Neon pour décupler sa vitesse. À la fin du chargement, utilisez TIR SECONDAIRE pour déclencher une glissade électrique"/><Run Language="fr-fr" Text="."/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="244" FontSize="9"><Run Text="TIREZ deux lignes d'énergie dans le sol devant vous qui parcourent une courte distance ou jusqu'à frapper une surface. Elles s'élèvent alors en murs d'électricité "/><Run Language="fr-fr" Text="."/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="Libérez toute la puissance et la vitesse de Neon pendant un court instant. TIREZ pour canaliser son pouvoir en un rayon électrique mortel à grande précision. Chaque élimination réinitialise sa durée." VerticalAlignment="Top" Height="51" Width="243" FontSize="9"/>
+
+                    <ContentControl x:Name="NeonSpell">
+                        <MediaElement Source="VideoSpell/Neon/Neon_A.mp4" Margin="363,107,26,116" Grid.ColumnSpan="3" />
+                    </ContentControl>
+
                 </Grid>
 
             </StackPanel>
