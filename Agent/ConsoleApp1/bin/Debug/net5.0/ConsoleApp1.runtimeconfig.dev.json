@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\exota\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\exota\\.nuget\\packages"
+    ]
+  }
+}
