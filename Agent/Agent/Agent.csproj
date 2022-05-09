@@ -22,6 +22,7 @@
     <None Remove="Initiator.png" />
     <None Remove="kayo.jpg" />
     <None Remove="killjoy.jpg" />
+    <None Remove="kisspng-social-media-iphone-organization-logo-twitter-5abe30242bc9a4.9079035915224136041794.jpg" />
     <None Remove="neonV2.jpg" />
     <None Remove="neonV3.jpg" />
     <None Remove="Neon_A.mp4" />
@@ -67,6 +68,7 @@
     <Resource Include="Initiator.png" />
     <Resource Include="kayo.jpg" />
     <Resource Include="killjoy.jpg" />
+    <Resource Include="kisspng-social-media-iphone-organization-logo-twitter-5abe30242bc9a4.9079035915224136041794.jpg" />
     <Resource Include="neonV2.jpg" />
     <Resource Include="neonV3.jpg" />
     <Resource Include="Neon_A.mp4">

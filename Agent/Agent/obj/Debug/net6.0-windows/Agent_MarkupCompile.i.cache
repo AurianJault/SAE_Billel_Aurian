@@ -9,21 +9,12 @@ Agent
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-<<<<<<< HEAD
 C:\Users\exota\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\App.xaml
-61201251963
+71735000951
 1661291783
-10-585049795
+11344289917
 194-1951243044
-MainWindow.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;UserControl4.xaml;USNeon.xaml;
-=======
-C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\App.xaml
-8-110158825
-1661291783
-12380380529
-1941645785384
-MainWindow.xaml;NeonSpellC.xaml;NeonSpellE.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;UserControl4.xaml;USNeon.xaml;
->>>>>>> 59d74ea1d708191006776c464f19e7b60a00286a
+MainWindow.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;UserControl4.xaml;USNeon.xaml;Window1.xaml;
 
-True
+False
 
