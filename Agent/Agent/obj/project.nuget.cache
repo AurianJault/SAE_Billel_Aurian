@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QVSLFNt6b05o4epR6UCT1q+TYKp1ri6SixBoLipW3twMXys8HTY6BS/9YmEAPMKgwHwG2dv218iJeXgGhTNYsA==",
+  "dgSpecHash": "rnBTOKNUWFSYAcvGo3pSKfa04IKNlfJYWv6zBd4GEeCH9sseG3Jyl1QwmU1xUeZML5tC0Nhv4bOvUL/EW0bixw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
