@@ -9,5 +9,8 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_a.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_c.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_e.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_x.mp4")]
 
 

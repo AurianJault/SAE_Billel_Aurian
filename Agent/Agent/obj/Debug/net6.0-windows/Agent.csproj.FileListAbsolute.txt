@@ -68,3 +68,10 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-win
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\NeonSpellE.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\NeonSpellC.g.cs
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\NeonSpellC.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Neon\Neon_E.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Neon\Neon_C.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Neon\Neon_X.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\NeonSpellA.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\NeonSpellX.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\NeonSpellA.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\NeonSpellX.baml

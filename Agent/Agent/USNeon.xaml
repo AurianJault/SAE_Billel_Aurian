@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="31" Width="445">
+                <Grid Height="19" Width="575">
 
 
                     <Grid.Background>
@@ -35,7 +35,7 @@
 
 
 
-                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="87" >
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="87" Click="ANeon">
                         <Button.Background>
                             <ImageBrush ImageSource="/Neon_Q-Relay_Bolt.png"/>
                         </Button.Background>
@@ -110,8 +110,8 @@
                     <TextBlock HorizontalAlignment="Left" Margin="106,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="244" FontSize="9"><Run Text="TIREZ deux lignes d'énergie dans le sol devant vous qui parcourent une courte distance ou jusqu'à frapper une surface. Elles s'élèvent alors en murs d'électricité "/><Run Language="fr-fr" Text="."/><LineBreak/><Run Language="fr-fr"/></TextBlock>
                     <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="Libérez toute la puissance et la vitesse de Neon pendant un court instant. TIREZ pour canaliser son pouvoir en un rayon électrique mortel à grande précision. Chaque élimination réinitialise sa durée." VerticalAlignment="Top" Height="51" Width="243" FontSize="9"/>
 
-                    <ContentControl x:Name="NeonSpell">
-                        <MediaElement Source="VideoSpell/Neon/Neon_A.mp4" Margin="363,107,26,116" Grid.ColumnSpan="3" />
+                    <ContentControl x:Name="NeonSpell" Margin="357,107,28,103" Grid.ColumnSpan="3">
+                        <MediaElement Source="VideoSpell/Neon/Neon_A.mp4"  />
                     </ContentControl>
 
                 </Grid>

@@ -42,6 +42,9 @@
     <None Remove="Twitter-EmblèmeV2.png" />
     <None Remove="twitter-logos-vector-eps-ai-cdr-svg-free-download-logo-twitter-icon-moon-outdoors-nature-symbol-transparent-png-2605751v2.png" />
     <None Remove="VideoSpell\Neon\Neon_A.mp4" />
+    <None Remove="VideoSpell\Neon\Neon_C.mp4" />
+    <None Remove="VideoSpell\Neon\Neon_E.mp4" />
+    <None Remove="VideoSpell\Neon\Neon_X.mp4" />
     <None Remove="viper.jpg" />
     <None Remove="yoru.jpg" />
   </ItemGroup>
@@ -49,6 +52,15 @@
   <ItemGroup>
     <Content Include="VideoSpell\Neon\Neon_A.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Neon\Neon_C.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Neon\Neon_E.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Neon\Neon_X.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
