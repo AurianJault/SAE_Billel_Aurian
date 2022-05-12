@@ -119,3 +119,5 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee01
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\obj\Debug\net6.0-windows\Agent.pdb
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\obj\Debug\net6.0-windows\Agent.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\obj\Debug\net6.0-windows\ref\Agent.dll
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\Window1.baml
