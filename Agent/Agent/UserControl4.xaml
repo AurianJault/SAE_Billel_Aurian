@@ -76,7 +76,7 @@
                             <ImageBrush ImageSource="/1293780-jett-amp_main_media_schema-4.jpg"/>
                         </Button.Background>
                     </Button>
-                    <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="269,295,0,0" VerticalAlignment="Top" Height="111" Width="182">
+                    <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="269,295,0,0" VerticalAlignment="Top" Height="111" Width="182" Click="ClickPhoenix">
                         <Button.Background>
                             <ImageBrush ImageSource="/1293816-phoenix-amp_main_media_schema-3.jpg"/>
                         </Button.Background>

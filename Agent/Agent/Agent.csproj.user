@@ -19,6 +19,18 @@
     <Compile Update="NeonSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PhoenixSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PhoenixSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PhoenixSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PhoenixSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReynaSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -46,6 +58,9 @@
     <Compile Update="USNeon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USPhoenix.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USReyna.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +79,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="NeonSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PhoenixSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PhoenixSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PhoenixSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PhoenixSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReynaSpellA.xaml">
@@ -91,6 +118,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USNeon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USPhoenix.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USReyna.xaml">

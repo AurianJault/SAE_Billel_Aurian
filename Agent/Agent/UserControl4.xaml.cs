@@ -37,8 +37,11 @@ namespace Agent
         {
             Duellist.Content = new USReyna();
 
+        }
+        private void ClickPhoenix(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new USPhoenix();
 
         }
-
     }
 }

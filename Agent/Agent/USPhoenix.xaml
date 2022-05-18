@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="28" Width="619">
+                <Grid Height="37" Width="630">
 
 
                     <Grid.Background>
@@ -31,13 +31,17 @@
 
                 </Grid>
                 <Grid Height="450" Background="#FFC3B8B8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
 
 
 
 
-                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="AReyna">
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="APhoenix">
                         <Button.Background>
-                            <ImageBrush ImageSource="/VideoSpell/Phoenix/PhoA.png"/>
+                            <ImageBrush ImageSource="/PhoA.png"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -47,9 +51,9 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="EReyna">
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="EPhoenix">
                         <Button.Background>
-                            <ImageBrush ImageSource="VideoSpell/Phoenix/PhoE.png"/>
+                            <ImageBrush ImageSource="/PhoE.png"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -59,9 +63,9 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CReyna">
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CPhoenix">
                         <Button.Background>
-                            <ImageBrush ImageSource="VideoSpell/Phoenix/PhoC.png"/>
+                            <ImageBrush ImageSource="/PhoC.png"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -71,9 +75,9 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XReyna">
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XPhoenix">
                         <Button.Background>
-                            <ImageBrush ImageSource="VideoSpell/Phoenix/PhoX.png"/>
+                            <ImageBrush ImageSource="/PhoX.png"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -84,7 +88,7 @@
                         </Button.RenderTransform>
                     </Button>
 
-                    <TextBlock HorizontalAlignment="Right" Margin="0,40,330,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="128">
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,136,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="147">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
@@ -92,25 +96,26 @@
                                 <RotateTransform Angle="0.322"/>
                                 <TranslateTransform/>
                             </TransformGroup>
-                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES REYNA "/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES PHOENIX "/><LineBreak/><Run Language="fr-fr"/></TextBlock>
 
-                    <Label Content="𝘈 - 𝘋É𝘝𝘖𝘙𝘈𝘛𝘐𝘖𝘕&#xD;&#xA;" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
-                    <Label Content="𝘌 - 𝘙𝘌𝘉𝘜𝘍𝘍𝘈𝘋𝘌" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
-                    <Label Content="𝘊 - Œ𝘐𝘓𝘓𝘈𝘋𝘌" HorizontalAlignment="Left" Margin="102,270,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
-                    <Label Content="𝘟 - 𝘐𝘔𝘗É𝘙𝘈𝘛𝘙𝘐𝘊𝘌" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘈 - 𝘉𝘈𝘓𝘓𝘌 𝘊𝘖𝘜𝘙𝘉𝘌" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘌 - 𝘔𝘈𝘐𝘕𝘚 𝘉𝘙Û𝘓𝘈𝘕𝘛𝘌𝘚" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="𝘊 - 𝘉𝘙𝘈𝘚𝘐𝘌𝘙" HorizontalAlignment="Left" Margin="102,270,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘟 - 𝘙𝘌𝘝𝘈𝘕𝘊𝘏𝘌
+" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
 
-                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="Les ennemis tués par Reyna laissent des orbes d'âme qui durent 3 sec. Vous consommez INSTANTANÉMENT un orbe d'âme proche pour rapidement regagner des P"/><Run Language="fr-fr" Text="V."/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un orbe flamboyant qui explose peu après avoir été lancé, aveuglant tous les joueurs qui le regardent."/><Run Language="fr-fr" Text="V."/></TextBlock>
 
 
                     <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
                     <Rectangle HorizontalAlignment="Left" Height="44" Margin="103,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
                     <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
                     <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9" Text="Vous consommez INSTANTANÉMENT un orbe d'âme proche et devenez intangible pendant un court instant. Si IMPÉRATRICE est active, vous devenez également invisible."/>
-                    <TextBlock HorizontalAlignment="Left" Margin="106,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un œil éthéré destructible. ACTIVEZ pour lancer l'œil vers l'avant sur une courte distance. L'œil rend myopes tous les ennemis qui le regardent."/><LineBreak/><Run/></TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="Entrez INSTANTANÉMENT en furie, ce qui augmente considérablement vos vitesses de tir, de changement d'arme et de rechargement. Réussir une élimination réinitialise la durée" VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9" Text="ÉQUIPEZ-vous d'une boule de feu. TIREZ pour lancer une boule de feu qui explose après un certain temps ou en touchant le sol, créant une zone enflammée."/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un mur de feu. TIREZ pour créer une ligne de feu qui se déplace vers l'avant, créant un mur de feu qui bloque la vision et blesse les joueurs qui le traversent."/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="Placez INSTANTANÉMENT un marqueur sur votre position. Tant que cette compétence est active, mourir vous renvoie à cette position avec tous vos PV (même chose si la compétence expire)." VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
 
-                    <ContentControl x:Name="ReynaSpell" Margin="357,107,28,103" Grid.ColumnSpan="3">
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
                         <MediaElement Source="VideoSpell/Phoenix/PA.mp4"  />
                     </ContentControl>
 

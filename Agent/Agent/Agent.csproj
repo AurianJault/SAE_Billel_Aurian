@@ -30,6 +30,10 @@
     <None Remove="Neon_Q-Relay_Bolt.png" />
     <None Remove="Neon_X-Overdrive.png" />
     <None Remove="omen.jpg" />
+    <None Remove="PhoA.png" />
+    <None Remove="PhoC.png" />
+    <None Remove="PhoE.png" />
+    <None Remove="PhoX.png" />
     <None Remove="raciste.jpg" />
     <None Remove="raze.jog.jpg" />
     <None Remove="reyna.jpg" />
@@ -49,6 +53,13 @@
     <None Remove="VideoSpell\Neon\Neon_C.mp4" />
     <None Remove="VideoSpell\Neon\Neon_E.mp4" />
     <None Remove="VideoSpell\Neon\Neon_X.mp4" />
+    <None Remove="VideoSpell\Phoenix\PA.mp4" />
+    <None Remove="VideoSpell\Phoenix\PC.mp4" />
+    <None Remove="VideoSpell\Phoenix\PE.mp4" />
+    <None Remove="VideoSpell\Phoenix\PhoA.png" />
+    <None Remove="VideoSpell\Phoenix\PhoE.png" />
+    <None Remove="VideoSpell\Phoenix\PhoX.png" />
+    <None Remove="VideoSpell\Phoenix\PX.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaA.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaC.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaE.mp4" />
@@ -69,6 +80,24 @@
     </Content>
     <Content Include="VideoSpell\Neon\Neon_X.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Phoenix\PA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Phoenix\PC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Phoenix\PE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Phoenix\PhoE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Phoenix\PhoX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Phoenix\PX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="VideoSpell\Reyna\ReynaA.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -106,6 +135,10 @@
     <Resource Include="Neon_Q-Relay_Bolt.png" />
     <Resource Include="Neon_X-Overdrive.png" />
     <Resource Include="omen.jpg" />
+    <Resource Include="PhoA.png" />
+    <Resource Include="PhoC.png" />
+    <Resource Include="PhoE.png" />
+    <Resource Include="PhoX.png" />
     <Resource Include="raciste.jpg" />
     <Resource Include="raze.jog.jpg" />
     <Resource Include="reyna.jpg" />
@@ -121,6 +154,9 @@
     <Resource Include="TX_Reyna_E.png" />
     <Resource Include="TX_Reyna_Q.png" />
     <Resource Include="TX_Reyna_X.png" />
+    <Resource Include="VideoSpell\Phoenix\PhoA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="viper.jpg" />
     <Resource Include="yoru.jpg" />
   </ItemGroup>
