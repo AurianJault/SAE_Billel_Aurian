@@ -12,11 +12,12 @@ namespace Classe
         private string type;
         private string nationalite;
 
-        public Agent(string nom, string type, string nationalite = "Inconnu")
+        public Agent(string nom, string type, string nationalite = "Inconnu",)
         {
             Nom = nom;
             Type = type;
             Nationalite = nationalite;
+
         }
         public string Type { get; set; }
         public string Nom { get; set; }
