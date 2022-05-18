@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\sae-billel-aurian\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
       "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\sae-billel-aurian\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
       "packagesPath": "C:\\Users\\exota\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\ClassLibrary1\\obj\\",
+      "outputPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\sae-billel-aurian\\Agent\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\exota\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
