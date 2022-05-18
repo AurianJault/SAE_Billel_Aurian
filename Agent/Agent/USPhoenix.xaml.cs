@@ -24,5 +24,25 @@ namespace Agent
         {
             InitializeComponent();
         }
+        private void APhoenix(object sender, RoutedEventArgs e)
+        {
+            Spell.Content = new PhoenixSpellA();
+        }
+        private void EPhoenix(object sender, RoutedEventArgs e)
+        {
+            Spell.Content = new PhoenixSpellE();
+        }
+        private void CPhoenix(object sender, RoutedEventArgs e)
+        {
+            Spell.Content = new PhoenixSpellC();
+        }
+        private void XPhoenix(object sender, RoutedEventArgs e)
+        {
+            Spell.Content = new PhoenixSpellX();
+        }
+        private void Menu(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new UserControl4();
+        }
     }
 }

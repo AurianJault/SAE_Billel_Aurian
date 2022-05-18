@@ -7,6 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <MediaElement Source="VideoSpell/Phoenix/PA.mp4"></MediaElement>
+
+
     </Grid>
 </UserControl>
