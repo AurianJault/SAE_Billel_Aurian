@@ -24,13 +24,21 @@ namespace Agent
         {
             InitializeComponent();
         }
-        
 
         private void ClickNeon(object sender, RoutedEventArgs e)
         {
-            page.Content = new USNeon();
+            Duellist.Content = new USNeon();
         }
+        private void clickInitiateur(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new UserControl1();
+        }
+        private void ClickReyna(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new USReyna();
+
+
+        }
+
     }
-
-
 }

@@ -19,6 +19,18 @@
     <Compile Update="NeonSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ReynaSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReynaSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReynaSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReynaSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControl1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +44,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USNeon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USReyna.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -51,6 +66,18 @@
     <Page Update="NeonSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ReynaSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReynaSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReynaSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReynaSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UserControl1.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -64,6 +91,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USNeon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USReyna.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -25,10 +25,11 @@ namespace Agent
             InitializeComponent();
         }
 
-        private void menu(object sender, RoutedEventArgs e)
+        private void Menu(object sender, RoutedEventArgs e)
         {
             Duelliste.Content = new UserControl4();
         }
+    
         private void ANeon(object sender, RoutedEventArgs e)
         {
             NeonSpell.Content = new NeonSpellA();

@@ -23,14 +23,9 @@ namespace Agent
         {
             InitializeComponent();
         }
-        private void clickInitiateur(object sender, RoutedEventArgs e)
+        private void Agents(object sender, RoutedEventArgs e)
         {
-            Initiateur1.Content = new UserControl1();
-        }
-        
-        private void ClickNeon(object sender, RoutedEventArgs e)
-        {
-            Neon.Content = new USNeon();
+            page.Content = new UserControl4();
         }
     }
 

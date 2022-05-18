@@ -12,5 +12,9 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_c.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_e.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_x.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynaa.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynac.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynax.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynae.mp4")]
 
 
