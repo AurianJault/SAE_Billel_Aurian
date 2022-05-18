@@ -24,7 +24,7 @@ namespace Classe
         public string Nationalite { get; set; }
         public override string ToString()
         {
-            return $"Agent: {Nom}\nCatégorie: {Type}\nNationalité: {Nationalite}";
+            return $"Agent: {Nom}\nCatégorie: {Type}\n";
         }
 
     }

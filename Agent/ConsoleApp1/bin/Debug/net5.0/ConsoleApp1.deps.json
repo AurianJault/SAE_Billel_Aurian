@@ -8,15 +8,19 @@
     ".NETCoreApp,Version=v5.0": {
       "ConsoleApp1/1.0.0": {
         "dependencies": {
-          "ClassLibrary1": "1.0.0"
+          "ClassLibrary1": "1.0.0",
+          "ClassLibrary1.Reference": "1.0.0.0"
         },
         "runtime": {
           "ConsoleApp1.dll": {}
         }
       },
-      "ClassLibrary1/1.0.0": {
+      "ClassLibrary1.Reference/1.0.0.0": {
         "runtime": {
-          "ClassLibrary1.dll": {}
+          "ClassLibrary1.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -27,8 +31,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ClassLibrary1/1.0.0": {
-      "type": "project",
+    "ClassLibrary1.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -11,6 +11,12 @@ namespace Classe
         private string type;
         private string nom;
         private string cosmetique;
+        private string v;
+
+        public Arme(string v)
+        {
+            this.v = v;
+        }
 
         public Arme(string type, string nom, string cosmetique)
         {
