@@ -43,5 +43,15 @@ namespace Agent
             Duellist.Content = new USPhoenix();
 
         }
+        private void ClickJett(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new USJett();
+
+        }
+        private void ClickYoru(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new USYoru();
+
+        }
     }
 }

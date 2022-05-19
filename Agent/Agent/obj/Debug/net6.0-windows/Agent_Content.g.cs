@@ -8,6 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/jett/ja.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/jett/jc.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/jett/je.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/jett/jx.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_a.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_c.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/neon/neon_e.mp4")]
@@ -21,6 +25,10 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynaa.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynac.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynax.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/ya.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/yc.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/ye.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/yx.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynae.mp4")]
 
 

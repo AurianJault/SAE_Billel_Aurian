@@ -49,6 +49,14 @@
     <None Remove="TX_Reyna_E.png" />
     <None Remove="TX_Reyna_Q.png" />
     <None Remove="TX_Reyna_X.png" />
+    <None Remove="VideoSpell\Jett\JA.mp4" />
+    <None Remove="VideoSpell\Jett\JA.png" />
+    <None Remove="VideoSpell\Jett\JC.mp4" />
+    <None Remove="VideoSpell\Jett\JC.png" />
+    <None Remove="VideoSpell\Jett\JE.mp4" />
+    <None Remove="VideoSpell\Jett\JE.png" />
+    <None Remove="VideoSpell\Jett\JX.mp4" />
+    <None Remove="VideoSpell\Jett\JX.png" />
     <None Remove="VideoSpell\Neon\Neon_A.mp4" />
     <None Remove="VideoSpell\Neon\Neon_C.mp4" />
     <None Remove="VideoSpell\Neon\Neon_E.mp4" />
@@ -64,11 +72,31 @@
     <None Remove="VideoSpell\Reyna\ReynaC.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaE.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaX.mp4" />
+    <None Remove="VideoSpell\Yoru\YA.mp4" />
+    <None Remove="VideoSpell\Yoru\YA.png" />
+    <None Remove="VideoSpell\Yoru\YC.mp4" />
+    <None Remove="VideoSpell\Yoru\YC.png" />
+    <None Remove="VideoSpell\Yoru\YE.mp4" />
+    <None Remove="VideoSpell\Yoru\YE.png" />
+    <None Remove="VideoSpell\Yoru\YX.mp4" />
+    <None Remove="VideoSpell\Yoru\YX.png" />
     <None Remove="viper.jpg" />
     <None Remove="yoru.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="VideoSpell\Jett\JA.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Jett\JC.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Jett\JE.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Jett\JX.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="VideoSpell\Neon\Neon_A.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -106,6 +134,18 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="VideoSpell\Reyna\ReynaX.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Yoru\YA.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Yoru\YC.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Yoru\YE.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Yoru\YX.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -154,8 +194,32 @@
     <Resource Include="TX_Reyna_E.png" />
     <Resource Include="TX_Reyna_Q.png" />
     <Resource Include="TX_Reyna_X.png" />
+    <Resource Include="VideoSpell\Jett\JA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Jett\JC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Jett\JE.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Jett\JX.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Phoenix\PhoA.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Yoru\YA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Yoru\YC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Yoru\YE.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Yoru\YX.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="viper.jpg" />
     <Resource Include="yoru.jpg" />
