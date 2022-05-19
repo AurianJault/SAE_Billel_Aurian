@@ -15,10 +15,10 @@ namespace Classe
 
         public ListeAg()
         {
-            List<Agent> duelist = new List<Agent> { };
-            List<Agent> controllers = new List<Agent> { };
-            List<Agent> initiators = new List<Agent> { };
-            List<Agent> sentinels = new List<Agent> { };
+            duelist = new List<Agent> {};
+            controllers = new List<Agent> {};
+            initiators = new List<Agent> {};
+            sentinels = new List<Agent> {};
         }
 
         public void ForEach()
