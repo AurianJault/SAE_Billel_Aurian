@@ -10,28 +10,19 @@ namespace Classe
     {
         private string type;
         private string nom;
-        private string cosmetique;
-        private string v;
-
-        public Arme(string v)
-        {
-            this.v = v;
-        }
-
-        public Arme(string type, string nom, string cosmetique)
+       
+        public Arme(string type, string nom)
         {
             Type = type;
             Nom = nom;
-            Cosmetique = cosmetique;
         }
 
         public string Nom { get; set; }
         public string Type { get; set; }
-        public string Cosmetique { get; set; }
 
         public override string ToString()
         {
-            return $"Type: {Type}\nNom: {Nom}\nCosmétique: {Cosmetique}\n";
+            return $"Type: {Type}\nNom: {Nom}\n";
         }
     }
 }

@@ -25,11 +25,11 @@ namespace Classe
         {
             Console.WriteLine("Duelist: ");
             duelist.ForEach(ag => Console.Write(ag));
-            Console.WriteLine("Controllers: ");
+            Console.WriteLine("\n\n\nControllers: ");
             controllers.ForEach(ag => Console.Write(ag));
-            Console.WriteLine("Initiators: ");
+            Console.WriteLine("\n\n\nInitiators: ");
             initiators.ForEach(ag => Console.Write(ag));
-            Console.WriteLine("Sentinels: ");
+            Console.WriteLine("\n\n\nSentinels: ");
             sentinels.ForEach(ag => Console.Write(ag));
         }
 
