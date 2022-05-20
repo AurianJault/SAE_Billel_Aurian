@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="48" Width="625">
+                <Grid Height="66" Width="636">
 
 
                     <Grid.Background>
@@ -88,7 +88,7 @@
                         </Button.RenderTransform>
                     </Button>
 
-                    <TextBlock HorizontalAlignment="Right" Margin="0,40,170,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="113">
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,147,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="136">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
@@ -98,24 +98,24 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES YORU"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
 
-                    <Label Content="𝘈 - 𝘊𝘖𝘜𝘙𝘈𝘕𝘛 𝘈𝘚𝘊𝘌𝘕𝘋𝘈𝘕𝘛" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
-                    <Label Content="𝘌 - 𝘝𝘌𝘕𝘛 𝘈𝘙𝘙𝘐È𝘙𝘌" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
-                    <Label Content="𝘊 - 𝘈𝘝𝘌𝘙𝘚𝘌𝘙" HorizontalAlignment="Left" Margin="102,263,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
-                    <Label Content="𝘟 - 𝘛𝘌𝘔𝘗Ê𝘛𝘌 𝘋𝘌 𝘓𝘈𝘔𝘌𝘚" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="140"/>
+                    <Label Content="𝘈 - 𝘈𝘕𝘎𝘓𝘌 𝘔𝘖𝘙𝘛" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘌 - 𝘝𝘐𝘚𝘐𝘛𝘌 𝘚𝘜𝘙𝘗𝘙𝘐𝘚𝘌" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="𝘊 - 𝘍𝘌𝘐𝘕𝘛𝘌" HorizontalAlignment="Left" Margin="102,263,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
+                    <Label Content="𝘟 - 𝘛𝘙𝘈𝘕𝘚𝘍𝘌𝘙𝘛 𝘋𝘐𝘔𝘌𝘕𝘚𝘐𝘖𝘕𝘕𝘌𝘓" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="181"/>
 
-                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="Vous vous propulsez INSTANTANÉMENT dans les airs."/><Run Language="fr-fr" Text="V."/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un fragment dimensionnel instable arraché à la réalité. TIREZ pour lancer le fragment, qui provoquera un éclat aveuglant."/><Run Language="fr-fr"/></TextBlock>
 
 
                     <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
-                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="103,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="50" Margin="103,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
                     <Rectangle HorizontalAlignment="Left" Height="54" Margin="102,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
                     <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9" Text="Vous vous propulsez INSTANTANÉMENT dans la direction vers laquelle vous vous dirigez. Si vous êtes immobile, vous vous propulsez vers l'avant."/>
-                    <TextBlock HorizontalAlignment="Left" Margin="106,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="240" FontSize="9"><Run Text="Lancez INSTANTANÉMENT un projectile. Lorsqu'il touche une surface, il libère un nuage qui bloque la vision pendant un court instant. MAINTENEZ la touche de la compétence pour courber la fumée dans la direction de votre réticule."/><LineBreak/><Run/></TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="ÉQUIPEZ-vous d'un ensemble de couteaux extrêmement précis qui se rechargent lorsque vous éliminez un ennemi. TIREZ pour lancer un seul couteau sur votre cible.Utilisez le TIR SECONDAIRE pour lancer toutes les dagues restantes." VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="240" FontSize="9" Text="ÉQUIPEZ-vous d'une balise dimensionnelle. TIREZ pour envoyer la balise vers l'avant. Utilisez le TIR SECONDAIRE pour poser une balise stationnaire devant vous. ACTIVEZ la balise pour vous y téléporter."/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un écho qui se transforme en double de Yoru une fois activé. TIREZ pour activer instantanément le double et l'envoyer vers l'avant. Utilisez le TIR SECONDAIRE pour poser un écho inactif devant vous. "/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="ÉQUIPEZ-vous d'un masque qui permet de voir entre les dimensions. TIREZ pour passer dans la dimension de Yoru. Les ennemis hors de la zone ne peuvent ni vous voir ni vous affecter." VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
 
                     <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
-                        <MediaElement Source="/VideoSpell/Yoru/YA.mp4"  />
+                        <MediaElement Source="VideoSpell/Yoru/YA.mp4"></MediaElement>
                     </ContentControl>
 
                 </Grid>

@@ -24,15 +24,23 @@ namespace Agent
         {
             InitializeComponent();
         }
-
-        private void ClickNeon(object sender, RoutedEventArgs e)
-        {
-            Duellist.Content = new USNeon();
-        }
         private void clickInitiateur(object sender, RoutedEventArgs e)
         {
             Duellist.Content = new UserControl1();
         }
+        private void clickControlleur(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new UserControl2();
+        }
+        private void clickSentinelle(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new UserControl3();
+        }
+        private void ClickNeon(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new USNeon();
+        }
+        
         private void ClickReyna(object sender, RoutedEventArgs e)
         {
             Duellist.Content = new USReyna();
@@ -51,6 +59,11 @@ namespace Agent
         private void ClickYoru(object sender, RoutedEventArgs e)
         {
             Duellist.Content = new USYoru();
+
+        }
+        private void ClickRaze(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new USRaze();
 
         }
     }

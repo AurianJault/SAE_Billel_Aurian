@@ -43,6 +43,18 @@
     <Compile Update="PhoenixSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RazeSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RazeSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RazeSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RazeSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReynaSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -74,6 +86,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USPhoenix.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USRaze.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USReyna.xaml.cs">
@@ -135,6 +150,18 @@
     <Page Update="PhoenixSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="RazeSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RazeSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RazeSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RazeSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ReynaSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -166,6 +193,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USPhoenix.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USRaze.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USReyna.xaml">

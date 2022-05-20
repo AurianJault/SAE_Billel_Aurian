@@ -179,3 +179,17 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-win
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Yoru\YC.mp4
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Yoru\YE.mp4
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Yoru\YX.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Raze\RA.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Raze\RC.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Raze\RE.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Raze\RX.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellA.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellC.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellE.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellX.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USRaze.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellA.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellC.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellE.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\RazeSpellX.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USRaze.baml

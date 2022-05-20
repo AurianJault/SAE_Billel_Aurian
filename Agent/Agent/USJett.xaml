@@ -98,7 +98,7 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES JETT"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
 
-                    <Label Content="𝘈 - 𝘊𝘖𝘜𝘙𝘈𝘕𝘛 𝘈𝘚𝘊𝘌𝘕𝘋𝘈𝘕𝘛" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘈 - 𝘊𝘖𝘜𝘙𝘈𝘕𝘛 𝘈𝘚𝘊𝘌𝘕𝘋𝘈𝘕𝘛" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
                     <Label Content="𝘌 - 𝘝𝘌𝘕𝘛 𝘈𝘙𝘙𝘐È𝘙𝘌" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
                     <Label Content="𝘊 - 𝘈𝘝𝘌𝘙𝘚𝘌𝘙" HorizontalAlignment="Left" Margin="102,263,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
                     <Label Content="𝘟 - 𝘛𝘌𝘔𝘗Ê𝘛𝘌 𝘋𝘌 𝘓𝘈𝘔𝘌𝘚" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="140"/>

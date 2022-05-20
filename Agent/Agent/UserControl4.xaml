@@ -34,15 +34,11 @@
                             </ComboBoxItem>
 
                             <ComboBoxItem>
-                                <ContentControl x:Name="Controlleur1">
-                                    <Button x:Name="Controlleur" Content="Controlleur"/>
-                                </ContentControl>
-                            </ComboBoxItem>
+                        <Button x:Name="Controlleur" Content="Controlleur" Click="clickControlleur"/>
+                        
+                    </ComboBoxItem>
                             <ComboBoxItem>
-                                <ContentControl x:Name="Sentinelle1">
-                                    <Button x:Name="Sentinelle" Content="Sentinelle" />
-                                </ContentControl>
-
+                        <Button x:Name="Sentinelle" Content="Sentinelle" Click="clickSentinelle"/>
                             </ComboBoxItem>
                         </ComboBox>
                     </Menu>
@@ -87,7 +83,7 @@
                             <ImageBrush ImageSource="/reyna.jpg"/>
                         </Button.Background>
                     </Button>
-                    <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="548,295,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2">
+                    <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="548,295,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2" Click="ClickRaze">
                         <Button.Background>
                             <ImageBrush ImageSource="/raze.jog.jpg"/>
                         </Button.Background>
