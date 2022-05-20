@@ -8,20 +8,19 @@ namespace Classe
         private string nom;
         private List<Arme> armes;
 
-        public Bundle(string nom)
+        public Bundle(string nom,List<Arme> liste)
         {
             Nom = nom;
-            List<Arme> armes = new List<Arme>();
-        }
-        public void Ajout(Arme a)
-        {
-            if (a.Cosmetique != Nom) return;
-            armes.Add(a);
+            armes = new List<Arme>();
+            armes=liste;
         }
         public string Nom { get; set; }
-        public override string ToString()
+        public List<Arme> Armes { get { return armes; } }
+
+        public void printer()
         {
-            return $"Nom: {Nom}\n";
+            Console.WriteLine($"\nNom: {Nom}");
+            Armes.ForEach (obj => Console.WriteLine(obj.Nom)) ;
         }
     }
 }
