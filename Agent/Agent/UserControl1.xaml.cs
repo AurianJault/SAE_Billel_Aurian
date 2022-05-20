@@ -24,5 +24,9 @@ namespace Agent
         {
             InitializeComponent();
         }
+        private void Menu(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new UserControl4();
+        }
     }
 }

@@ -7,6 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="JettSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JettSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JettSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JettSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="NeonSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -55,6 +67,9 @@
     <Compile Update="UserControl4.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USJett.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USNeon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -64,8 +79,35 @@
     <Compile Update="USReyna.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USYoru.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="YoruSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="YoruSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="YoruSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="YoruSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="JettSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JettSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JettSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JettSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -117,6 +159,9 @@
     <Page Update="UserControl4.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="USJett.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USNeon.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -124,6 +169,21 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USReyna.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USYoru.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="YoruSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="YoruSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="YoruSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="YoruSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

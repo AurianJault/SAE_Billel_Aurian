@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:Agent"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" >
+    <ContentControl x:Name="Duelliste">
     <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="8*"/>
@@ -15,7 +16,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="ImageBG.jpeg"/>
         </Grid.Background>
-        <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1">
+        <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
             <Button.Background>
                 <ImageBrush ImageSource="riot-annonce-valorant-mobilev2.jpg"/>
             </Button.Background>
@@ -69,4 +70,5 @@
         </Rectangle>
 
     </Grid>
+    </ContentControl>
 </UserControl>
