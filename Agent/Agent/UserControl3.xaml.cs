@@ -28,9 +28,9 @@ namespace Agent
         {
             page.Content = new UserControl4();
         }
-        private void ClickChamber(object sender, RoutedEventArgs e)
+        private void ClickSage(object sender, RoutedEventArgs e)
         {
-            page.Content = new USChamber();
+            page.Content = new USSage();
 
         }
     }

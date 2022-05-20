@@ -67,6 +67,18 @@
     <Compile Update="ReynaSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SageSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SageSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SageSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SageSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControl1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -92,6 +104,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USReyna.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USSage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USYoru.xaml.cs">
@@ -174,6 +189,18 @@
     <Page Update="ReynaSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="SageSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SageSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SageSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SageSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UserControl1.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -199,6 +226,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USReyna.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USSage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USYoru.xaml">
