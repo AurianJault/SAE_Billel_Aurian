@@ -24,6 +24,21 @@ namespace Agent
         {
             InitializeComponent();
         }
+
+        private void clickControlleur(object sender, RoutedEventArgs e)
+        {
+            page.Content = new UserControl2();
+        }
+        private void clickDuelliste(object sender, RoutedEventArgs e)
+        {
+            page.Content = new UserControl4();
+        }
+        private void clickInitiateur(object sender, RoutedEventArgs e)
+        {
+            page.Content = new UserControl1();
+        }
+
+
         private void Menu(object sender, RoutedEventArgs e)
         {
             page.Content = new UserControl4();
@@ -41,6 +56,11 @@ namespace Agent
         private void ClickCypher(object sender, RoutedEventArgs e)
         {
             page.Content = new USCypher();
+
+        }
+        private void ClickKJ(object sender, RoutedEventArgs e)
+        {
+            page.Content = new USKJ();
 
         }
     }

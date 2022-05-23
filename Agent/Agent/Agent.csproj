@@ -89,6 +89,14 @@
     <None Remove="VideoSpell\Jett\JE.png" />
     <None Remove="VideoSpell\Jett\JX.mp4" />
     <None Remove="VideoSpell\Jett\JX.png" />
+    <None Remove="VideoSpell\kj\KA.mp4" />
+    <None Remove="VideoSpell\kj\KA.png" />
+    <None Remove="VideoSpell\kj\KC.mp4" />
+    <None Remove="VideoSpell\kj\KC.png" />
+    <None Remove="VideoSpell\kj\KE.mp4" />
+    <None Remove="VideoSpell\kj\KE.png" />
+    <None Remove="VideoSpell\kj\KX.mp4" />
+    <None Remove="VideoSpell\kj\KX.png" />
     <None Remove="VideoSpell\Neon\Neon_A.mp4" />
     <None Remove="VideoSpell\Neon\Neon_C.mp4" />
     <None Remove="VideoSpell\Neon\Neon_E.mp4" />
@@ -156,6 +164,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="VideoSpell\Cypher\CX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\kj\KA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\kj\KC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\kj\KE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\kj\KX.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="VideoSpell\Cypher\CE.png">
@@ -351,6 +371,18 @@
     </Resource>
     <Resource Include="VideoSpell\Jett\JX.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\kj\KA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\kj\KC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\kj\KE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\kj\KX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Phoenix\PhoA.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
