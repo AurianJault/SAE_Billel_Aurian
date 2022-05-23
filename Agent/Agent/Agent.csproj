@@ -73,6 +73,14 @@
     <None Remove="VideoSpell\Chamber\CE.png" />
     <None Remove="VideoSpell\Chamber\CX.mp4" />
     <None Remove="VideoSpell\Chamber\CX.png" />
+    <None Remove="VideoSpell\Cypher\CA.mp4" />
+    <None Remove="VideoSpell\Cypher\CA.png" />
+    <None Remove="VideoSpell\Cypher\CC.mp4" />
+    <None Remove="VideoSpell\Cypher\CC.png" />
+    <None Remove="VideoSpell\Cypher\CE.mp4" />
+    <None Remove="VideoSpell\Cypher\CE.png" />
+    <None Remove="VideoSpell\Cypher\CX.mp4" />
+    <None Remove="VideoSpell\Cypher\CX.png" />
     <None Remove="VideoSpell\Jett\JA.mp4" />
     <None Remove="VideoSpell\Jett\JA.png" />
     <None Remove="VideoSpell\Jett\JC.mp4" />
@@ -138,6 +146,21 @@
     <Content Include="VideoSpell\Chamber\CX.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="VideoSpell\Cypher\CA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Cypher\CC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Cypher\CE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Cypher\CX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="VideoSpell\Cypher\CE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="VideoSpell\Jett\JA.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -306,6 +329,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Chamber\CX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Cypher\CA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Cypher\CC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Cypher\CX.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Jett\JA.png">

@@ -19,6 +19,18 @@
     <Compile Update="ChamberSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CypherSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CypherSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CypherSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CypherSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="JettSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -94,6 +106,9 @@
     <Compile Update="USChamber.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USCypher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControl1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -151,6 +166,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ChamberSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CypherSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CypherSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CypherSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CypherSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="JettSpellA.xaml">
@@ -229,6 +256,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USChamber.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USCypher.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControl1.xaml">

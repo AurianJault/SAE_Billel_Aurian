@@ -211,7 +211,6 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-win
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USChamber.g.cs
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ChamberSpellA.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USChamber.baml
-C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Chamber\CA.mp4
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Chamber\CC.mp4
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Chamber\CE.mp4
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Chamber\CX.mp4
@@ -221,3 +220,18 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-win
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ChamberSpellC.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ChamberSpellE.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ChamberSpellX.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Chamber\CA.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USCypher.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Cypher\CA.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Cypher\CC.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Cypher\CE.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Cypher\CX.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USCypher.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellA.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellC.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellE.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellX.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellA.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellC.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellE.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellX.baml
