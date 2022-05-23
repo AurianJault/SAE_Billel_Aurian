@@ -8,6 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/chamber/ca.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/chamber/cc.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/chamber/ce.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/chamber/cx.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/jett/ja.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/jett/jc.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/jett/je.mp4")]
@@ -22,13 +26,21 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/phoenix/phoe.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/phoenix/phox.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/phoenix/px.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/raze/ra.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/raze/rc.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/raze/re.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/raze/rx.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynaa.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynac.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynax.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/sage/sa.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/sage/se.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/sage/sx.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/ya.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/yc.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/ye.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/yoru/yx.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/reyna/reynae.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/sage/sc.mp4")]
 
 

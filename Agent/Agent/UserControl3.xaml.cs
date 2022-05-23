@@ -24,5 +24,19 @@ namespace Agent
         {
             InitializeComponent();
         }
+        private void Menu(object sender, RoutedEventArgs e)
+        {
+            page.Content = new UserControl4();
+        }
+        private void ClickSage(object sender, RoutedEventArgs e)
+        {
+            page.Content = new USSage();
+
+        }
+        private void ClickChamber(object sender, RoutedEventArgs e)
+        {
+            page.Content = new USChamber();
+
+        }
     }
 }

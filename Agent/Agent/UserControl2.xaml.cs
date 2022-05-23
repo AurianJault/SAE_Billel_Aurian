@@ -24,5 +24,9 @@ namespace Agent
         {
             InitializeComponent();
         }
+        private void Menu(object sender, RoutedEventArgs e)
+        {
+            page.Content = new UserControl4();
+        }
     }
 }

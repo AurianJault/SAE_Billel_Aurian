@@ -7,6 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ChamberSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChamberSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChamberSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChamberSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="JettSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +55,18 @@
     <Compile Update="PhoenixSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RazeSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RazeSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RazeSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RazeSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReynaSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -53,6 +77,21 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ReynaSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SageSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SageSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SageSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SageSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USChamber.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControl1.xaml.cs">
@@ -76,7 +115,13 @@
     <Compile Update="USPhoenix.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USRaze.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USReyna.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USSage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USYoru.xaml.cs">
@@ -96,6 +141,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ChamberSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChamberSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChamberSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChamberSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="JettSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -135,6 +192,18 @@
     <Page Update="PhoenixSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="RazeSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RazeSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RazeSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RazeSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ReynaSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -145,6 +214,21 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReynaSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SageSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SageSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SageSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SageSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USChamber.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControl1.xaml">
@@ -168,7 +252,13 @@
     <Page Update="USPhoenix.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="USRaze.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USReyna.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USSage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USYoru.xaml">
