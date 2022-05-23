@@ -38,5 +38,10 @@ namespace Agent
             page.Content = new USChamber();
 
         }
+        private void ClickCypher(object sender, RoutedEventArgs e)
+        {
+            page.Content = new USCypher();
+
+        }
     }
 }
