@@ -5,46 +5,80 @@ namespace Console_test
 {
     internal class Program
     {
-        /*Nom bundle:
-         - Prime
-         - Reaver
-         - Elderflame
-         - RGX 11z Pro
+        /*Nom Shcedule :
+         * Arme : X
+         * Agents : X
+         * Maps : X
+         * Bundle : !!!!!!!!!!!!!
+         * 
+         * 
+         * A faire -> 
+         *  - Faire le lien entre XAML et c#
+         *  - Prévoir des fonctione de get / set
+         *  - Ajout d'une table compétences ??
+         *  - 
         */
         static void Main(string[] args)
         {
+            /*Armes*/
             ListeAg l1 = new ListeAg();
-            Arme a1 = new Arme("Classic", "Pistolet");
-            Arme a2 = new Arme("Frenzy", "Pistolet");
-            Arme a3 = new Arme("Sheriff", "Pistolet");
-            Arme a4 = new Arme("Shorty", "Pistolet");
-            Arme a5 = new Arme("Ghost", "Pistolet");
-            Arme a6 = new Arme("Stinger", "Smg");
-            Arme a7 = new Arme("Spectre", "Smg");
-            Arme a8 = new Arme("Bucky", "Shotgun");
-            Arme a9 = new Arme("Judge", "Shotgun");
-            Arme a10 = new Arme("Bulldog", "Rifles");
-            Arme a11 = new Arme("Guardian", "Rifles");
-            Arme a12 = new Arme("Phantom", "Rifles");
-            Arme a13 = new Arme("Vandal", "Rifles");
-            Arme a14 = new Arme("Marshal", "Sniper");
-            Arme a15 = new Arme("Operator", "Sniper");
-            Arme a16 = new Arme("Ares", "Machine Gun");
-            Arme a17 = new Arme("Odin", "Machine Gun");
-            Arme a18 = new Arme("Knife", "Melee");
-            List<Arme> Reaver = new List<Arme>(){a18, a15, a13, a11, a3};
-            List<Arme> Prime = new List<Arme>(){a1, a7, a11, a13,a18 };
-            List<Arme> Elderflame = new List<Arme>(){a2, a9, a13,a15,a18 };
-            List<Arme> RGX_11z_Pro = new List<Arme>(){a1, a7, a12, a15,a18 };
-            Carte c1 = new Carte("Bind");
+            Arme classic = new Arme("Classic", "Pistolet");
+            Arme frenzy = new Arme("Frenzy", "Pistolet");
+            Arme sheriff = new Arme("Sheriff", "Pistolet");
+            Arme shorty = new Arme("Shorty", "Pistolet");
+            Arme ghost = new Arme("Ghost", "Pistolet");
+            Arme stinger = new Arme("Stinger", "Smg");
+            Arme spectre = new Arme("Spectre", "Smg");
+            Arme bucky = new Arme("Bucky", "Shotgun");
+            Arme judge = new Arme("Judge", "Shotgun");
+            Arme bulldog = new Arme("Bulldog", "Rifles");
+            Arme guardian = new Arme("Guardian", "Rifles");
+            Arme phantom = new Arme("Phantom", "Rifles");
+            Arme vandal = new Arme("Vandal", "Rifles");
+            Arme marshal = new Arme("Marshal", "Sniper");
+            Arme operatore = new Arme("Operator", "Sniper");
+            Arme ares = new Arme("Ares", "Machine Gun");
+            Arme odin = new Arme("Odin", "Machine Gun");
+            Arme knife = new Arme("Knife", "Melee");
+            /*Liste pour bundle*/
+            List<Arme> Reaver = new List<Arme>(){ knife, operatore, vandal, guardian, sheriff};
+            List<Arme> Prime = new List<Arme>(){ classic, spectre, guardian, vandal, knife };
+            List<Arme> Elderflame = new List<Arme>(){frenzy, judge, vandal, operatore, knife };
+            List<Arme> RGX_11z_Pro = new List<Arme>(){ classic, spectre, phantom, operatore, knife };
+            List<Arme> Gaia = new List<Arme>(){ghost,marshal,vandal,guardian,knife };
+            List<Arme> Undercity = new List<Arme>(){knife,phantom,bulldog,classic,judge};
+            List<Arme> Tigris = new List<Arme>(){knife,phantom,spectre,shorty,operatore};
+            List<Arme> Protocol = new List<Arme>(){knife,phantom,spectre,sheriff,bulldog};
+            List<Arme> Magepunk = new List<Arme>(){knife,ares,operatore,sheriff};
+            List<Arme> Spectrum = new List<Arme>(){knife,phantom,guardian,bulldog,classic};
+            List<Arme> Recon = new List<Arme>(){knife,ghost,spectre,guardian,phantom};
+            List<Arme> Sentinels = new List<Arme>(){knife, sheriff,vandal, operatore, ares};
+            List<Arme> Ruination = new List<Arme>(){knife,ghost, spectre, guardian, phantom,};
+            List<Arme> Origin = new List<Arme>(){knife,frenzy, bucky, vandal, operatore,};
+            /*Carte*/
+            Carte c0 = new Carte("Bind");
+            Carte c1 = new Carte("Fracture");
             Carte c2 = new Carte("Haven");
             Carte c3 = new Carte("Split");
             Carte c4 = new Carte("Ascent");
             Carte c5 = new Carte("Icebox");
+            Carte c6 = new Carte("Breeze");
+            /*Bundle*/
             Bundle reaver = new Bundle("Reaver",Reaver);
             Bundle prime = new Bundle("Prime",Prime);
+            Bundle gaia = new Bundle("Gaia's Vengeance", Gaia);
             Bundle elderflame = new Bundle("Elderflame",Elderflame);
             Bundle rgx_11z_pro = new Bundle("RGX 11z Pro",RGX_11z_Pro);
+            Bundle undercity= new Bundle("Undercity",Undercity);
+            Bundle tigris= new Bundle("Tigris",Tigris);
+            Bundle protocol= new Bundle("Protocol 781-A", Protocol);
+            Bundle magepunk= new Bundle("Magepunk", Magepunk);
+            Bundle spectrum= new Bundle("Spectrum", Spectrum);
+            Bundle recon = new Bundle("Recon", Recon);
+            Bundle sentinels = new Bundle("Sentinels of Light", Sentinels);
+            Bundle ruination = new Bundle("Ruination", Ruination);
+            Bundle origin = new Bundle("Origin", Origin);
+            /*Agent*/
             Agent ag1 = new Agent("Jett", "Duelist", l1, "Coréenne");
             Agent ag2 = new Agent("Neon", "Duelist", l1, "Philippine");
             Agent ag3 = new Agent("Yoru", "Duelist", l1, "japonais");
@@ -63,10 +97,6 @@ namespace Console_test
             Agent ag16 = new Agent("Killjoy", "Sentinels", l1, "Germany");
             Agent ag17 = new Agent("Cypher", "Sentinels", l1, "Morocco");
             Agent ag181 = new Agent("Sage", "Sentinels", l1, "China");
-            reaver.printer();
-            rgx_11z_pro.printer();
-            elderflame.printer();
-            prime.printer();
         }
     }
 }
