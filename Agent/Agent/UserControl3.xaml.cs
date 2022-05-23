@@ -33,5 +33,10 @@ namespace Agent
             page.Content = new USSage();
 
         }
+        private void ClickChamber(object sender, RoutedEventArgs e)
+        {
+            page.Content = new USChamber();
+
+        }
     }
 }

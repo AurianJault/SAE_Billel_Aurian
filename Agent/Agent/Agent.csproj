@@ -49,10 +49,14 @@
     <None Remove="reyna.jpg" />
     <None Remove="riot-annonce-valorant-mobilev2.jpg" />
     <None Remove="RX.png" />
+    <None Remove="SA.png" />
     <None Remove="sage.jpg" />
+    <None Remove="SC.png" />
+    <None Remove="SE.png" />
     <None Remove="Sentinel.png" />
     <None Remove="skye.jpg" />
     <None Remove="sova.jpg" />
+    <None Remove="SX.png" />
     <None Remove="Twitter-Emblème.png" />
     <None Remove="Twitter-EmblèmeV2.png" />
     <None Remove="twitter-logos-vector-eps-ai-cdr-svg-free-download-logo-twitter-icon-moon-outdoors-nature-symbol-transparent-png-2605751v2.png" />
@@ -61,6 +65,14 @@
     <None Remove="TX_Reyna_Q.png" />
     <None Remove="TX_Reyna_X.png" />
     <None Remove="Valorant-fade.jpg" />
+    <None Remove="VideoSpell\Chamber\CA.mp4" />
+    <None Remove="VideoSpell\Chamber\CA.png" />
+    <None Remove="VideoSpell\Chamber\CC.mp4" />
+    <None Remove="VideoSpell\Chamber\CC.png" />
+    <None Remove="VideoSpell\Chamber\CE.mp4" />
+    <None Remove="VideoSpell\Chamber\CE.png" />
+    <None Remove="VideoSpell\Chamber\CX.mp4" />
+    <None Remove="VideoSpell\Chamber\CX.png" />
     <None Remove="VideoSpell\Jett\JA.mp4" />
     <None Remove="VideoSpell\Jett\JA.png" />
     <None Remove="VideoSpell\Jett\JC.mp4" />
@@ -77,6 +89,7 @@
     <None Remove="VideoSpell\Phoenix\PC.mp4" />
     <None Remove="VideoSpell\Phoenix\PE.mp4" />
     <None Remove="VideoSpell\Phoenix\PhoA.png" />
+    <None Remove="VideoSpell\Phoenix\PhoC.png" />
     <None Remove="VideoSpell\Phoenix\PhoE.png" />
     <None Remove="VideoSpell\Phoenix\PhoX.png" />
     <None Remove="VideoSpell\Phoenix\PX.mp4" />
@@ -92,6 +105,14 @@
     <None Remove="VideoSpell\Reyna\ReynaC.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaE.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaX.mp4" />
+    <None Remove="VideoSpell\Sage\SA.mp4" />
+    <None Remove="VideoSpell\Sage\SA.png" />
+    <None Remove="VideoSpell\Sage\SC.mp4" />
+    <None Remove="VideoSpell\Sage\SC.png" />
+    <None Remove="VideoSpell\Sage\SE.mp4" />
+    <None Remove="VideoSpell\Sage\SE.png" />
+    <None Remove="VideoSpell\Sage\SX.mp4" />
+    <None Remove="VideoSpell\Sage\SX.png" />
     <None Remove="VideoSpell\Yoru\YA.mp4" />
     <None Remove="VideoSpell\Yoru\YA.png" />
     <None Remove="VideoSpell\Yoru\YC.mp4" />
@@ -105,6 +126,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="VideoSpell\Chamber\CA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Chamber\CC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Chamber\CE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Chamber\CX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="VideoSpell\Jett\JA.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -167,6 +200,15 @@
     </Content>
     <Content Include="VideoSpell\Reyna\ReynaX.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sage\SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sage\SE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sage\SX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="VideoSpell\Yoru\YA.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -238,10 +280,14 @@
     <Resource Include="reyna.jpg" />
     <Resource Include="riot-annonce-valorant-mobilev2.jpg" />
     <Resource Include="RX.png" />
+    <Resource Include="SA.png" />
     <Resource Include="sage.jpg" />
+    <Resource Include="SC.png" />
+    <Resource Include="SE.png" />
     <Resource Include="Sentinel.png" />
     <Resource Include="skye.jpg" />
     <Resource Include="sova.jpg" />
+    <Resource Include="SX.png" />
     <Resource Include="Twitter-Emblème.png" />
     <Resource Include="Twitter-EmblèmeV2.png" />
     <Resource Include="twitter-logos-vector-eps-ai-cdr-svg-free-download-logo-twitter-icon-moon-outdoors-nature-symbol-transparent-png-2605751v2.png" />
@@ -250,6 +296,18 @@
     <Resource Include="TX_Reyna_Q.png" />
     <Resource Include="TX_Reyna_X.png" />
     <Resource Include="Valorant-fade.jpg" />
+    <Resource Include="VideoSpell\Chamber\CA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Chamber\CC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Chamber\CE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Chamber\CX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Jett\JA.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -265,6 +323,9 @@
     <Resource Include="VideoSpell\Phoenix\PhoA.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="VideoSpell\Phoenix\PhoC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Raze\RA.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -272,6 +333,18 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Raze\RE.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sage\SA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sage\SC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sage\SE.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sage\SX.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Yoru\YA.png">
@@ -300,6 +373,12 @@
     <Resource Include="VideoSpell\Raze\RX.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="VideoSpell\Sage\SC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

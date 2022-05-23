@@ -7,6 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ChamberSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChamberSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChamberSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChamberSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="JettSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -79,6 +91,9 @@
     <Compile Update="SageSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USChamber.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControl1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -126,6 +141,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ChamberSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChamberSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChamberSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChamberSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="JettSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -199,6 +226,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SageSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USChamber.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControl1.xaml">
