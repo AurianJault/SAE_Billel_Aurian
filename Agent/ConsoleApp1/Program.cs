@@ -22,24 +22,24 @@ namespace Console_test
         {
             /*Armes*/
             ListeAg l1 = new ListeAg();
-            Arme classic = new Arme("Classic", "Pistolet");
-            Arme frenzy = new Arme("Frenzy", "Pistolet");
-            Arme sheriff = new Arme("Sheriff", "Pistolet");
-            Arme shorty = new Arme("Shorty", "Pistolet");
-            Arme ghost = new Arme("Ghost", "Pistolet");
-            Arme stinger = new Arme("Stinger", "Smg");
-            Arme spectre = new Arme("Spectre", "Smg");
-            Arme bucky = new Arme("Bucky", "Shotgun");
-            Arme judge = new Arme("Judge", "Shotgun");
-            Arme bulldog = new Arme("Bulldog", "Rifles");
-            Arme guardian = new Arme("Guardian", "Rifles");
-            Arme phantom = new Arme("Phantom", "Rifles");
-            Arme vandal = new Arme("Vandal", "Rifles");
-            Arme marshal = new Arme("Marshal", "Sniper");
-            Arme operatore = new Arme("Operator", "Sniper");
-            Arme ares = new Arme("Ares", "Machine Gun");
-            Arme odin = new Arme("Odin", "Machine Gun");
-            Arme knife = new Arme("Knife", "Melee");
+            Arme classic = new Arme("Classic", "Pistolet",0);
+            Arme frenzy = new Arme("Frenzy", "Pistolet",450);
+            Arme sheriff = new Arme("Sheriff", "Pistolet",800);
+            Arme shorty = new Arme("Shorty", "Pistolet",150);
+            Arme ghost = new Arme("Ghost", "Pistolet",500);
+            Arme stinger = new Arme("Stinger", "Smg",950);
+            Arme spectre = new Arme("Spectre", "Smg",1600);
+            Arme bucky = new Arme("Bucky", "Shotgun",850);
+            Arme judge = new Arme("Judge", "Shotgun",1850);
+            Arme bulldog = new Arme("Bulldog", "Rifles",2050);
+            Arme guardian = new Arme("Guardian", "Rifles",2250);
+            Arme phantom = new Arme("Phantom", "Rifles",2900);
+            Arme vandal = new Arme("Vandal", "Rifles",2900);
+            Arme marshal = new Arme("Marshal", "Sniper",950);
+            Arme operatore = new Arme("Operator", "Sniper",4700);
+            Arme ares = new Arme("Ares", "Machine Gun",1600);
+            Arme odin = new Arme("Odin", "Machine Gun", 3200);
+            Arme knife = new Arme("Knife", "Melee",0);
             /*Liste pour bundle*/
             List<Arme> Reaver = new List<Arme>(){ knife, operatore, vandal, guardian, sheriff};
             List<Arme> Prime = new List<Arme>(){ classic, spectre, guardian, vandal, knife };
@@ -55,6 +55,7 @@ namespace Console_test
             List<Arme> Sentinels = new List<Arme>(){knife, sheriff,vandal, operatore, ares};
             List<Arme> Ruination = new List<Arme>(){knife,ghost, spectre, guardian, phantom,};
             List<Arme> Origin = new List<Arme>(){knife,frenzy, bucky, vandal, operatore,};
+
             /*Carte*/
             Carte c0 = new Carte("Bind");
             Carte c1 = new Carte("Fracture");
@@ -97,6 +98,8 @@ namespace Console_test
             Agent ag16 = new Agent("Killjoy", "Sentinels", l1, "Germany");
             Agent ag17 = new Agent("Cypher", "Sentinels", l1, "Morocco");
             Agent ag181 = new Agent("Sage", "Sentinels", l1, "China");
+
+            Console.WriteLine(phantom);
         }
     }
 }
