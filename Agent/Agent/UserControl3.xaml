@@ -22,11 +22,19 @@
                 </Button.Background>
             </Button>
             <Menu Margin="0,80,70,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Background="Transparent" Grid.ColumnSpan="2" Width="155" Height="25" >
-                <ComboBox Width="150" Height="23" >
+                <ComboBox Width="150" Height="23">
                     <ComboBoxItem IsSelected="True">Sentinelle</ComboBoxItem>
-                    <ComboBoxItem>Initiateur</ComboBoxItem>
-                    <ComboBoxItem>Controlleur</ComboBoxItem>
-                    <ComboBoxItem>Duelliste</ComboBoxItem>
+                    <ComboBoxItem>
+                        <Button x:Name="Initiateur" Content="Initiateur" Click="clickInitiateur"/>
+                    </ComboBoxItem>
+
+                    <ComboBoxItem>
+                        <Button x:Name="Controlleur" Content="Controlleur" Click="clickControlleur"/>
+
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <Button x:Name="Sentinelle" Content="Duelliste" Click="clickDuelliste"/>
+                    </ComboBoxItem>
                 </ComboBox>
             </Menu>
             <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,65,0,0" VerticalAlignment="Top" Height="30" Width="30">
