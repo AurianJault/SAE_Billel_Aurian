@@ -57,7 +57,7 @@
                     <ImageBrush ImageSource="/chamber.png"/>
                 </Button.Background>
             </Button>
-            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="522,295,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2">
+            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="522,295,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2" Click="ClickCypher">
                 <Button.Background>
                     <ImageBrush ImageSource="/cypher.jpg"/>
                 </Button.Background>
@@ -76,11 +76,7 @@
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
-            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="285,196,0,0" VerticalAlignment="Top" Height="122" Width="190" >
-                <Button.Background>
-                    <ImageBrush ImageSource="/Valorant-fade.jpg"/>
-                </Button.Background>
-            </Button>
+            
 
         </Grid>
     </ContentControl>
