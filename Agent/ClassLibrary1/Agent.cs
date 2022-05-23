@@ -26,7 +26,7 @@ namespace Classe
 
         public override string ToString()
         {
-            return $"Agent: {Nom}\nCatégorie: {Type}\n";
+            return $"Agent: {Nom}\nCatégorie: {Type}\nNationalite: {Nationalite}";
         }
 
     }

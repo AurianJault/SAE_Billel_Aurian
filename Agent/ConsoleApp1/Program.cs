@@ -99,7 +99,20 @@ namespace Console_test
             Agent ag17 = new Agent("Cypher", "Sentinels", l1, "Morocco");
             Agent ag181 = new Agent("Sage", "Sentinels", l1, "China");
 
-            Console.WriteLine(phantom);
+            /* Passif
+             - Description 
+            */
+
+            /* Capacite
+             - Prix
+             - Charges
+             - Temps
+            */
+
+            /*Ulti
+             - Points*/
+
+            Console.WriteLine(ag15);
         }
     }
 }

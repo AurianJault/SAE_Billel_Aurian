@@ -15,7 +15,7 @@ namespace ClassLibrary1
         public int Prix { get { return prix; } set { prix = value; } }
         public int Charges { get { return charges; } set { charges = value; } }
         public int Temps { get { return temps; } set { temps = value; } }
-        public Capacite(int prix, int charges, int temps, string desc):base(desc)
+        public Capacite(int prix, int charges, int temps, string desc,string name):base(desc,name)
         {
             Prix = prix;
             Charges = charges;
@@ -34,7 +34,7 @@ namespace ClassLibrary1
         public int Restock { get { return restock; } set { restock = value; } }
         public string Unit { get { return unit; } set { unit = value; } }
 
-        public Signature(int prix, int charges, int temps, string desc, string unit) : base(prix, charges, temps, desc)
+        public Signature(int prix, int charges, int temps, string desc, string unit,string name) : base(prix, charges, temps, desc,name)
         {
             Restock = restock;
             Unit = unit;
