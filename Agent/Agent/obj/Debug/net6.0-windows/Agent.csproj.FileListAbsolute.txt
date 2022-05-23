@@ -235,3 +235,17 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-win
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellC.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellE.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\CypherSpellX.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USKJ.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USKJ.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellA.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellC.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellE.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellX.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellA.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellC.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellE.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\KJSpellX.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\kj\KA.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\kj\KC.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\kj\KE.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\kj\KX.mp4

@@ -46,7 +46,7 @@
                     <ImageBrush ImageSource="/sage.jpg"/>
                 </Button.Background>
             </Button>
-            <Button Grid.Column="1" HorizontalAlignment="Left" Margin="60,295,0,0" VerticalAlignment="Top" Height="111" Width="178">
+            <Button Grid.Column="1" HorizontalAlignment="Left" Margin="60,295,0,0" VerticalAlignment="Top" Height="111" Width="178" Click="ClickKJ">
                 <Button.Background>
                     <ImageBrush ImageSource="/killjoy.jpg"/>
                 </Button.Background>

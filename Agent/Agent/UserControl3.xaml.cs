@@ -43,5 +43,10 @@ namespace Agent
             page.Content = new USCypher();
 
         }
+        private void ClickKJ(object sender, RoutedEventArgs e)
+        {
+            page.Content = new USKJ();
+
+        }
     }
 }

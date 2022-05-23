@@ -43,6 +43,18 @@
     <Compile Update="JettSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="KJSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KJSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KJSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KJSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="NeonSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -124,6 +136,9 @@
     <Compile Update="USJett.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USKJ.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USNeon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -190,6 +205,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="JettSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KJSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KJSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KJSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KJSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
@@ -274,6 +301,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USJett.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USKJ.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USNeon.xaml">
