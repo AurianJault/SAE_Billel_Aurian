@@ -19,6 +19,7 @@
     <None Remove="fade.jpg" />
     <None Remove="fb_icon_325x325.png" />
     <None Remove="FIipg6hXMAMRxH3.jpg" />
+    <None Remove="getstarted.png" />
     <None Remove="ImageBG.jpeg" />
     <None Remove="image\icone\Controllerv2.png" />
     <None Remove="image\PersonnageValorant\Controlleur\astra.jpg" />
@@ -64,7 +65,29 @@
     <None Remove="TX_Reyna_E.png" />
     <None Remove="TX_Reyna_Q.png" />
     <None Remove="TX_Reyna_X.png" />
+    <None Remove="USA.jpg" />
     <None Remove="Valorant-fade.jpg" />
+    <None Remove="VideoSpell\Astra\AA.mp4" />
+    <None Remove="VideoSpell\Astra\AA.png" />
+    <None Remove="VideoSpell\Astra\AC.mp4" />
+    <None Remove="VideoSpell\Astra\AC.png" />
+    <None Remove="VideoSpell\Astra\AE.mp4" />
+    <None Remove="VideoSpell\Astra\AE.png" />
+    <None Remove="VideoSpell\Astra\astra.jpg" />
+    <None Remove="VideoSpell\Astra\AX.mp4" />
+    <None Remove="VideoSpell\Astra\AX.png" />
+    <None Remove="VideoSpell\Astra\ghana.jpg" />
+    <None Remove="VideoSpell\Astra\ghana.png" />
+    <None Remove="VideoSpell\Brim\BA.mp4" />
+    <None Remove="VideoSpell\Brim\BA.png" />
+    <None Remove="VideoSpell\Brim\BC.mp4" />
+    <None Remove="VideoSpell\Brim\BC.png" />
+    <None Remove="VideoSpell\Brim\BE.mp4" />
+    <None Remove="VideoSpell\Brim\BE.png" />
+    <None Remove="VideoSpell\Brim\Brim.jpeg" />
+    <None Remove="VideoSpell\Brim\BX.mp4" />
+    <None Remove="VideoSpell\Brim\BX.png" />
+    <None Remove="VideoSpell\Brim\USA.jpg" />
     <None Remove="VideoSpell\Chamber\CA.mp4" />
     <None Remove="VideoSpell\Chamber\CA.png" />
     <None Remove="VideoSpell\Chamber\CC.mp4" />
@@ -101,6 +124,15 @@
     <None Remove="VideoSpell\Neon\Neon_C.mp4" />
     <None Remove="VideoSpell\Neon\Neon_E.mp4" />
     <None Remove="VideoSpell\Neon\Neon_X.mp4" />
+    <None Remove="VideoSpell\Omen\OA.mp4" />
+    <None Remove="VideoSpell\Omen\OA.png" />
+    <None Remove="VideoSpell\Omen\OC.mp4" />
+    <None Remove="VideoSpell\Omen\OC.png" />
+    <None Remove="VideoSpell\Omen\OE.mp4" />
+    <None Remove="VideoSpell\Omen\OE.png" />
+    <None Remove="VideoSpell\Omen\Omen.jpg" />
+    <None Remove="VideoSpell\Omen\OX.mp4" />
+    <None Remove="VideoSpell\Omen\OX.png" />
     <None Remove="VideoSpell\Phoenix\PA.mp4" />
     <None Remove="VideoSpell\Phoenix\PC.mp4" />
     <None Remove="VideoSpell\Phoenix\PE.mp4" />
@@ -129,6 +161,15 @@
     <None Remove="VideoSpell\Sage\SE.png" />
     <None Remove="VideoSpell\Sage\SX.mp4" />
     <None Remove="VideoSpell\Sage\SX.png" />
+    <None Remove="VideoSpell\Viper\VA.mp4" />
+    <None Remove="VideoSpell\Viper\VA.png" />
+    <None Remove="VideoSpell\Viper\VC.mp4" />
+    <None Remove="VideoSpell\Viper\VC.png" />
+    <None Remove="VideoSpell\Viper\VE.mp4" />
+    <None Remove="VideoSpell\Viper\VE.png" />
+    <None Remove="VideoSpell\Viper\Viper.jpeg" />
+    <None Remove="VideoSpell\Viper\VX.mp4" />
+    <None Remove="VideoSpell\Viper\VX.png" />
     <None Remove="VideoSpell\Yoru\YA.mp4" />
     <None Remove="VideoSpell\Yoru\YA.png" />
     <None Remove="VideoSpell\Yoru\YC.mp4" />
@@ -142,6 +183,70 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="VideoSpell\Astra\AA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Astra\AC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Astra\AE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Astra\AX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Brim\BA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Brim\BC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Brim\BE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Omen\OA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Omen\OC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Omen\OE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Omen\OX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Viper\VA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Viper\VC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Viper\VE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="VideoSpell\Viper\VA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Viper\VC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Viper\VE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="VideoSpell\Viper\Viper.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Viper\VX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="getstarted.png" />
+    <Resource Include="VideoSpell\Brim\Brim.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="VideoSpell\Brim\BX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="VideoSpell\Chamber\CA.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -178,6 +283,43 @@
     <Content Include="VideoSpell\kj\KX.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="USA.jpg" />
+    <Resource Include="VideoSpell\Astra\AA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Astra\AC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Astra\AE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Astra\astra.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Astra\AX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Astra\ghana.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Astra\ghana.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Brim\BA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Brim\BC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Brim\BE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Brim\BX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Brim\USA.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Cypher\CE.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -384,6 +526,21 @@
     <Resource Include="VideoSpell\kj\KX.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="VideoSpell\Omen\OA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Omen\OC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Omen\OE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Omen\Omen.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Omen\OX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Phoenix\PhoA.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -410,6 +567,9 @@
     </Resource>
     <Resource Include="VideoSpell\Sage\SX.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Viper\VX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Yoru\YA.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

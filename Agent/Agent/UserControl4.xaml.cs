@@ -66,5 +66,10 @@ namespace Agent
             Duellist.Content = new USRaze();
 
         }
+        private void ClickMenu(object sender, RoutedEventArgs e)
+        {
+            Duellist.Content = new PagePrincipale();
+
+        }
     }
 }

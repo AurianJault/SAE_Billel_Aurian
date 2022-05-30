@@ -7,6 +7,30 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AstraSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AstraSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AstraSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AstraSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BrimSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BrimSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BrimSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BrimSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ChamberSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -67,6 +91,21 @@
     <Compile Update="NeonSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="OmenSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OmenSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OmenSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OmenSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PagePrincipale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PhoenixSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -115,6 +154,12 @@
     <Compile Update="SageSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USAstra.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USBrim.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USChamber.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -142,6 +187,9 @@
     <Compile Update="USNeon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USOmen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USPhoenix.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -154,7 +202,22 @@
     <Compile Update="USSage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USViper.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USYoru.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViperSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViperSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViperSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViperSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="YoruSpellA.xaml.cs">
@@ -171,6 +234,30 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AstraSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AstraSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AstraSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AstraSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BrimSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BrimSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BrimSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BrimSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ChamberSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -234,6 +321,21 @@
     <Page Update="NeonSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="OmenSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OmenSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OmenSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OmenSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PagePrincipale.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="PhoenixSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -282,6 +384,12 @@
     <Page Update="SageSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="USAstra.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USBrim.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USChamber.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -309,6 +417,9 @@
     <Page Update="USNeon.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="USOmen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USPhoenix.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -321,7 +432,22 @@
     <Page Update="USSage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="USViper.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USYoru.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViperSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViperSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViperSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViperSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="YoruSpellA.xaml">
