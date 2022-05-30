@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class Valorant : Agent
+    public class Valorant : Agent
     {
         private Ultime ultimate;
         private Signature signature;
@@ -29,6 +29,10 @@ namespace ClassLibrary1
             CapA = capA;
             CapC = capC;
             Passif = passif;
+        }
+        public string ToString()
+        {
+            return base.ToString() + $"\nCapacité A: {CapA}\nCapacité C: {CapC}";
         }
     }
 }
