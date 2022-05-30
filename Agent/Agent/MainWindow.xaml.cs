@@ -23,9 +23,9 @@ namespace Agent
         {
             InitializeComponent();
         }
-        private void Agents(object sender, RoutedEventArgs e)
+        private void ClickPage(object sender, RoutedEventArgs e)
         {
-            page.Content = new UserControl4();
+            page.Content = new PagePrincipale();
         }
     }
 

@@ -41,7 +41,7 @@ namespace Agent
 
         private void Menu(object sender, RoutedEventArgs e)
         {
-            page.Content = new UserControl4();
+            page.Content = new PagePrincipale();
         }
         private void ClickSage(object sender, RoutedEventArgs e)
         {

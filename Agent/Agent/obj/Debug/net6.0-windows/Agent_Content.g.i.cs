@@ -8,6 +8,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/astra/aa.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/astra/ac.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/astra/ae.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/astra/ax.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/brim/ba.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/brim/bc.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/brim/be.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/omen/oa.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/omen/oc.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/omen/oe.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/omen/ox.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/viper/va.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/viper/vc.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/viper/ve.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/viper/viper.jpeg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/viper/vx.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/brim/bx.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/chamber/ca.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/chamber/cc.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videospell/chamber/ce.mp4")]
