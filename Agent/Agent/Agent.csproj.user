@@ -154,6 +154,18 @@
     <Compile Update="SageSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SkySpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SkySpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SkySpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SkySpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USAstra.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -200,6 +212,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USSage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USSky.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USViper.xaml.cs">
@@ -384,6 +399,18 @@
     <Page Update="SageSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="SkySpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SkySpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SkySpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SkySpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USAstra.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -430,6 +457,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USSage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USSky.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USViper.xaml">

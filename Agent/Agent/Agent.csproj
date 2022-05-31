@@ -94,8 +94,11 @@
     <None Remove="VideoSpell\Chamber\CC.png" />
     <None Remove="VideoSpell\Chamber\CE.mp4" />
     <None Remove="VideoSpell\Chamber\CE.png" />
+    <None Remove="VideoSpell\Chamber\chamber.jpg" />
+    <None Remove="VideoSpell\Chamber\chamber2.jpg" />
     <None Remove="VideoSpell\Chamber\CX.mp4" />
     <None Remove="VideoSpell\Chamber\CX.png" />
+    <None Remove="VideoSpell\Chamber\france.png" />
     <None Remove="VideoSpell\Cypher\CA.mp4" />
     <None Remove="VideoSpell\Cypher\CA.png" />
     <None Remove="VideoSpell\Cypher\CC.mp4" />
@@ -104,26 +107,39 @@
     <None Remove="VideoSpell\Cypher\CE.png" />
     <None Remove="VideoSpell\Cypher\CX.mp4" />
     <None Remove="VideoSpell\Cypher\CX.png" />
+    <None Remove="VideoSpell\Cypher\cypher.jpg" />
+    <None Remove="VideoSpell\Cypher\maroc.png" />
+    <None Remove="VideoSpell\Jett\coree.jpg" />
     <None Remove="VideoSpell\Jett\JA.mp4" />
     <None Remove="VideoSpell\Jett\JA.png" />
     <None Remove="VideoSpell\Jett\JC.mp4" />
     <None Remove="VideoSpell\Jett\JC.png" />
     <None Remove="VideoSpell\Jett\JE.mp4" />
     <None Remove="VideoSpell\Jett\JE.png" />
+    <None Remove="VideoSpell\Jett\jett.jpg" />
     <None Remove="VideoSpell\Jett\JX.mp4" />
     <None Remove="VideoSpell\Jett\JX.png" />
+    <None Remove="VideoSpell\kj\allemagne.png" />
     <None Remove="VideoSpell\kj\KA.mp4" />
     <None Remove="VideoSpell\kj\KA.png" />
     <None Remove="VideoSpell\kj\KC.mp4" />
     <None Remove="VideoSpell\kj\KC.png" />
     <None Remove="VideoSpell\kj\KE.mp4" />
     <None Remove="VideoSpell\kj\KE.png" />
+    <None Remove="VideoSpell\kj\kj.jpg" />
+    <None Remove="VideoSpell\kj\kj2.jpg" />
     <None Remove="VideoSpell\kj\KX.mp4" />
     <None Remove="VideoSpell\kj\KX.png" />
+    <None Remove="VideoSpell\Neon\neon.jpg" />
     <None Remove="VideoSpell\Neon\Neon_A.mp4" />
+    <None Remove="VideoSpell\Neon\Neon_C-Fast_Lane.png" />
     <None Remove="VideoSpell\Neon\Neon_C.mp4" />
+    <None Remove="VideoSpell\Neon\Neon_E-High_Gear.png" />
     <None Remove="VideoSpell\Neon\Neon_E.mp4" />
+    <None Remove="VideoSpell\Neon\Neon_Q-Relay_Bolt.png" />
+    <None Remove="VideoSpell\Neon\Neon_X-Overdrive.png" />
     <None Remove="VideoSpell\Neon\Neon_X.mp4" />
+    <None Remove="VideoSpell\Neon\philipine.jpg" />
     <None Remove="VideoSpell\Omen\OA.mp4" />
     <None Remove="VideoSpell\Omen\OA.png" />
     <None Remove="VideoSpell\Omen\OC.mp4" />
@@ -136,31 +152,50 @@
     <None Remove="VideoSpell\Phoenix\PA.mp4" />
     <None Remove="VideoSpell\Phoenix\PC.mp4" />
     <None Remove="VideoSpell\Phoenix\PE.mp4" />
+    <None Remove="VideoSpell\Phoenix\pho.jpg" />
     <None Remove="VideoSpell\Phoenix\PhoA.png" />
     <None Remove="VideoSpell\Phoenix\PhoC.png" />
     <None Remove="VideoSpell\Phoenix\PhoE.png" />
     <None Remove="VideoSpell\Phoenix\PhoX.png" />
     <None Remove="VideoSpell\Phoenix\PX.mp4" />
+    <None Remove="VideoSpell\Phoenix\RU.jpg" />
+    <None Remove="VideoSpell\Raze\bresil.jpg" />
     <None Remove="VideoSpell\Raze\RA.mp4" />
     <None Remove="VideoSpell\Raze\RA.png" />
+    <None Remove="VideoSpell\Raze\raze.jpg" />
     <None Remove="VideoSpell\Raze\RC.mp4" />
     <None Remove="VideoSpell\Raze\RC.png" />
     <None Remove="VideoSpell\Raze\RE.mp4" />
     <None Remove="VideoSpell\Raze\RE.png" />
     <None Remove="VideoSpell\Raze\RX.mp4" />
     <None Remove="VideoSpell\Raze\RX.png" />
+    <None Remove="VideoSpell\Reyna\mexique.jpg" />
+    <None Remove="VideoSpell\Reyna\reyna.jpg" />
+    <None Remove="VideoSpell\Reyna\reyna2.jpg" />
     <None Remove="VideoSpell\Reyna\ReynaA.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaC.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaE.mp4" />
     <None Remove="VideoSpell\Reyna\ReynaX.mp4" />
+    <None Remove="VideoSpell\Sage\chine.jpg" />
     <None Remove="VideoSpell\Sage\SA.mp4" />
     <None Remove="VideoSpell\Sage\SA.png" />
+    <None Remove="VideoSpell\Sage\sage.jpg" />
     <None Remove="VideoSpell\Sage\SC.mp4" />
     <None Remove="VideoSpell\Sage\SC.png" />
     <None Remove="VideoSpell\Sage\SE.mp4" />
     <None Remove="VideoSpell\Sage\SE.png" />
     <None Remove="VideoSpell\Sage\SX.mp4" />
     <None Remove="VideoSpell\Sage\SX.png" />
+    <None Remove="VideoSpell\Sky\SA.mp4" />
+    <None Remove="VideoSpell\Sky\SA.png" />
+    <None Remove="VideoSpell\Sky\SC%25.mp4" />
+    <None Remove="VideoSpell\Sky\SC.png" />
+    <None Remove="VideoSpell\Sky\SE.mp4" />
+    <None Remove="VideoSpell\Sky\SE.png" />
+    <None Remove="VideoSpell\Sky\sky.jpg" />
+    <None Remove="VideoSpell\Sky\Sky1.jpg" />
+    <None Remove="VideoSpell\Sky\SX.mp4" />
+    <None Remove="VideoSpell\Sky\SX.png" />
     <None Remove="VideoSpell\Viper\VA.mp4" />
     <None Remove="VideoSpell\Viper\VA.png" />
     <None Remove="VideoSpell\Viper\VC.mp4" />
@@ -170,12 +205,14 @@
     <None Remove="VideoSpell\Viper\Viper.jpeg" />
     <None Remove="VideoSpell\Viper\VX.mp4" />
     <None Remove="VideoSpell\Viper\VX.png" />
+    <None Remove="VideoSpell\Yoru\japon.jpg" />
     <None Remove="VideoSpell\Yoru\YA.mp4" />
     <None Remove="VideoSpell\Yoru\YA.png" />
     <None Remove="VideoSpell\Yoru\YC.mp4" />
     <None Remove="VideoSpell\Yoru\YC.png" />
     <None Remove="VideoSpell\Yoru\YE.mp4" />
     <None Remove="VideoSpell\Yoru\YE.png" />
+    <None Remove="VideoSpell\Yoru\yoru.png" />
     <None Remove="VideoSpell\Yoru\YX.mp4" />
     <None Remove="VideoSpell\Yoru\YX.png" />
     <None Remove="viper.jpg" />
@@ -216,6 +253,45 @@
     <Content Include="VideoSpell\Omen\OX.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="VideoSpell\Sky\SC%.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sky\SE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sky\SX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="VideoSpell\Chamber\chamber.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Chamber\chamber2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Chamber\france.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Cypher\cypher.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Cypher\maroc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\kj\allemagne.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\kj\kj.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\kj\kj2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Reyna\reyna2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Raze\raze.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="VideoSpell\Viper\VA.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -225,6 +301,72 @@
     <Content Include="VideoSpell\Viper\VE.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="VideoSpell\Jett\coree.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Jett\jett.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Neon\neon.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Neon\Neon_C-Fast_Lane.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Neon\Neon_E-High_Gear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Neon\Neon_Q-Relay_Bolt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Neon\Neon_X-Overdrive.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Neon\philipine.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Phoenix\pho.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Phoenix\RU.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Raze\bresil.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Reyna\mexique.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Reyna\reyna.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sage\chine.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sage\sage.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="VideoSpell\Sky\SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="VideoSpell\Sky\SA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sky\SC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sky\SE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sky\sky.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sky\Sky1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sky\SX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Viper\VA.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -571,6 +713,9 @@
     <Resource Include="VideoSpell\Viper\VX.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="VideoSpell\Yoru\japon.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Yoru\YA.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -579,6 +724,9 @@
     </Resource>
     <Resource Include="VideoSpell\Yoru\YE.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Yoru\yoru.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Yoru\YX.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

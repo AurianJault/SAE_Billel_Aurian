@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="37" Width="630">
+                <Grid Height="452" Width="801">
 
 
                     <Grid.Background>
@@ -20,13 +20,19 @@
                             <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
                         </Button.Background>
                     </Button>
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="135" Margin="50,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="197">
+                    <Rectangle HorizontalAlignment="Left" Height="214" Margin="60,210,0,0" Stroke="Black" VerticalAlignment="Top" Width="193">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="/neonV3.jpg"/>
+                            <ImageBrush ImageSource="/VideoSpell/Phoenix/pho.jpg"/>
                         </Rectangle.Fill>
                     </Rectangle>
                     <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="375,47,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="192" Margin="372,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="200" Grid.ColumnSpan="2" Fill="#FFC7A0A0"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="12,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="375,113,0,0" TextWrapping="Wrap" Text="En provenance du Royaume-Uni, Phoenix illumine le champ de bataille avec ses pouvoirs astraux et son style de combat flamboyant. Peu importe que les renforts arrivent ou non, il fonce au combat quand il le décide." VerticalAlignment="Top" Height="165" Width="299" Background="#FFC7A0A0" FontSize="18" />
+                    <Rectangle HorizontalAlignment="Left" Height="63" Margin="129,118,0,0" Stroke="Black" VerticalAlignment="Top" Width="85">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Phoenix/RU.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
 
 
                 </Grid>

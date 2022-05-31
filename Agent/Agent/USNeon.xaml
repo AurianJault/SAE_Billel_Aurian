@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="19" Width="575">
+                <Grid Height="453" Width="806">
 
 
                     <Grid.Background>
@@ -20,13 +20,19 @@
                             <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
                         </Button.Background>
                     </Button>
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="135" Margin="50,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="197">
+                    <Rectangle HorizontalAlignment="Left" Height="186" Margin="24,203,0,0" Stroke="Black" VerticalAlignment="Top" Width="314">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="/neonV3.jpg"/>
+                            <ImageBrush ImageSource="VideoSpell/Neon/neon.jpg"/>
                         </Rectangle.Fill>
                     </Rectangle>
-                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="375,47,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="192" Margin="372,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="200" Grid.ColumnSpan="2" Fill="#FFC7A0A0"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="452,42,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="30" Width="97" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="24,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="158,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="102" FontSize="18" >
+                        <TextBlock.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Neon/philipine.jpg"/>
+                        </TextBlock.Background>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="452,107,0,0" TextWrapping="Wrap" Text=" L'agent philippin, Neon, s'élance vers l'avant à une vitesse fulgurante, libérant de grosses décharges de radiance biomagnétique générées frénétiquement par son corps. Elle se lance à la poursuite des ennemis qui n'ont pas le temps de s'y préparer et les élimine aussi vite que l'éclair." VerticalAlignment="Top" Height="282" Width="284" Background="#FFC7A0A0" FontSize="18" />
 
 
                 </Grid>

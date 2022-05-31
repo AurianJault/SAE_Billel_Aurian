@@ -48,8 +48,19 @@ namespace Agent
         
         private void ClickTwitter(object sender, EventArgs e)
         {
-            /*System.Diagnostics.Process.Start("https://jira.dsi.uca.fr/plugins/servlet/desk/portal/29");*/
-
+            var uri = "https://mobile.twitter.com/playvalorant?lang=fr";
+            var psi = new System.Diagnostics.ProcessStartInfo();
+            psi.UseShellExecute = true;
+            psi.FileName = uri;
+            System.Diagnostics.Process.Start(psi);
+        }
+        private void ClickFB(object sender, EventArgs e)
+        {
+            var uri = "https://www.facebook.com/VALORANTfr/";
+            var psi = new System.Diagnostics.ProcessStartInfo();
+            psi.UseShellExecute = true;
+            psi.FileName = uri;
+            System.Diagnostics.Process.Start(psi);
         }
 
 

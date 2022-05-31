@@ -28,5 +28,37 @@ namespace Agent
         {
             Duelliste.Content = new PagePrincipale();
         }
+        private void ClickTwitter(object sender, EventArgs e)
+        {
+            var uri = "https://mobile.twitter.com/playvalorant?lang=fr";
+            var psi = new System.Diagnostics.ProcessStartInfo();
+            psi.UseShellExecute = true;
+            psi.FileName = uri;
+            System.Diagnostics.Process.Start(psi);
+        }
+        private void ClickFB(object sender, EventArgs e)
+        {
+            var uri = "https://www.facebook.com/VALORANTfr/";
+            var psi = new System.Diagnostics.ProcessStartInfo();
+            psi.UseShellExecute = true;
+            psi.FileName = uri;
+            System.Diagnostics.Process.Start(psi);
+        }
+        private void clickControlleur(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new UserControl2();
+        }
+        private void clickDuelliste(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new UserControl4();
+        }
+        private void clickSentinelle(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new UserControl3();
+        }
+        private void ClickSky(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new USSky();
+        }
     }
 }

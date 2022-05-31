@@ -119,8 +119,6 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee01
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\obj\Debug\net6.0-windows\Agent.pdb
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\obj\Debug\net6.0-windows\Agent.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian-5431e101bc1297ff8401d5197c40ee010e747557\Agent\Agent\obj\Debug\net6.0-windows\ref\Agent.dll
-C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\Window1.g.cs
-C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\Window1.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ReynaSpellA.g.cs
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ReynaSpellC.g.cs
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ReynaSpellE.g.cs
@@ -308,3 +306,17 @@ C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-win
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ViperSpellC.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ViperSpellE.baml
 C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\ViperSpellX.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Sky\SC%.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Sky\SE.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Sky\SX.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\bin\Debug\net6.0-windows\VideoSpell\Sky\SA.mp4
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellA.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellC.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellE.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellX.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USSky.g.cs
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellA.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellC.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellE.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\SkySpellX.baml
+C:\Users\ASUS\OneDrive\Bureau\sae-billel-aurian\Agent\Agent\obj\Debug\net6.0-windows\USSky.baml

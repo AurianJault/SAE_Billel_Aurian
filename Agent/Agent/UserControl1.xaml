@@ -22,19 +22,27 @@
                 </Button.Background>
             </Button>
             <Menu Margin="0,80,70,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Background="Transparent" Grid.ColumnSpan="2" Width="155" Height="25" >
-                <ComboBox Width="150" Height="23" >
+                <ComboBox Width="150" Height="23">
                     <ComboBoxItem IsSelected="True">Initiateur</ComboBoxItem>
-                    <ComboBoxItem>Sentinelle</ComboBoxItem>
-                    <ComboBoxItem>Controlleur</ComboBoxItem>
-                    <ComboBoxItem>Duelliste</ComboBoxItem>
+                    <ComboBoxItem>
+                        <Button x:Name="Initiateur" Content="Controlleur" Click="clickControlleur"/>
+                    </ComboBoxItem>
+
+                    <ComboBoxItem>
+                        <Button x:Name="Dueliste" Content="Duelliste" Click="clickDuelliste"/>
+
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <Button x:Name="Sentinelle" Content="Sentinelle" Click="clickSentinelle"/>
+                    </ComboBoxItem>
                 </ComboBox>
             </Menu>
-            <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,65,0,0" VerticalAlignment="Top" Height="30" Width="30">
+            <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,65,0,0" VerticalAlignment="Top" Height="30" Width="30" Click="ClickTwitter">
                 <Button.Background>
                     <ImageBrush ImageSource="/Twitter-EmblèmeV2.png"/>
                 </Button.Background>
             </Button>
-            <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Height="30" Width="30">
+            <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Height="30" Width="30" Click="ClickFB">
                 <Button.Background>
                     <ImageBrush ImageSource="fb_icon_325x325.png"/>
                 </Button.Background>
@@ -52,7 +60,7 @@
                 </Button.Background>
             </Button>
             <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="35" Margin="114,77,0,0" Stroke="Red" VerticalAlignment="Top" Width="116" Fill="#FFC7A0A0"/>
-            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="497,140,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2">
+            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="497,140,0,0" VerticalAlignment="Top" Height="111" Width="182" Grid.ColumnSpan="2" Click="ClickSky">
                 <Button.Background>
                     <ImageBrush ImageSource="/skye.jpg"/>
                 </Button.Background>

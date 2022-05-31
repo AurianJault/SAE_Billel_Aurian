@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="66" Width="636">
+                <Grid Height="452" Width="794">
 
 
                     <Grid.Background>
@@ -20,13 +20,19 @@
                             <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
                         </Button.Background>
                     </Button>
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="135" Margin="50,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="197">
+                    <Rectangle HorizontalAlignment="Left" Height="202" Margin="39,214,0,0" Stroke="Black" VerticalAlignment="Top" Width="335">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="/neonV3.jpg"/>
+                            <ImageBrush ImageSource="/VideoSpell/Yoru/yoru.png"/>
                         </Rectangle.Fill>
                     </Rectangle>
-                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="375,47,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="192" Margin="372,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="200" Grid.ColumnSpan="2" Fill="#FFC7A0A0"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="440,60,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
+                    <Rectangle HorizontalAlignment="Left" Height="68" Margin="143,118,0,0" Stroke="Black" VerticalAlignment="Top" Width="97">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Yoru/japon.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="12,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="440,118,0,0" TextWrapping="Wrap" Text="Le Japonais Yoru perce des trous dans la réalité pour s'infiltrer derrière les lignes ennemies sans se faire repérer. En faisant preuve d'autant de ruse que d'agressivité, il prend ses cibles par surprise avant qu'elles n'aient le temps de se retourner." VerticalAlignment="Top" Height="232" Width="252" Background="#FFC7A0A0" FontSize="18" />
 
 
                 </Grid>

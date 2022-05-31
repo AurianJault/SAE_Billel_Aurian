@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="93" Width="707">
+                <Grid Height="450" Width="804">
 
 
                     <Grid.Background>
@@ -20,13 +20,19 @@
                             <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
                         </Button.Background>
                     </Button>
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="135" Margin="50,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="197">
+                    <Rectangle HorizontalAlignment="Left" Height="186" Margin="10,225,0,0" Stroke="Black" VerticalAlignment="Top" Width="319">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="/neonV3.jpg"/>
+                            <ImageBrush ImageSource="VideoSpell/Jett/jett.jpg"/>
                         </Rectangle.Fill>
                     </Rectangle>
                     <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="375,47,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
-                    <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="192" Margin="372,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="200" Grid.ColumnSpan="2" Fill="#FFC7A0A0"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="12,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="140,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="62" Width="95" FontSize="18" >
+                        <TextBlock.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Jett/coree.jpg"/>
+                        </TextBlock.Background>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="375,104,0,0" TextWrapping="Wrap" Text="Représentante de sa patrie, la Corée du Sud, Jett dispose d'un style de combat basé sur l'agilité et l'esquive, qui lui permet de prendre des risques qu'elle seule peut se permettre de prendre. Elle tourne autour des affrontements et découpe ses ennemis avant même qu'ils ne s'en rendent compte." VerticalAlignment="Top" Height="185" Width="368" Background="#FFC7A0A0" FontSize="18" />
 
 
                 </Grid>

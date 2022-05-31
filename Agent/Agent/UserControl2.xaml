@@ -42,7 +42,7 @@
                 <ImageBrush ImageSource="/Twitter-EmblèmeV2.png"/>
             </Button.Background>
         </Button>
-        <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Height="30" Width="30">
+            <Button Grid.Column="2" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Height="30" Width="30" Click="ClickFB">
             <Button.Background>
                 <ImageBrush ImageSource="/fb_icon_325x325.png"/>
             </Button.Background>
