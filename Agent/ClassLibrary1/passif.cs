@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class Passif
+    public class Passif
     {
         private string desc;
         private string name;
@@ -23,7 +23,7 @@ namespace ClassLibrary1
             return $"\n{Name}:\n{Desc}";
         }
     }
-    internal class Ultime: Passif
+    public class Ultime: Passif
     {
         private int charges;
         public int Charges { get { return charges; } set { charges = value; }}
@@ -35,7 +35,7 @@ namespace ClassLibrary1
 
         public string toString()
         {
-            return $"\n{Name}:\nCharges: {Charges}\n---\n{Desc}";
+            return $"\nUltime :\n{Name}:\nCharges: {Charges}\n---\n{Desc}";
         }
     }
 }

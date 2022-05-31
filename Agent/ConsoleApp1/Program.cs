@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Classe;
+using ClassLibrary1;
 namespace Console_test
 {
     internal class Program
@@ -15,8 +16,6 @@ namespace Console_test
          * A faire -> 
          *  - Faire le lien entre XAML et c#
          *  - Prévoir des fonctione de get / set
-         *  - Ajout d'une table compétences ??
-         *  - 
         */
         static void Main(string[] args)
         {
@@ -97,22 +96,41 @@ namespace Console_test
             Agent ag15 = new Agent("Fade", "Initiators", l1, "Turkey");
             Agent ag16 = new Agent("Killjoy", "Sentinels", l1, "Germany");
             Agent ag17 = new Agent("Cypher", "Sentinels", l1, "Morocco");
-            Agent ag181 = new Agent("Sage", "Sentinels", l1, "China");
+            Agent ag18 = new Agent("Sage", "Sentinels", l1, "China");
 
             /* Passif
              - Description 
             */
 
-            /* Capacite
+            Passif drift = new("Drift est une abilité qui permet à Jett de planer lorsque qu'elle saute d'une grande hauteur.", "Drift");
+            Passif terrorTrail = new("Ses capacité vont marqués les ennemis touché et créer une trainée noire, suivant les mouvements de la cible.", "Terror Trail");
+            Passif energy = new("Neon possède une barre d'énergie, elle est consommé par sa capacité signature a hauteur de 10% par seconde.","Energy");
+            Passif soulHarvest = new("Si un agent ennemi auquel elle a infligé des dégâts au cours des 3 dernières secondes meurt, il déposera un orbe d'âme à son emplacement qui y restera pendant 3 secondes.","Soul Harvest");
+            Passif Fuel = new("Viper possède une barre de carburant pour ces deux capacités, elle se consomme à hauteur de 1% toutes les 0,15 secondes pour chacunes des capacités activées", "Fuel");
+            Passif passif = new("Passif","Aucun");
+            /*Ulti
+            - Points
+            
+             **** Capacite ****
              - Prix
              - Charges
              - Temps
+
+             **** Signature ****
+             - restock
+             - unit
             */
+            /* Jett */
 
-            /*Ulti
-             - Points*/
+            Capacite averse = new(200, 2, 4.5,"Lance une fumigène qui se déclanche au contact d'une surface", "Cloud Burst");
+            Capacite courantAscendant = new(150, 2, 0.6, "Jett se propulse instantanément dans les airs.", "Courant ascendant");
+            Signature ventArriere = new(0, 1, 0.0, "Jett se propulse dans la direction souhaitée", 2, "Eliminations", "Vent arrière");
+            Ultime tempêteDeLames = new(7, "Jett s’équipe de 7 couteaux de lancer. TIREZ pour lancer un couteau sur une trajectoire droite et précise. Jett récupère tous ses couteaux chaque fois qu’elle tue un adversaire avec l’un d’eux.", "Tempête de Lames");
 
-            Console.WriteLine(ag15);
+            Valorant Jett = new Valorant("Jett", "Duelist", l1, "Coréenne", tempêteDeLames, ventArriere, courantAscendant, averse, drift);
+
+
+            Console.WriteLine(Jett);
         }
     }
 }
