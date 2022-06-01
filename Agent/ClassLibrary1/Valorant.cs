@@ -21,18 +21,19 @@ namespace ClassLibrary1
         public Capacite CapC { get { return capC; } set { capC = value; } }
         public Passif Passif { get { return passif; } set { passif = value; } }
 
-        public Valorant(string nom, string type, ListeAg l, string nationalite, Ultime ulti, Signature signature, Capacite capA, Capacite capC, Passif pass)
-            : base(nom, type, l, nationalite)
+        public Valorant(string nom, string type, ListeAg l, string nationalite, Ultime ulti, Signature signature, Capacite capA, Capacite capC, Passif passif)
+            : base(nom, type, nationalite)
         {
             Ultimate = ulti;
             Signature = signature;
             CapA = capA;
             CapC = capC;
             Passif = passif;
+            l.Ajout(this);
         }
-        public string ToString()
+        public override string ToString()
         {
-            return base.ToString() + $"\nCapacité A: {CapA}\nCapacité C: {CapC}";
+            return base.ToString()+$"\nPassif {this.Passif}\nCapacité A: {CapA}\nCapacité C: {CapC}\nSignature: {Signature}\nCapacité: {Ultimate}";
         }
     }
 }
