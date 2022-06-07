@@ -25,7 +25,7 @@ namespace Classe
         public void ForEach()
         {
             Console.WriteLine("Duelist: ");
-            duelist.ForEach(ag =>Console.Write(ag));
+            duelist.ForEach(Console.Write);
             Console.WriteLine("\n\n\nControllers: ");
             controllers.ForEach(ag => Console.Write(ag));
             Console.WriteLine("\n\n\nInitiators: ");

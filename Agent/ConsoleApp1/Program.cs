@@ -129,7 +129,7 @@ namespace Console_test
 
             Valorant Jett = new Valorant("Jett", "Duelist", l1, "Coréenne", tempêteDeLames, ventArriere, courantAscendant, averse, drift);
 
-            l1.ForEach();
+            reaver.printer();
         }
     }
 }

@@ -19,5 +19,16 @@ namespace Classe
         {
             return $"Nom: {Nom}\n";
         }
+        public bool Equals(Arme other)
+        {
+            return Nom.Equals(other.Nom);
+        }
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(obj, null)) return false;
+            if (ReferenceEquals(obj, this)) return true;
+            if (GetType() != obj.GetType()) return false;
+            return Equals((Carte)obj);
+        }
     }
 }

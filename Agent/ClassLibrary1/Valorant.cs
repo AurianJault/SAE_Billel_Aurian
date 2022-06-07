@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Valorant : Agent
+    public class Valorant : Agent, IEquatable<Valorant>
     {
         private Ultime ultimate;
         private Signature signature;
@@ -31,9 +31,21 @@ namespace ClassLibrary1
             Passif = passif;
             l.Ajout(this);
         }
-        public override string ToString()
+
+        public bool Equals(Valorant other)
         {
-            return base.ToString()+$"\nPassif {this.Passif}\nCapacité A: {CapA}\nCapacité C: {CapC}\nSignature: {Signature}\nCapacité: {Ultimate}";
+            return Nom.Equals(other.Nom);
+        }
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(obj, null)) return false;
+            if (ReferenceEquals(obj, this)) return true;
+            if (GetType()!= obj.GetType()) return false;
+            return Equals((Valorant)obj);
+        }
+        public override int GetHashCode()
+        {
+            return Nom.GetHashCode();
         }
     }
 }
