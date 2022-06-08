@@ -18,9 +18,9 @@ namespace ClassLibrary1
             Desc = desc;
             Name = name;
         }
-        public string Tostring()
+        public override string ToString()
         {
-            return $"\n{Name}:\n{Desc}";
+            return $"{Name}:\n{Desc}\n----";
         }
     }
     public class Ultime: Passif
@@ -33,9 +33,9 @@ namespace ClassLibrary1
             Charges = charges;
         }
 
-        public string toString()
+        public override string ToString()
         {
-            return $"\nUltime :\n{Name}:\nCharges: {Charges}\n---\n{Desc}";
+            return $"\nUltime :\n{Name}:\nCharges: {Charges}\n----\n{Desc}\n----";
         }
     }
 }

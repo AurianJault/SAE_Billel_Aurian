@@ -12,12 +12,11 @@ namespace Classe
         private string type;
         private string nationalite;
 
-        public Agent(string nom, string type, ListeAg l, string nationalite = "Inconnu")
+        public Agent(string nom, string type, string nationalite = "Inconnu")
         {
             Nom = nom;
             Type = type;
             Nationalite = nationalite;
-            l.Ajout(this);
         }
         public string Type { get; set; }
         public string Nom { get; set; }
@@ -26,7 +25,7 @@ namespace Classe
 
         public override string ToString()
         {
-            return $"Agent: {Nom}\nCatégorie: {Type}\nNationalite: {Nationalite}";
+            return $"Agent: {Nom}\nCatégorie: {Type}\nNationalite: {Nationalite}\n----";
         }
 
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,23 +9,23 @@ namespace Classe
 {
     public class ListeAg
     {
-        private readonly List<Agent> duelist;
-        private readonly List<Agent> controllers;
-        private readonly List<Agent> initiators;
-        private readonly List<Agent> sentinels;
+        private readonly List<Valorant> duelist;
+        private readonly List<Valorant> controllers;
+        private readonly List<Valorant> initiators;
+        private readonly List<Valorant> sentinels;
 
         public ListeAg()
         {
-            duelist = new List<Agent> {};
-            controllers = new List<Agent> {};
-            initiators = new List<Agent> {};
-            sentinels = new List<Agent> {};
+            duelist = new List<Valorant> {};
+            controllers = new List<Valorant> {};
+            initiators = new List<Valorant> {};
+            sentinels = new List<Valorant> {};
         }
 
         public void ForEach()
         {
             Console.WriteLine("Duelist: ");
-            duelist.ForEach(ag => Console.Write(ag));
+            duelist.ForEach(Console.Write);
             Console.WriteLine("\n\n\nControllers: ");
             controllers.ForEach(ag => Console.Write(ag));
             Console.WriteLine("\n\n\nInitiators: ");
@@ -33,7 +34,7 @@ namespace Classe
             sentinels.ForEach(ag => Console.Write(ag));
         }
 
-        public void Ajout(Agent a)
+        public void Ajout(Valorant a)
         {
             if (a.Type == "Duelist") this.duelist.Add(a);
             if (a.Type == "Controllers") this.controllers.Add(a);

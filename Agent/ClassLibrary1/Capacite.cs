@@ -24,7 +24,7 @@ namespace ClassLibrary1
 
         public override string ToString()
         {
-            return $"\n{Name}\nPrix: {Prix}\nCharges: {Charges}\nDurée: {Temps}";
+            return $"\nPrix: {Prix}\nCharges: {Charges}\nDurée: {Temps}\n"+base.ToString();
         }
     }
     public class Signature : Capacite
@@ -42,7 +42,7 @@ namespace ClassLibrary1
 
         public override string ToString()
         {
-            return base.ToString()+$"\nSe recharge {Restock}/{Unit}";
+            return base.ToString()+$"\nSe recharge au bout de {Restock} {Unit}\n----";
         }
     }
 }

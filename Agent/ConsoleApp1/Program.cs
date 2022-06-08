@@ -79,24 +79,24 @@ namespace Console_test
             Bundle ruination = new Bundle("Ruination", Ruination);
             Bundle origin = new Bundle("Origin", Origin);
             /*Agent*/
-            Agent ag1 = new Agent("Jett", "Duelist", l1, "Coréenne");
-            Agent ag2 = new Agent("Neon", "Duelist", l1, "Philippine");
-            Agent ag3 = new Agent("Yoru", "Duelist", l1, "japonais");
-            Agent ag4 = new Agent("Phoenix", "Duelist", l1, "Royaume-Uni");
-            Agent ag5 = new Agent("Raze", "Duelist", l1, "Brésil");
-            Agent ag6 = new Agent("Reyna", "Duelist", l1, "Mexique");
-            Agent ag7 = new Agent("Brimstone", "Controllers", l1, "United States");
-            Agent ag8 = new Agent("Viper", "Controllers", l1, "United States");
-            Agent ag9 = new Agent("Omen", "Controllers", l1, "Inconnu");
-            Agent ag10 = new Agent("Astra", "Controllers", l1, "Ghana");
-            Agent ag11 = new Agent("Sova", "Initiators", l1, "Russia");
-            Agent ag12 = new Agent("Breach", "Initiators", l1, "Sweden");
-            Agent ag13 = new Agent("Skye", "Initiators", l1, "Australia");
-            Agent ag14 = new Agent("KAY/O", "Initiators", l1, "Alternate Timeline Earth");
-            Agent ag15 = new Agent("Fade", "Initiators", l1, "Turkey");
-            Agent ag16 = new Agent("Killjoy", "Sentinels", l1, "Germany");
-            Agent ag17 = new Agent("Cypher", "Sentinels", l1, "Morocco");
-            Agent ag18 = new Agent("Sage", "Sentinels", l1, "China");
+            Agent ag1 = new Agent("Jett", "Duelist", "Coréenne");
+            Agent ag2 = new Agent("Neon", "Duelist", "Philippine");
+            Agent ag3 = new Agent("Yoru", "Duelist", "japonais");
+            Agent ag4 = new Agent("Phoenix", "Duelist", "Royaume-Uni");
+            Agent ag5 = new Agent("Raze", "Duelist", "Brésil");
+            Agent ag6 = new Agent("Reyna", "Duelist", "Mexique");
+            Agent ag7 = new Agent("Brimstone", "Controllers", "United States");
+            Agent ag8 = new Agent("Viper", "Controllers", "United States");
+            Agent ag9 = new Agent("Omen", "Controllers", "Inconnu");
+            Agent ag10 = new Agent("Astra", "Controllers", "Ghana");
+            Agent ag11 = new Agent("Sova", "Initiators", "Russia");
+            Agent ag12 = new Agent("Breach", "Initiators", "Sweden");
+            Agent ag13 = new Agent("Skye", "Initiators", "Australia");
+            Agent ag14 = new Agent("KAY/O", "Initiators", "Alternate Timeline Earth");
+            Agent ag15 = new Agent("Fade", "Initiators", "Turkey");
+            Agent ag16 = new Agent("Killjoy", "Sentinels", "Germany");
+            Agent ag17 = new Agent("Cypher", "Sentinels", "Morocco");
+            Agent ag18 = new Agent("Sage", "Sentinels", "China");
 
             /* Passif
              - Description 
@@ -129,8 +129,7 @@ namespace Console_test
 
             Valorant Jett = new Valorant("Jett", "Duelist", l1, "Coréenne", tempêteDeLames, ventArriere, courantAscendant, averse, drift);
 
-
-            Console.WriteLine(Jett);
+            reaver.printer();
         }
     }
 }
