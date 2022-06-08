@@ -1,0 +1,136 @@
+﻿<UserControl x:Class="Agent.USAstra"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="Duelliste">
+        <ScrollViewer>
+            <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
+                <Grid Height="452" Width="800">
+
+
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/ImageBG.jpeg"/>
+                    </Grid.Background>
+                    <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Left" Height="215" Margin="40,186,0,0" Stroke="Black" VerticalAlignment="Top" Width="304">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="VideoSpell/Astra/astra.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="424,69,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
+                    <Rectangle HorizontalAlignment="Left" Height="262" Margin="424,139,0,0" Stroke="Black" VerticalAlignment="Top" Width="300" Fill="#FFC7A0A0"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="40,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <Rectangle HorizontalAlignment="Left" Height="61" Margin="163,84,0,0" Stroke="Black" VerticalAlignment="Top" Width="94">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Astra/ghana.png"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="424,139,0,0" TextWrapping="Wrap" Text="L'agent ghanéen Astra canalise les énergies du cosmos pour façonner le champ de bataille à sa convenance. Avec une maîtrise complète de sa forme astrale et un talent pour la planification stratégique, elle a toujours une large avance sur ses ennemis." VerticalAlignment="Top" Height="262" Width="300" Background="#FFC7A0A0" FontSize="18" />
+
+
+
+                </Grid>
+                <Grid Height="450" Background="#FFC3B8B8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+
+
+
+
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="AAstra">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Astra/AA.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="EAstra">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Astra/AE.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CAstra">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpeLl/Astra/AC.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XAstra">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Astra/AX.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,146,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="137">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.322"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES ASTRA"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+
+                    <Label Content="𝘈 - 𝘐𝘔𝘗𝘜𝘓𝘚𝘐𝘖𝘕 𝘕𝘖𝘝𝘈" HorizontalAlignment="Left" Margin="102,98,0,0" VerticalAlignment="Top" Height="68" Width="134"/>
+                    <Label Content="𝘌 - 𝘕É𝘉𝘜𝘓𝘌𝘜𝘚𝘌" HorizontalAlignment="Left" Margin="102,174,0,0" VerticalAlignment="Top" Height="61" Width="155"/>
+                    <Label Content="𝘊 - 𝘗𝘜𝘐𝘛𝘚 𝘋𝘌 𝘎𝘙𝘈𝘝𝘐𝘛É" HorizontalAlignment="Left" Margin="102,255,0,0" VerticalAlignment="Top" Height="75" Width="134"/>
+                    <Label Content="𝘟 - 𝘍𝘖𝘙𝘔𝘌 𝘈𝘚𝘛𝘙𝘈𝘓𝘌 / 𝘋𝘐𝘝𝘐𝘚𝘐𝘖𝘕 𝘊𝘖𝘚𝘔𝘐𝘘𝘜𝘌" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="245"/>
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="104,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="240" FontSize="9"><Run Text="Placez des étoiles sous sa forme astrale (X) ACTIVEZ une étoile pour faire exploser une Impulsion Nova. L'Impulsion Nova se charge brièvement avant de détonner, désorientant tous les joueurs dans son rayon d'effet."/><Run Language="fr-fr"/></TextBlock>
+
+
+                    <Rectangle HorizontalAlignment="Left" Height="54" Margin="102,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="60" Margin="99,197,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="62" Margin="103,275,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="669" Grid.ColumnSpan="2"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="99,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="240" FontSize="9" Text="Placez des étoiles sous sa forme astrale (X) ACTIVEZ une étoile pour la transformer en Nébuleuse.Utilisez(F)sur une étoile pour la dissiper, ce qui vous permettra de la replacer à un autre endroit après un délai. Dissipation forme brièvement une fausse nébuleuse à son emplacement."/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="240" FontSize="9"><Run Text="Placez des étoiles sous sa forme astrale (X) ACTIVEZ une étoile pour former un Puits de gravité. Les joueurs dans la zone sont attirés vers le centre avant qu'il n'explose, ce qui applique l'altération d'état Fragile à tous les joueurs."/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="ACTIVEZ (X) pour passer en forme astrale, ce qui permet de placer des étoiles avec votre TIR PRINCIPAL. Les étoiles peuvent être activées plus tard pour être transformées en Impulsion Nova, en Nébuleuse ou en Puits de gravité. Lorsque Division cosmique est chargée, utilisez le TIR SECONDAIRE en forme astrale pour ajuster votre visée, puis le TIR PRINCIPAL pour choisir deux emplacements. Une Division cosmique infinie reliera alors les deux emplacements sélectionnés. Division cosmique bloque les balles et étouffe fortement les sons." VerticalAlignment="Top" Height="51" Width="666" FontSize="9" Grid.ColumnSpan="2"/>
+
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
+                        <MediaElement Source="VideoSpell/Astra/AA.mp4"  />
+                    </ContentControl>
+
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+    </ContentControl>
+</UserControl>

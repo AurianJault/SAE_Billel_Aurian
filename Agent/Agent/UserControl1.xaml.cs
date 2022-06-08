@@ -60,5 +60,9 @@ namespace Agent
         {
             Duelliste.Content = new USSky();
         }
+        private void ClickSova(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new USSova();
+        }
     }
 }

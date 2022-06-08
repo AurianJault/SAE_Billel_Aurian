@@ -1,0 +1,136 @@
+﻿<UserControl x:Class="Agent.USSage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="Duelliste">
+        <ScrollViewer>
+            <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
+                <Grid Height="457" Width="800">
+
+
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/ImageBG.jpeg"/>
+                    </Grid.Background>
+                    <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Left" Height="212" Margin="36,204,0,0" Stroke="Black" VerticalAlignment="Top" Width="228">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="VideoSpell/Sage/sage.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="375,47,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="12,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <Rectangle HorizontalAlignment="Left" Height="56" Margin="127,85,0,0" Stroke="Black" VerticalAlignment="Top" Width="79">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Sage/chine.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="375,122,0,0" TextWrapping="Wrap" Text="Véritable pilier originaire de Chine, Sage assure sa sécurité et celle de son équipe où qu'elle aille. Elle peut réanimer ses alliés tombés au combat et repousser les assauts ennemis pour offrir des oasis de tranquillité sur un champ de bataille infernal." VerticalAlignment="Top" Height="252" Width="229" Background="#FFC7A0A0" FontSize="18" />
+
+
+                </Grid>
+                <Grid Height="450" Background="#FFC3B8B8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+
+
+
+
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="ASage">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/SA.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="ESage">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/SE.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CSage">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/SC.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XSage">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/SX.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,170,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="113">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.322"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES SAGE"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+
+                    <Label Content="𝘈 - 𝘖𝘙𝘉𝘌 𝘋𝘌 𝘓𝘌𝘕𝘛𝘌𝘜𝘙" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="134"/>
+                    <Label Content="E - ORBE DE SOIN" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="C - ORBE BARRIÈRE" HorizontalAlignment="Left" Margin="102,263,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
+                    <Label Content="X - RÉSURRECTION" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="181"/>
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un orbe ralentissant. TIREZ pour lancer l'orbe devant vous. Lorsqu'il touche le sol, l'orbe explose et crée un champ persistant qui ralentit les joueurs qui s'y trouvent."/><Run Language="fr-fr"/></TextBlock>
+
+
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="50" Margin="103,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="54" Margin="102,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="240" FontSize="9" Text="ÉQUIPEZ-vous d'un orbe de soin. TIREZ en visant un allié blessé pour lui rendre des PV sur la durée. Si vous avez subi des dégâts, utilisez le TIR SECONDAIRE pour récupérer des PV sur la durée."/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un orbe barrière. TIRER permet de placer un mur solide. Le TIR SECONDAIRE fait pivoter le cibleur. "/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="ÉQUIPEZ-vous d'une compétence de résurrection. TIREZ en visant un allié mort pour le ramener à la vie. Après une courte canalisation, votre allié est ramené à la vie avec tous ses PV." VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
+
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
+                        <MediaElement Source="VideoSpell/Sage/SA.mp4"  />
+                    </ContentControl>
+
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+    </ContentControl>
+</UserControl>
+
+

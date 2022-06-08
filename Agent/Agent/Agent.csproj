@@ -78,6 +78,16 @@
     <None Remove="VideoSpell\Astra\AX.png" />
     <None Remove="VideoSpell\Astra\ghana.jpg" />
     <None Remove="VideoSpell\Astra\ghana.png" />
+    <None Remove="VideoSpell\Breach\BA.mp4" />
+    <None Remove="VideoSpell\Breach\BA.png" />
+    <None Remove="VideoSpell\Breach\BC.mp4" />
+    <None Remove="VideoSpell\Breach\BC.png" />
+    <None Remove="VideoSpell\Breach\BE.mp4" />
+    <None Remove="VideoSpell\Breach\BE.png" />
+    <None Remove="VideoSpell\Breach\breach.jpg" />
+    <None Remove="VideoSpell\Breach\BX.mp4" />
+    <None Remove="VideoSpell\Breach\BX.png" />
+    <None Remove="VideoSpell\Breach\suede.png" />
     <None Remove="VideoSpell\Brim\BA.mp4" />
     <None Remove="VideoSpell\Brim\BA.png" />
     <None Remove="VideoSpell\Brim\BC.mp4" />
@@ -196,6 +206,16 @@
     <None Remove="VideoSpell\Sky\Sky1.jpg" />
     <None Remove="VideoSpell\Sky\SX.mp4" />
     <None Remove="VideoSpell\Sky\SX.png" />
+    <None Remove="VideoSpell\Sova\russie.png" />
+    <None Remove="VideoSpell\Sova\SA.mp4" />
+    <None Remove="VideoSpell\Sova\SA.png" />
+    <None Remove="VideoSpell\Sova\SC.mp4" />
+    <None Remove="VideoSpell\Sova\SC.png" />
+    <None Remove="VideoSpell\Sova\SE.mp4" />
+    <None Remove="VideoSpell\Sova\SE.png" />
+    <None Remove="VideoSpell\Sova\sova.jpg" />
+    <None Remove="VideoSpell\Sova\SX.mp4" />
+    <None Remove="VideoSpell\Sova\SX.png" />
     <None Remove="VideoSpell\Viper\VA.mp4" />
     <None Remove="VideoSpell\Viper\VA.png" />
     <None Remove="VideoSpell\Viper\VC.mp4" />
@@ -232,6 +252,21 @@
     <Content Include="VideoSpell\Astra\AX.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="VideoSpell\Breach\BA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Breach\BC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Breach\BE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Breach\BX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="VideoSpell\Breach\suede.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="VideoSpell\Brim\BA.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -262,6 +297,39 @@
     <Content Include="VideoSpell\Sky\SX.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="VideoSpell\Sova\SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sova\SC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sova\SE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Sova\SX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="VideoSpell\Breach\BA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Breach\BC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Breach\BE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Breach\BX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sova\SX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sova\sova.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sova\SE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Chamber\chamber.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -365,6 +433,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Sky\SX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sova\russie.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sova\SA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Sova\SC.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Viper\VA.png">
@@ -751,6 +828,12 @@
     <Content Include="VideoSpell\Sage\SC.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="VideoSpell\Breach\breach.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

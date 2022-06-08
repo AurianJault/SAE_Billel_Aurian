@@ -1,0 +1,136 @@
+﻿<UserControl x:Class="Agent.USCypher"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="Duelliste">
+        <ScrollViewer>
+            <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
+                <Grid Height="454" Width="805">
+
+
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/ImageBG.jpeg"/>
+                    </Grid.Background>
+                    <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Left" Height="207" Margin="32,207,0,0" Stroke="Black" VerticalAlignment="Top" Width="308">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Cypher/cypher.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="424,61,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
+                    <Rectangle HorizontalAlignment="Left" Height="45" Margin="134,118,0,0" Stroke="Black" VerticalAlignment="Top" Width="70">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Cypher/maroc.png"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="424,132,0,0" TextWrapping="Wrap" Text="Informateur originaire du Maroc, Cypher est un véritable réseau de surveillance à lui tout seul. Il révèle tous les secrets. Il détecte toutes les manœuvres. Rien n'échappe à Cypher." VerticalAlignment="Top" Height="212" Width="214" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="32,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/></TextBlock>
+
+
+                </Grid>
+                <Grid Height="450" Background="#FFC3B8B8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+
+
+
+
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="ACypher">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Cypher/CA.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="ECypher">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Cypher/CE.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CCypher">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Cypher/CC.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XCypher">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Cypher/CX.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,146,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="137">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.322"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES CYPHER"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+
+                    <Label Content="𝘈 - 𝘊𝘠𝘉𝘌𝘙𝘊𝘈𝘎𝘌" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="134"/>
+                    <Label Content="𝘌 - 𝘊𝘈𝘔É𝘙𝘈 𝘌𝘚𝘗𝘐𝘖𝘕𝘕𝘌" HorizontalAlignment="Left" Margin="102,180,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="𝘊 - 𝘍𝘐𝘓 𝘋𝘌 𝘋É𝘛𝘌𝘕𝘛𝘌" HorizontalAlignment="Left" Margin="102,255,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
+                    <Label Content="𝘟 - 𝘝𝘖𝘓 𝘕𝘌𝘜𝘙𝘈𝘓" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="181"/>
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="Lancez INSTANTANÉMENT la cybercage devant Cypher. ACTIVEZ pour créer une zone qui bloque la vision et qui ralentit les ennemis qui la traversent."/><Run Language="fr-fr"/></TextBlock>
+
+
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="50" Margin="99,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="62" Margin="103,275,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="102,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="240" FontSize="9" Text="ÉQUIPEZ-vous d'une caméra espionne. TIREZ pour placer la caméra espionne à l'endroit ciblé. RÉUTILISEZ cette compétence pour prendre le contrôle de la caméra. TIREZ pour envoyer une fléchette de marquage."/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un fil de détente. TIREZ pour placer un fil de détente dissimulé et destructible, créant une ligne qui va du point de placement au mur opposé. Les joueurs ennemis qui franchissent le fil de détente seront attachés, révélés et désorientés après un court instant. "/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="Utilisez cette compétence INSTANTANÉMENT sur un cadavre ennemi pour révéler la position de tous les joueurs ennemis en vie." VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
+
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
+                        <MediaElement Source="VideoSpell/Cypher/CA.mp4"  />
+                    </ContentControl>
+
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+    </ContentControl>
+</UserControl>
+
+

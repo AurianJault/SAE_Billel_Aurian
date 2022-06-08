@@ -1,0 +1,134 @@
+﻿<UserControl x:Class="Agent.USBrim"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="Duelliste">
+        <ScrollViewer>
+            <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
+                <Grid Height="455" Width="807">
+
+
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/ImageBG.jpeg"/>
+                    </Grid.Background>
+                    <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock HorizontalAlignment="Left" Margin="424,47,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="424,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="272" Width="292" Background="#FFC7A0A0" FontSize="18" Text="Tout droit venu des États-Unis d'Amérique, Brimstone possède un arsenal orbital qui permet à son escouade de toujours avoir l'avantage. La précision et la portée de ses compétences utilitaires font de lui un commandant sans égal sur le terrain." />
+                    <Rectangle HorizontalAlignment="Left" Height="46" Margin="142,97,0,0" Stroke="Black" VerticalAlignment="Top" Width="76">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/USA.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="12,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <Rectangle HorizontalAlignment="Left" Height="237" Margin="26,151,0,0" Stroke="Black" VerticalAlignment="Top" Width="363">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Brim/Brim.jpeg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+
+
+                </Grid>
+                <Grid Height="450" Background="#FFC3B8B8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+
+
+
+
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="ASpell">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Brim/BA.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="ESpell">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Brim/BE.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CSpell">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpeLl/Brim/BC.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XSpell">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Brim/BX.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,128,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="155">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.322"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES BRIMSTONE"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+
+                    <Label Content="𝘈 - 𝘉𝘖𝘔𝘉𝘌 𝘐𝘕𝘊𝘌𝘕𝘋𝘐𝘈𝘐𝘙𝘌" HorizontalAlignment="Left" Margin="102,98,0,0" VerticalAlignment="Top" Height="68" Width="165"/>
+                    <Label Content="𝘌 - 𝘍𝘙𝘈𝘗𝘗𝘌 𝘍𝘜𝘔𝘐𝘎È𝘕𝘌" HorizontalAlignment="Left" Margin="102,174,0,0" VerticalAlignment="Top" Height="61" Width="155"/>
+                    <Label Content="𝘊 - 𝘉𝘈𝘓𝘐𝘚𝘌 𝘚𝘛𝘐𝘔𝘜𝘓𝘈𝘕𝘛𝘌" HorizontalAlignment="Left" Margin="102,255,0,0" VerticalAlignment="Top" Height="75" Width="134"/>
+                    <Label Content="𝘟 - 𝘙𝘈𝘠𝘖𝘕 𝘖𝘙𝘉𝘐𝘛𝘈𝘓" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="245"/>
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="104,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un lance-grenades incendiaires. TIREZ pour lancer une grenade qui explose lorsqu'elle s'arrête au sol, créant une zone enflammée persistante qui blesse les joueurs."/><Run Language="fr-fr"/></TextBlock>
+
+
+                    <Rectangle HorizontalAlignment="Left" Height="54" Margin="102,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="60" Margin="99,197,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="62" Margin="103,275,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="669" Grid.ColumnSpan="2"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="99,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="240" FontSize="9" Text="ÉQUIPEZ-vous d'une carte tactique. TIREZ pour définir les endroits où les nuages de fumée de Brimstone atterriront. Utilisez le TIR SECONDAIRE pour confirmer, ce qui lance des nuages de fumée durables qui bloquent la vision dans la zone sélectionnée."/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'une balise stimulante. TIREZ pour lancer la balise devant Brimstone. Lorsqu'elle touche le sol, la balise crée un champ qui confère Tir rapide aux joueurs."/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="ÉQUIPEZ-vous d'une carte tactique. TIREZ pour ordonner une frappe orbitale persistante à l'endroit sélectionné, ce qui inflige d'importants dégâts sur la durée aux joueurs pris dans la zone." VerticalAlignment="Top" Height="51" Width="666" FontSize="9" Grid.ColumnSpan="2"/>
+
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
+                        <MediaElement Source="VideoSpell/Brim/BA.mp4"  />
+                    </ContentControl>
+
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+    </ContentControl>
+</UserControl>

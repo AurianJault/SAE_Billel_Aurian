@@ -1,0 +1,135 @@
+﻿<UserControl x:Class="Agent.USChamber"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="Duelliste">
+        <ScrollViewer>
+            <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
+                <Grid Height="453" Width="797">
+
+
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/ImageBG.jpeg"/>
+                    </Grid.Background>
+                    <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Left" Height="136" Margin="26,209,0,0" Stroke="Black" VerticalAlignment="Top" Width="234">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Chamber/chamber.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="352,85,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="96" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="289,130,0,0" TextWrapping="Wrap" Text="Aussi classe que bien équipé, le concepteur d'armes Chamber repousse les assaillants avec une précision mortelle. Il met à profit son arsenal bien particulier pour tenir sa position et éliminer les ennemis de loin en prévoyant une solution aux défis posés par chaque stratégie." VerticalAlignment="Top" Height="294" Width="222" Background="#FFC7A0A0" FontSize="18" />
+                    <Rectangle HorizontalAlignment="Left" Height="52" Margin="130,104,0,0" Stroke="Black" VerticalAlignment="Top" Width="82">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Chamber/france.png"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="12,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <Rectangle HorizontalAlignment="Left" Height="136" Margin="532,209,0,0" Stroke="Black" VerticalAlignment="Top" Width="229">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Chamber/chamber2.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+
+
+                </Grid>
+                <Grid Height="450" Background="#FFC3B8B8">
+
+
+
+
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="AChamber">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Chamber/CA.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="EChamber">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Chamber/CE.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CChamber">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Chamber/CC.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XChamber">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Chamber/CX.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,312,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="146">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.322"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES CHAMBER "/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+
+                    <Label Content="𝘈- 𝘊𝘏𝘈𝘚𝘚𝘌𝘜𝘙 𝘋𝘌 𝘛Ê𝘛𝘌𝘚" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘌- 𝘙𝘌𝘕𝘋𝘌𝘡-𝘝𝘖𝘜𝘚" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="𝘊- 𝘔𝘈𝘙𝘘𝘜𝘌 𝘋É𝘗𝘖𝘚É𝘌" HorizontalAlignment="Left" Margin="102,270,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+                    <Label Content="𝘟 - 𝘛𝘖𝘜𝘙 𝘋𝘌 𝘍𝘖𝘙𝘊𝘌" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="122"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ACTIVEZ pour équiper un gros calibre. Faites un TIR SECONDAIRE avec le pistolet équipé pour utiliser le viseur."/><Run Language="fr-fr"/></TextBlock>
+
+
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="103,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9" Text="PLACEZ deux balises de téléportation. Quand vous vous trouvez sur le sol à portée d'une balise, RÉACTIVEZ pour vous téléporter rapidement vers l'autre balise."/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="POSEZ un piège qui détecte les ennemis. Quand un ennemi devient visible à portée, le piège déclenche un compte à rebours avant d'ébranler le terrain autour de lui."/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="ACTIVEZ pour matérialiser un puissant fusil de sniper personnalisé qui tue l'ennemi en un coup. Tuer un ennemi crée un champ persistant qui ralentit les joueurs qui s'y trouvent." VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
+
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="3">
+                        <MediaElement Source="VideoSpell/Chamber/CA.mp4"/>
+                    </ContentControl>
+
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+    </ContentControl>
+
+</UserControl>

@@ -19,6 +19,18 @@
     <Compile Update="AstraSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="BreachSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BreachSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BreachSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BreachSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="BrimSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -166,7 +178,22 @@
     <Compile Update="SkySpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SovaSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SovaSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SovaSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SovaSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USAstra.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USBreach.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USBrim.xaml.cs">
@@ -217,6 +244,9 @@
     <Compile Update="USSky.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USSova.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USViper.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -259,6 +289,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="AstraSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BreachSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BreachSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BreachSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BreachSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="BrimSpellA.xaml">
@@ -411,7 +453,22 @@
     <Page Update="SkySpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="SovaSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SovaSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SovaSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SovaSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USAstra.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USBreach.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USBrim.xaml">
@@ -460,6 +517,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USSky.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USSova.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USViper.xaml">
