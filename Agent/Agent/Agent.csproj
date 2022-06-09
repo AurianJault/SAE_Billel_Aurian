@@ -119,6 +119,17 @@
     <None Remove="VideoSpell\Cypher\CX.png" />
     <None Remove="VideoSpell\Cypher\cypher.jpg" />
     <None Remove="VideoSpell\Cypher\maroc.png" />
+    <None Remove="VideoSpell\Fade\agent.png" />
+    <None Remove="VideoSpell\Fade\FA.mp4" />
+    <None Remove="VideoSpell\Fade\FA.png" />
+    <None Remove="VideoSpell\Fade\fade.jpg" />
+    <None Remove="VideoSpell\Fade\FC.mp4" />
+    <None Remove="VideoSpell\Fade\FC.png" />
+    <None Remove="VideoSpell\Fade\FE.mp4" />
+    <None Remove="VideoSpell\Fade\FE.png" />
+    <None Remove="VideoSpell\Fade\FX.mp4" />
+    <None Remove="VideoSpell\Fade\FX.png" />
+    <None Remove="VideoSpell\Fade\turquie.webp" />
     <None Remove="VideoSpell\Jett\coree.jpg" />
     <None Remove="VideoSpell\Jett\JA.mp4" />
     <None Remove="VideoSpell\Jett\JA.png" />
@@ -129,6 +140,15 @@
     <None Remove="VideoSpell\Jett\jett.jpg" />
     <None Remove="VideoSpell\Jett\JX.mp4" />
     <None Remove="VideoSpell\Jett\JX.png" />
+    <None Remove="VideoSpell\Kayo\KA.mp4" />
+    <None Remove="VideoSpell\Kayo\KA.png" />
+    <None Remove="VideoSpell\Kayo\kayo.jpg" />
+    <None Remove="VideoSpell\Kayo\KC.mp4" />
+    <None Remove="VideoSpell\Kayo\KC.png" />
+    <None Remove="VideoSpell\Kayo\KE.mp4" />
+    <None Remove="VideoSpell\Kayo\KE.png" />
+    <None Remove="VideoSpell\Kayo\KX.mp4" />
+    <None Remove="VideoSpell\Kayo\KX.png" />
     <None Remove="VideoSpell\kj\allemagne.png" />
     <None Remove="VideoSpell\kj\KA.mp4" />
     <None Remove="VideoSpell\kj\KA.png" />
@@ -216,6 +236,7 @@
     <None Remove="VideoSpell\Sova\sova.jpg" />
     <None Remove="VideoSpell\Sova\SX.mp4" />
     <None Remove="VideoSpell\Sova\SX.png" />
+    <None Remove="VideoSpell\VideoPresentation\valo.mp4" />
     <None Remove="VideoSpell\Viper\VA.mp4" />
     <None Remove="VideoSpell\Viper\VA.png" />
     <None Remove="VideoSpell\Viper\VC.mp4" />
@@ -262,6 +283,33 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="VideoSpell\Breach\BX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Fade\FA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Fade\FC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Fade\FE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Fade\FX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Kayo\KA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Kayo\KC.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Kayo\KE.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\Kayo\KX.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VideoSpell\VideoPresentation\valo.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="VideoSpell\Breach\suede.png">
@@ -319,6 +367,42 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Breach\BX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Fade\agent.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Fade\FA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Fade\fade.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Fade\FC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Fade\FE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Fade\FX.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Fade\turquie.webp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Kayo\KA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Kayo\kayo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Kayo\KC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Kayo\KE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="VideoSpell\Kayo\KX.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="VideoSpell\Sova\SX.png">

@@ -26,19 +26,19 @@ namespace Agent
         }
         private void A(object sender, RoutedEventArgs e)
         {
-            Spell.Content = new SkySpellA();
+            Spell.Content = new BreachSpellA();
         }
         private void E(object sender, RoutedEventArgs e)
         {
-            Spell.Content = new SkySpellE();
+            Spell.Content = new BreachSpellE();
         }
         private void C(object sender, RoutedEventArgs e)
         {
-            Spell.Content = new SkySpellC();
+            Spell.Content = new BreachSpellC();
         }
         private void X(object sender, RoutedEventArgs e)
         {
-            Spell.Content = new SkySpellX();
+            Spell.Content = new BreachSpellX();
         }
         private void Menu(object sender, RoutedEventArgs e)
         {

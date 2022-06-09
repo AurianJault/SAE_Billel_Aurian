@@ -64,5 +64,17 @@ namespace Agent
         {
             Duelliste.Content = new USSova();
         }
+        private void ClickBreach(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new USBreach();
+        }
+        private void ClickKayo(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new USKayo();
+        }
+        private void ClickFade(object sender, RoutedEventArgs e)
+        {
+            Duelliste.Content = new USFade();
+        }
     }
 }

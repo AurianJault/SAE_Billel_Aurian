@@ -49,12 +49,12 @@
             </Button>
             <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="46" Margin="229,20,0,0" Stroke="Red" VerticalAlignment="Top" Width="302" Fill="#FFC7A0A0"/>
             <Label Grid.Column="1" Content="𝘿𝙚́𝙘𝙤𝙪𝙫𝙧𝙚𝙯 𝙩𝙤𝙪𝙩𝙚𝙨 𝙡𝙚𝙨 𝙢𝙖𝙣𝙞𝙚̀𝙧𝙚𝙨 𝙙𝙚 𝙥𝙤𝙨𝙚𝙧 𝙡𝙚 𝙨𝙥𝙞𝙠𝙚 &#xA;&#x9;𝙚𝙩 𝙙𝙚 𝙙𝙤𝙢𝙞𝙣𝙚𝙧 𝙫𝙤𝙨 𝙚𝙣𝙣𝙚𝙢𝙞𝙨 !  " HorizontalAlignment="Left" Margin="229,20,0,0" VerticalAlignment="Top" Height="46" Width="302"/>
-            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="90,140,0,0" VerticalAlignment="Top" Height="111" Width="178" >
+            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="90,140,0,0" VerticalAlignment="Top" Height="111" Width="178" Click="ClickBreach" >
                 <Button.Background>
                     <ImageBrush ImageSource="/raciste.jpg"/>
                 </Button.Background>
             </Button>
-            <Button Grid.Column="1" HorizontalAlignment="Left" Margin="90,295,0,0" VerticalAlignment="Top" Height="111" Width="178">
+            <Button Grid.Column="1" HorizontalAlignment="Left" Margin="90,295,0,0" VerticalAlignment="Top" Height="111" Width="178" Click="ClickKayo">
                 <Button.Background>
                     <ImageBrush ImageSource="/kayo.jpg"/>
                 </Button.Background>
@@ -76,7 +76,7 @@
                     <ImageBrush ImageSource="/Initiator.png"/>
                 </Rectangle.Fill>
             </Rectangle>
-            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="285,196,0,0" VerticalAlignment="Top" Height="122" Width="190" >
+            <Button Grid.Column="1"  HorizontalAlignment="Left" Margin="285,196,0,0" VerticalAlignment="Top" Height="122" Width="190" Click="ClickFade" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Valorant-fade.jpg"/>
                 </Button.Background>

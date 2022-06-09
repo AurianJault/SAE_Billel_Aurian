@@ -67,6 +67,18 @@
     <Compile Update="CypherSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FadeSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FadeSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FadeSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FadeSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="JettSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -77,6 +89,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="JettSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KayoSpellA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KayoSpellC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KayoSpellE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KayoSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="KJSpellA.xaml.cs">
@@ -116,6 +140,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PagePrincipale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageRegle.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PhoenixSpellA.xaml.cs">
@@ -217,7 +244,13 @@
     <Compile Update="UserControl4.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="USFade.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="USJett.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="USKayo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="USKJ.xaml.cs">
@@ -339,6 +372,18 @@
     <Page Update="CypherSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="FadeSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FadeSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FadeSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FadeSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="JettSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -349,6 +394,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="JettSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KayoSpellA.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KayoSpellC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KayoSpellE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KayoSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="KJSpellA.xaml">
@@ -391,6 +448,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PagePrincipale.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageRegle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PhoenixSpellA.xaml">
@@ -492,7 +552,13 @@
     <Page Update="UserControl4.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="USFade.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="USJett.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="USKayo.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="USKJ.xaml">

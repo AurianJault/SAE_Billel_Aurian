@@ -1,0 +1,135 @@
+﻿<UserControl x:Class="Agent.USKayo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="Duelliste">
+        <ScrollViewer>
+            <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
+                <Grid Height="452" Width="801">
+
+
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/ImageBG.jpeg"/>
+                    </Grid.Background>
+                    <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Left" Height="249" Margin="94,155,0,0" Stroke="Black" VerticalAlignment="Top" Width="253" RenderTransformOrigin="0.624,0.425">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/VideoSpell/Kayo/kayo.jpg"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock HorizontalAlignment="Left" Margin="459,85,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="12,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/><Run Text=" "/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="459,129,0,0" TextWrapping="Wrap" Text="KAY/O est une machine de guerre conçue dans un but précis : neutraliser les radiants. La neutralisation des compétences ennemies réduit les possibilités de riposte des adversaires, ce qui confère un avantage décisif à son équipe." VerticalAlignment="Top" Height="201" Width="242" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="124,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="64" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="inconnu"/></TextBlock>
+
+
+                </Grid>
+                <Grid Height="450" Background="#FFC3B8B8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+
+
+
+
+                    <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="A">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Kayo/KA.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="E">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Kayo/KE.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="C">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpeLl/Kayo/KC.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="X">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/VideoSpell/Kayo/KX.png"/>
+                        </Button.Background>
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,146,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="137">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.322"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform><Run Text="COMPETENCES "/><Run Language="fr-fr" Text="KAYO"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+
+                    <Label Content="𝘈 - 𝘔É𝘔𝘖𝘐𝘙𝘌/𝘍𝘓𝘈𝘚𝘏" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="134"/>
+                    <Label Content="𝘌 - 𝘗𝘖𝘐𝘕𝘛/𝘡É𝘙𝘖" HorizontalAlignment="Left" Margin="102,180,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="𝘊 - 𝘍𝘙𝘈𝘎/𝘔𝘌𝘕𝘛" HorizontalAlignment="Left" Margin="102,255,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
+                    <Label Content="𝘟 - 𝘊𝘔𝘋/𝘕𝘜𝘓𝘓" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="181"/>
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'une charge aveuglante. TIREZ pour provoquer une explosion rapide à travers le mur. La charge explose en aveuglant tous les joueurs qui la regardent."/><Run Language="fr-fr"/></TextBlock>
+
+
+                    <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="50" Margin="99,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
+                    <Rectangle HorizontalAlignment="Left" Height="62" Margin="103,275,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
+                    <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="669" Grid.ColumnSpan="2"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="102,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'une lame neutralisante. TIREZ pour la lancer. La lame se colle à la première surface touchée. Après un délai, elle neutralise tous ceux dans le rayon de l'explosion."/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="."/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'un fragment explosif. TIREZ pour le lancer. Le fragment se colle au sol et explose à plusieurs reprises, infligeant des dégâts quasi mortels au centre de chaque explosion."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="666" FontSize="9" Grid.ColumnSpan="2"><Run Text="Entrez INSTANTANÉMENT en surcharge. KAY/O est renforcé par de l'énergie radianite polarisée et il émet de grandes vagues d'énergie. Les ennemis touchés par ces vagues sont neutralisés pendant un court instant."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
+                        <MediaElement Source="VideoSpell/Kayo/KA.mp4"  />
+                    </ContentControl>
+
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+    </ContentControl>
+</UserControl>
+
+
+
+
+

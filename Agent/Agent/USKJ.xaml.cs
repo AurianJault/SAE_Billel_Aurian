@@ -42,7 +42,7 @@ namespace Agent
         }
         private void Menu(object sender, RoutedEventArgs e)
         {
-            Duelliste.Content = new UserControl4();
+            Duelliste.Content = new UserControl3();
         }
     }
 }

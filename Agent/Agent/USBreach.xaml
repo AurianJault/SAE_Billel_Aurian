@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="30" Width="725">
+                <Grid Height="457" Width="805">
 
 
                     <Grid.Background>
@@ -104,10 +104,10 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform><Run Text="COMPETENCES "/><Run Language="fr-fr" Text="BREACH"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
 
-                    <Label Content="𝘈 - É𝘓𝘌𝘊𝘛𝘙𝘖𝘍𝘓È𝘊𝘏𝘌&#xD;&#xA;" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="134"/>
-                    <Label Content="𝘌 - 𝘍𝘓È𝘊𝘏𝘌 𝘋𝘌 𝘙𝘌𝘊𝘖𝘕𝘕𝘈𝘐𝘚𝘚𝘈𝘕𝘊𝘌&#xD;&#xA;" HorizontalAlignment="Left" Margin="102,180,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
-                    <Label Content="𝘊 - 𝘋𝘙𝘖𝘕𝘌 𝘙𝘈𝘗𝘈𝘊𝘌&#xD;&#xA;" HorizontalAlignment="Left" Margin="102,255,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
-                    <Label Content="𝘟 - 𝘍𝘜𝘙𝘌𝘜𝘙 𝘋𝘜 𝘊𝘏𝘈𝘚𝘚𝘌𝘜𝘙&#xD;&#xA;" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="181"/>
+                    <Label Content="A - POINT D'IGNITION" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="134"/>
+                    <Label Content="E - LIGNE DE FRACTURE" HorizontalAlignment="Left" Margin="102,180,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="C - RÉPLIQUE" HorizontalAlignment="Left" Margin="102,255,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
+                    <Label Content="X - ONDE SISMIQUE" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="181"/>
 
 
                     <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="ÉQUIPEZ-vous d'une charge aveuglante. TIREZ pour provoquer une explosion rapide à travers le mur. La charge explose en aveuglant tous les joueurs qui la regardent."/><Run Language="fr-fr"/></TextBlock>

@@ -18,18 +18,18 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Règles" Grid.Column="0" Margin="40,10" Padding="20,5" HorizontalAlignment="Left"/>
+                    <Button Content="Règles" Grid.Column="0" Margin="40,10" Padding="20,5" HorizontalAlignment="Left" Click="Regle"/>
                     <Grid Grid.Column="2" Margin="0,2">
                         <Grid.RowDefinitions>
                             <RowDefinition/>
                             <RowDefinition/>
                         </Grid.RowDefinitions>
-                        <Button Grid.Row="0" Margin="211,0,0,0" Grid.RowSpan="2" HorizontalAlignment="Left" Width="56" Height="24" VerticalAlignment="Top">
+                        <Button Grid.Row="0" Margin="211,0,0,0" Grid.RowSpan="2" HorizontalAlignment="Left" Width="56" Height="24" VerticalAlignment="Top" Click="ClickFB">
                             <Button.Background>
                                 <ImageBrush ImageSource="/fb_icon_325x325.png" Stretch="Uniform"/>
                             </Button.Background>
                         </Button>
-                        <Button Grid.Row="1" Margin="211,0,0,0">
+                        <Button Grid.Row="1" Margin="211,0,0,0" Click="ClickTwitter">
                             <Button.Background>
                                 <ImageBrush ImageSource="/Twitter-EmblèmeV2.png" Stretch="Uniform"/>
                             </Button.Background>
