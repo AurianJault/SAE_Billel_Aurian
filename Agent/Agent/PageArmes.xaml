@@ -7,24 +7,18 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <ContentControl x:Name="page">
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="#FFEF7777" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
-            <Button.Background>
-                <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
-            </Button.Background>
-        </Button>
+        <Grid Background="White">
+            <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
+                <Button.Background>
+                    <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
+                </Button.Background>
+            </Button>
 
-        <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="78" Width="148" Foreground="#FFCE0808" FontSize="48" FontFamily="Bauhaus 93"><Run Language="fr-fr" Text="ARMES"/><LineBreak/><Run/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="78" Width="148" Foreground="#FFCE0808" FontSize="48" FontFamily="Bauhaus 93"><Run Language="fr-fr" Text="ARMES"/><LineBreak/><Run/></TextBlock>
             <Menu Margin="0,80,70,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Background="Transparent"  Width="155" Height="25" >
                 <ComboBox Width="150" Height="23">
                     <ComboBoxItem IsSelected="True">Arme de poing</ComboBoxItem>
-                   
+
 
                     <ComboBoxItem>
                         <Button Content="PM"/>
@@ -47,6 +41,31 @@
                     </ComboBoxItem>
                 </ComboBox>
             </Menu>
+            <Button Content="" HorizontalAlignment="Left" Margin="42,136,0,0" VerticalAlignment="Top" Height="89" Width="178">
+                <Button.Background>
+                    <ImageBrush ImageSource="/image/Arsenal/ArmeDePoing/classic.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="282,136,0,0" VerticalAlignment="Top" Height="89" Width="211">
+                <Button.Background>
+                    <ImageBrush ImageSource="/image/Arsenal/ArmeDePoing/Shorty.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="564,136,0,0" VerticalAlignment="Top" Height="89" Width="166">
+                <Button.Background>
+                    <ImageBrush ImageSource="/image/Arsenal/ArmeDePoing/frenzy.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="131,291,0,0" VerticalAlignment="Top" Height="89" Width="216">
+                <Button.Background>
+                    <ImageBrush ImageSource="/image/Arsenal/ArmeDePoing/ghost.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="451,286,0,0" VerticalAlignment="Top" Height="89" Width="201">
+                <Button.Background>
+                    <ImageBrush ImageSource="/image/Arsenal/ArmeDePoing/sheriff.jpg"/>
+                </Button.Background>
+            </Button>
 
         </Grid>
     </ContentControl>

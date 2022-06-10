@@ -21,6 +21,11 @@
     <None Remove="FIipg6hXMAMRxH3.jpg" />
     <None Remove="getstarted.png" />
     <None Remove="ImageBG.jpeg" />
+    <None Remove="image\Arsenal\ArmeDePoing\classic.png" />
+    <None Remove="image\Arsenal\ArmeDePoing\frenzy.jpg" />
+    <None Remove="image\Arsenal\ArmeDePoing\ghost.jpg" />
+    <None Remove="image\Arsenal\ArmeDePoing\sheriff.jpg" />
+    <None Remove="image\Arsenal\ArmeDePoing\Shorty.png" />
     <None Remove="image\Cartes\Ascent.jpeg" />
     <None Remove="image\Cartes\Ascent\InGame.png" />
     <None Remove="image\Cartes\bind.jpg" />
@@ -332,6 +337,21 @@
     <Content Include="VideoSpell\VideoPresentation\valo.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="image\Arsenal\ArmeDePoing\classic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\ArmeDePoing\frenzy.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\ArmeDePoing\ghost.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\ArmeDePoing\sheriff.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\ArmeDePoing\Shorty.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="image\Cartes\Ascent\Ascent.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

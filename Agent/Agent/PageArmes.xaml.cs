@@ -28,5 +28,10 @@ namespace Agent
         {
             page.Content = new PagePrincipale();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
