@@ -1024,3 +1024,5 @@ C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\Pag
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.g.cs
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.baml
 >>>>>>> bf91af1ec446fdff2d2734b54d81e5d35a906c2c
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.baml

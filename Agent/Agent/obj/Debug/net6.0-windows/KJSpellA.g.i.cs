@@ -53,7 +53,7 @@ namespace Agent {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Agent;V1.0.0.0;component/kjspella.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Agent;component/kjspella.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\KJSpellA.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
