@@ -1026,3 +1026,11 @@ C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\PageArmes
 >>>>>>> bf91af1ec446fdff2d2734b54d81e5d35a906c2c
 C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.g.cs
 C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.baml
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Fusil.g.cs
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\PM.g.cs
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Sniper.g.cs
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\FAP.g.cs
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\FAP.baml
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Fusil.baml
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\PM.baml
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Sniper.baml

@@ -29,8 +29,24 @@ namespace Agent
             page.Content = new PagePrincipale();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ClickFAP(object sender, RoutedEventArgs e)
         {
+            page.Content = new FAP();
+
+        }
+        private void ClickF(object sender, RoutedEventArgs e)
+        {
+            page.Content = new PM();
+
+        }
+        private void ClickS(object sender, RoutedEventArgs e)
+        {
+            page.Content = new Sniper();
+
+        }
+        private void PM(object sender, RoutedEventArgs e)
+        {
+            page.Content = new PM();
 
         }
     }

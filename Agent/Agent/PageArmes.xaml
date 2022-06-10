@@ -21,24 +21,20 @@
 
 
                     <ComboBoxItem>
-                        <Button Content="PM"/>
+                        <Button Content="PM" Click="PM"/>
 
                     </ComboBoxItem>
                     <ComboBoxItem>
-                        <Button Content="Fusils à pompe"/>
+                        <Button Content="Fusils à pompe" Click="ClickFAP"/>
                     </ComboBoxItem>
                     <ComboBoxItem>
-                        <Button Content="Fusils"/>
+                        <Button Content="Fusils" Click="ClickF"/>
                     </ComboBoxItem>
                     <ComboBoxItem>
-                        <Button Content="Snipers"/>
+                        <Button Content="Snipers" Click="ClickS"/>
                     </ComboBoxItem>
-                    <ComboBoxItem>
-                        <Button Content="Mitrailleuses"/>
-                    </ComboBoxItem>
-                    <ComboBoxItem>
-                        <Button Content="Mêlée"/>
-                    </ComboBoxItem>
+                  
+                    
                 </ComboBox>
             </Menu>
             <Button Content="" HorizontalAlignment="Left" Margin="42,136,0,0" VerticalAlignment="Top" Height="89" Width="178">

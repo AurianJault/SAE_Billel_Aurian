@@ -82,6 +82,12 @@
     <Compile Update="FadeSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FAP.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Fusil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="JettSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -166,6 +172,9 @@
     <Compile Update="PhoenixSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PM.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RazeSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -212,6 +221,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SkySpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sniper.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SovaSpellA.xaml.cs">
@@ -396,6 +408,12 @@
     <Page Update="FadeSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="FAP.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Fusil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="JettSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -483,6 +501,9 @@
     <Page Update="PhoenixSpellX.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PM.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="RazeSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -529,6 +550,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SkySpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Sniper.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SovaSpellA.xaml">

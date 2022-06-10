@@ -26,6 +26,14 @@
     <None Remove="image\Arsenal\ArmeDePoing\ghost.jpg" />
     <None Remove="image\Arsenal\ArmeDePoing\sheriff.jpg" />
     <None Remove="image\Arsenal\ArmeDePoing\Shorty.png" />
+    <None Remove="image\Arsenal\FAP\bucky.png" />
+    <None Remove="image\Arsenal\FAP\judge.jpg" />
+    <None Remove="image\Arsenal\Fusil\Phantom.png" />
+    <None Remove="image\Arsenal\Fusil\vandale.png" />
+    <None Remove="image\Arsenal\PM\spectre.jpg" />
+    <None Remove="image\Arsenal\PM\stinger.jpg" />
+    <None Remove="image\Arsenal\Sniper\marsh.jpg" />
+    <None Remove="image\Arsenal\Sniper\Ope.png" />
     <None Remove="image\Cartes\Ascent.jpeg" />
     <None Remove="image\Cartes\Ascent\InGame.png" />
     <None Remove="image\Cartes\bind.jpg" />
@@ -286,6 +294,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="image\Arsenal\Sniper\marsh.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="VideoSpell\Astra\AA.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -350,6 +361,27 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="image\Arsenal\ArmeDePoing\Shorty.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\FAP\bucky.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\FAP\judge.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\Fusil\Phantom.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\Fusil\vandale.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\PM\spectre.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\PM\stinger.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Arsenal\Sniper\Ope.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="image\Cartes\Ascent\Ascent.jpeg">
