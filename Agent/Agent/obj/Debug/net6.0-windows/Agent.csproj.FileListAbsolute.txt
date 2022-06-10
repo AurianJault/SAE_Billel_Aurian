@@ -1015,5 +1015,14 @@ C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Agent.csp
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Agent.csproj.CopyComplete
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Agent.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\ref\Agent.dll
+<<<<<<< HEAD
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\Ascent.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageCartes.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\Ascent.baml
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageCartes.baml
+=======
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.g.cs
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.baml
+>>>>>>> bf91af1ec446fdff2d2734b54d81e5d35a906c2c
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageArmes.baml
