@@ -45,7 +45,7 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Cartes" Grid.Column="0" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <Button Content="Cartes" Grid.Column="0" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Cartes"/>
                     <Button Content="Agents" Grid.Column="1" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Agents"/>
                     <Button Content="Armes" Grid.Column="2" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                     <Button Content="Bundle" Grid.Column="3" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>

@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Ascent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AstraSpellA.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -137,6 +140,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="OmenSpellX.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageCartes.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PagePrincipale.xaml.cs">
@@ -312,6 +318,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Ascent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AstraSpellA.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -445,6 +454,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="OmenSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageCartes.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PagePrincipale.xaml">
