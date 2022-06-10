@@ -8,20 +8,28 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\exota\\.nuget\\packages\\": {}
+    "C:\\Users\\aujault\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\aujault\\Source\\Repos\\sae-billel\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
       "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
-      "packagesPath": "C:\\Users\\exota\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\ClassLibrary1\\obj\\",
+      "projectPath": "C:\\Users\\aujault\\Source\\Repos\\sae-billel\\Agent\\ClassLibrary1\\ClassLibrary1.csproj",
+      "packagesPath": "C:\\Users\\aujault\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aujault\\Source\\Repos\\sae-billel\\Agent\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\exota\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\aujault\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -60,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
