@@ -1015,3 +1015,7 @@ C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Agent.csp
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Agent.csproj.CopyComplete
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\Agent.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\Agent\obj\Debug\net6.0-windows\ref\Agent.dll
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\Ascent.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageCartes.g.cs
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\Ascent.baml
+C:\Users\exota\OneDrive\Bureau\sae-XAML\Agent\Agent\obj\Debug\net6.0-windows\PageCartes.baml
