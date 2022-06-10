@@ -42,3 +42,7 @@ C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\obj\Debug\net5.0\ClassLibr
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.dll
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\obj\Debug\net5.0\refint\ClassLibrary1.dll
 C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.pdb
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.deps.json
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.dll
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.pdb
+C:\Users\ASUS\OneDrive\Bureau\SAE\Agent\ClassLibrary1\obj\Debug\net5.0\ref\ClassLibrary1.dll
