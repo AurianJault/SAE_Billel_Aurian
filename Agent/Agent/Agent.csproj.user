@@ -142,6 +142,9 @@
     <Compile Update="OmenSpellX.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PageArmes.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PageCartes.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -454,6 +457,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="OmenSpellX.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageArmes.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PageCartes.xaml">

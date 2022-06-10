@@ -18,7 +18,14 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Règles" Grid.Column="0" Margin="40,10" Padding="20,5" HorizontalAlignment="Left" Click="Regle"/>
+                    <Button Content="Règles" Grid.Column="0" Margin="40,10" Padding="20,5" HorizontalAlignment="Left" Click="Regle">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
                     <Grid Grid.Column="2" Margin="0,2">
                         <Grid.RowDefinitions>
                             <RowDefinition/>
@@ -36,8 +43,8 @@
                         </Button>
                     </Grid>
                 </Grid>
-                <TextBlock DockPanel.Dock="Top" Text="Le jeu tactique par exellence" FontSize="24" HorizontalAlignment="Center" Foreground="White" />
-                <TextBlock DockPanel.Dock="Top" Text="Valorant" FontSize="50" HorizontalAlignment="Center" Foreground="White" />
+                <TextBlock DockPanel.Dock="Top" Text="Le jeu tactique par exellence" FontSize="24" HorizontalAlignment="Center" Foreground="White" TextDecorations="{x:Null}" FontStyle="Normal" />
+                <TextBlock DockPanel.Dock="Top" Text="Valorant" FontSize="50" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontStyle="Italic" />
                 <Grid DockPanel.Dock="Bottom">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
@@ -45,10 +52,38 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Cartes" Grid.Column="0" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Cartes"/>
-                    <Button Content="Agents" Grid.Column="1" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Agents"/>
-                    <Button Content="Armes" Grid.Column="2" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
-                    <Button Content="Bundle" Grid.Column="3" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <Button Content="Cartes" Grid.Column="0" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Cartes">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="Agents" Grid.Column="1" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Agents">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="Armes" Grid.Column="2" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Click="Armes">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="Bundle" Grid.Column="3" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
                 </Grid>
 
             </DockPanel>

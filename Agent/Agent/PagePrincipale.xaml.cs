@@ -52,6 +52,10 @@ namespace Agent
         {
             page.Content = new PageCartes();
         }
+        private void Armes(object sender, RoutedEventArgs e)
+        {
+            page.Content = new PageArmes();
+        }
 
     }
 }
