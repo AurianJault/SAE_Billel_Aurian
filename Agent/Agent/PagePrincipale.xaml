@@ -12,13 +12,13 @@
                 <ImageBrush ImageSource="/ImageBG.jpeg"/>
             </Grid.Background>
             <DockPanel>
-                <Grid DockPanel.Dock="Top">
+                <Grid DockPanel.Dock="Top" Height="78" Width="798">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Règles" Grid.Column="0" Margin="40,10" Padding="20,5" HorizontalAlignment="Left" Click="Regle">
+                    <Button Content="Règles" Grid.Column="0" Margin="40,10,0,10" Padding="20,5" HorizontalAlignment="Left" Click="Regle" Width="109">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Black"/>
@@ -31,7 +31,7 @@
                             <RowDefinition/>
                             <RowDefinition/>
                         </Grid.RowDefinitions>
-                        <Button Grid.Row="0" Margin="211,0,0,0" Grid.RowSpan="2" HorizontalAlignment="Left" Width="56" Height="24" VerticalAlignment="Top" Click="ClickFB">
+                        <Button Grid.Row="0" Margin="211,0,0,0" HorizontalAlignment="Left" Width="56" Height="32" VerticalAlignment="Top" Click="ClickFB">
                             <Button.Background>
                                 <ImageBrush ImageSource="/fb_icon_325x325.png" Stretch="Uniform"/>
                             </Button.Background>
@@ -50,9 +50,8 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
-                        <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Cartes" Grid.Column="0" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Cartes">
+                    <Button Content="Cartes" Margin="0,147,0,0" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Cartes" Height="68" Width="132">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Black"/>
@@ -60,7 +59,7 @@
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-                    <Button Content="Agents" Grid.Column="1" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Agents">
+                    <Button Content="Agents" Grid.Column="1" Margin="0,147,0,0" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Agents" Height="68" Width="126">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Black"/>
@@ -68,15 +67,7 @@
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-                    <Button Content="Armes" Grid.Column="2" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Click="Armes">
-                        <Button.Background>
-                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="Black"/>
-                                <GradientStop Color="White" Offset="1"/>
-                            </LinearGradientBrush>
-                        </Button.Background>
-                    </Button>
-                    <Button Content="Bundle" Grid.Column="3" Margin="40,20" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <Button Content="Armes" Grid.Column="2" Margin="0,147,0,0" Padding="20,5" HorizontalAlignment="Center" VerticalAlignment="Top"  Click="Armes" Height="68" Width="128">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Black"/>
