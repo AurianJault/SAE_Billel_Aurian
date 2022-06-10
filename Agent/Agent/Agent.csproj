@@ -915,6 +915,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="VideoSpell\Breach\breach.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

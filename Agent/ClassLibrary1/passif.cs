@@ -26,11 +26,14 @@ namespace ClassLibrary1
     public class Ultime: Passif
     {
         private int charges;
+        private string image;
+        public string Image { get { return image; } set { image = value; } }
         public int Charges { get { return charges; } set { charges = value; }}
 
-        public Ultime(int charges, string desc, string name) : base(desc, name)
+        public Ultime(int charges, string desc, string name,string image) : base(desc, name)
         {
             Charges = charges;
+            Image = image;
         }
 
         public override string ToString()

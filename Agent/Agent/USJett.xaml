@@ -9,9 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="450" Width="804">
-
-
+                <Grid Height="0" Width="804">
                     <Grid.Background>
                         <ImageBrush ImageSource="/ImageBG.jpeg"/>
                     </Grid.Background>
@@ -22,32 +20,27 @@
                     </Button>
                     <Rectangle HorizontalAlignment="Left" Height="186" Margin="10,225,0,0" Stroke="Black" VerticalAlignment="Top" Width="319">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="VideoSpell/Jett/jett.jpg"/>
+                            <ImageBrush ImageSource="{Binding Image}"/>
                         </Rectangle.Fill>
                     </Rectangle>
                     <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="375,47,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" />
                     <TextBlock HorizontalAlignment="Left" Margin="12,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="97" Background="#FFC7A0A0" FontSize="18" ><Run Language="fr-fr" Text="Nationalité"/></TextBlock>
                     <TextBlock HorizontalAlignment="Left" Margin="140,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="62" Width="95" FontSize="18" >
                         <TextBlock.Background>
-                            <ImageBrush ImageSource="/VideoSpell/Jett/coree.jpg"/>
+                            <ImageBrush ImageSource="{Binding Drapeau}"/>
                         </TextBlock.Background>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Margin="375,104,0,0" TextWrapping="Wrap" Text="Représentante de sa patrie, la Corée du Sud, Jett dispose d'un style de combat basé sur l'agilité et l'esquive, qui lui permet de prendre des risques qu'elle seule peut se permettre de prendre. Elle tourne autour des affrontements et découpe ses ennemis avant même qu'ils ne s'en rendent compte." VerticalAlignment="Top" Height="185" Width="368" Background="#FFC7A0A0" FontSize="18" />
-
-
+                    <TextBlock HorizontalAlignment="Left" Margin="375,104,0,0" TextWrapping="Wrap" Text="{Binding Bio}" VerticalAlignment="Top" Height="185" Width="368" Background="#FFC7A0A0" FontSize="18" />
                 </Grid>
                 <Grid Height="450" Background="#FFC3B8B8">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="25*"/>
-                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="528*"/>
+                        <ColumnDefinition Width="97*"/>
+                        <ColumnDefinition Width="175*"/>
                     </Grid.ColumnDefinitions>
-
-
-
-
                     <Button Content="" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="AJett">
                         <Button.Background>
-                            <ImageBrush ImageSource="/VideoSpell/Jett/JA.png"/>
+                            <ImageBrush ImageSource="{Binding CapA.Image}"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -59,7 +52,7 @@
                     </Button>
                     <Button  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="EJett">
                         <Button.Background>
-                            <ImageBrush ImageSource="/VideoSpell/Jett/JE.png"/>
+                            <ImageBrush ImageSource="{Binding Signature.Image}"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -71,7 +64,7 @@
                     </Button>
                     <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="68" Width="75" Click="CJett">
                         <Button.Background>
-                            <ImageBrush ImageSource="/VideoSpell/Jett/JC.png"/>
+                            <ImageBrush ImageSource="{Binding CapC.Image}"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -83,7 +76,7 @@
                     </Button>
                     <Button  HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="67" Width="75" Click="XJett">
                         <Button.Background>
-                            <ImageBrush ImageSource="/VideoSpell/Jett/JX.png"/>
+                            <ImageBrush ImageSource="{Binding Ultimate.Image}"/>
                         </Button.Background>
                         <Button.RenderTransform>
                             <TransformGroup>
@@ -93,8 +86,7 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
-
-                    <TextBlock HorizontalAlignment="Right" Margin="0,40,170,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="113">
+                    <TextBlock HorizontalAlignment="Right" Margin="0,40,73,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="21" Width="113">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
@@ -102,25 +94,22 @@
                                 <RotateTransform Angle="0.322"/>
                                 <TranslateTransform/>
                             </TransformGroup>
-                        </TextBlock.RenderTransform><Run Language="fr-fr" Text="COMPETENCES JETT"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
-
-                    <Label Content="𝘈 - 𝘊𝘖𝘜𝘙𝘈𝘕𝘛 𝘈𝘚𝘊𝘌𝘕𝘋𝘈𝘕𝘛" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
-                    <Label Content="𝘌 - 𝘝𝘌𝘕𝘛 𝘈𝘙𝘙𝘐È𝘙𝘌" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
-                    <Label Content="𝘊 - 𝘈𝘝𝘌𝘙𝘚𝘌𝘙" HorizontalAlignment="Left" Margin="102,263,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
-                    <Label Content="𝘟 - 𝘛𝘌𝘔𝘗Ê𝘛𝘌 𝘋𝘌 𝘓𝘈𝘔𝘌𝘚" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="140"/>
-
+                        </TextBlock.RenderTransform>
+                        <Run Language="fr-fr" Text="COMPETENCES"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
+                    <Label Content="{Binding CapA.Name}" HorizontalAlignment="Left" Margin="102,113,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="{Binding Signature.Name}" HorizontalAlignment="Left" Margin="102,193,0,0" VerticalAlignment="Top" Height="68" Width="155"/>
+                    <Label Content="{Binding CapC.Name}" HorizontalAlignment="Left" Margin="102,263,0,0" VerticalAlignment="Top" Height="75" Width="122"/>
+                    <Label Content="{Binding Ultimate.Name}" HorizontalAlignment="Left" Margin="102,339,0,0" VerticalAlignment="Top" Height="68" Width="140"/>
                     <TextBlock HorizontalAlignment="Left" Margin="106,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9"><Run Text="Vous vous propulsez INSTANTANÉMENT dans les airs."/><Run Language="fr-fr" Text="V."/></TextBlock>
-
-
                     <Rectangle HorizontalAlignment="Left" Height="44" Margin="102,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
                     <Rectangle HorizontalAlignment="Left" Height="44" Margin="103,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
                     <Rectangle HorizontalAlignment="Left" Height="54" Margin="102,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
                     <Rectangle HorizontalAlignment="Left" Height="51" Margin="103,363,0,0" Stroke="Black" VerticalAlignment="Top" Width="243"/>
                     <TextBlock HorizontalAlignment="Left" Margin="106,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="240" FontSize="9" Text="Vous vous propulsez INSTANTANÉMENT dans la direction vers laquelle vous vous dirigez. Si vous êtes immobile, vous vous propulsez vers l'avant."/>
                     <TextBlock HorizontalAlignment="Left" Margin="106,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="240" FontSize="9"><Run Text="Lancez INSTANTANÉMENT un projectile. Lorsqu'il touche une surface, il libère un nuage qui bloque la vision pendant un court instant. MAINTENEZ la touche de la compétence pour courber la fumée dans la direction de votre réticule."/><LineBreak/><Run/></TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="ÉQUIPEZ-vous d'un ensemble de couteaux extrêmement précis qui se rechargent lorsque vous éliminez un ennemi. TIREZ pour lancer un seul couteau sur votre cible.Utilisez le TIR SECONDAIRE pour lancer toutes les dagues restantes." VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="106,363,0,0" TextWrapping="Wrap" Text="{Binding Ultimate.Desc}" VerticalAlignment="Top" Height="51" Width="240" FontSize="9"/>
 
-                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="2">
+                    <ContentControl x:Name="Spell" Margin="357,107,28,103" Grid.ColumnSpan="3">
                         <MediaElement Source="VideoSpell/Jett/JA.mp4"  />
                     </ContentControl>
 

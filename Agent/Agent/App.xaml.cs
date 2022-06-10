@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,11 @@ namespace Agent
     /// </summary>
     public partial class App : Application
     {
+        public Manager LeManager { get; set; } = new Manager();
+
+        public App()
+        {
+            LeManager.ChargeValorant();
+        }
     }
 }

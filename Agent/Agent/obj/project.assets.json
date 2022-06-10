@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "ClassLibrary1 >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\exota\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
+      "projectUniqueName": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\Agent\\Agent.csproj",
       "projectName": "Agent",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\Agent.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\Agent\\obj\\",
+      "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\Agent\\Agent.csproj",
+      "packagesPath": "C:\\Users\\exota\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\Agent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\exota\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\ClassLibrary1\\ClassLibrary1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -63,7 +86,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ClassLibrary1;
+
 
 namespace Agent
 {
@@ -20,9 +22,11 @@ namespace Agent
     /// </summary>
     public partial class USJett : UserControl
     {
+        public Manager Manager => (App.Current as App).LeManager;
         public USJett()
         {
             InitializeComponent();
+            DataContext = Manager.Valorants;
         }
         private void AJett(object sender, RoutedEventArgs e)
         {

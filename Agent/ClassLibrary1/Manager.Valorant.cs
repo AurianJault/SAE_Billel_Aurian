@@ -34,7 +34,7 @@ namespace ClassLibrary1
         }
         public Valorant GetValorant(string nom)
         {
-            return GetValorant(new Valorant(nom, "basic", new ListeAg(), "France", new Ultime(1, "Empty", "Empty"), new Signature(0, 0, 0, "Empty", 0, "Empty", "Empty"), new Capacite(0, 0, 0, "Empty", "Empty"), new Capacite(0, 0, 0, "Empty", "Empty"), new Passif("Empty", "Empty")));
+            return GetValorant(new Valorant(nom, "basic", new ListeAg(), "France", new Ultime(1, "Empty", "Empty","Empty"), new Signature(0, 0, 0, "Empty", 0, "Empty", "Empty","Empty"), new Capacite(0, 0, 0, "Empty", "Empty","Empty"), new Capacite(0, 0, 0, "Empty", "Empty","Empty"), new Passif("Empty", "Empty"),"Empty","Empty","Empty"));
         }
     }
 }

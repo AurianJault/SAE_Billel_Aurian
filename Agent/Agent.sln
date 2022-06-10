@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent", "Agent\Agent.csproj", "{35A6A13A-1168-4331-8867-019B781B909F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agent", "Agent\Agent.csproj", "{35A6A13A-1168-4331-8867-019B781B909F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{D74B3C50-10FD-4393-ABCE-778EF02C8A63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{35A6A13A-1168-4331-8867-019B781B909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A6A13A-1168-4331-8867-019B781B909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A6A13A-1168-4331-8867-019B781B909F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74B3C50-10FD-4393-ABCE-778EF02C8A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74B3C50-10FD-4393-ABCE-778EF02C8A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74B3C50-10FD-4393-ABCE-778EF02C8A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74B3C50-10FD-4393-ABCE-778EF02C8A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
