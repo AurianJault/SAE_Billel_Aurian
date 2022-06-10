@@ -29,17 +29,41 @@
                         </Button.Background>
                     </Button>
 
-                    <Button Content="" HorizontalAlignment="Left" Margin="450,144,0,0" VerticalAlignment="Top" Height="128" Width="219"/>
-                    <Button Content="" HorizontalAlignment="Left" Margin="86,310,0,0" VerticalAlignment="Top" Height="128" Width="219"/>
-                    <Button Content="" HorizontalAlignment="Left" Margin="450,315,0,0" VerticalAlignment="Top" Height="128" Width="219"/>
+                    <Button Content="" HorizontalAlignment="Left" Margin="450,144,0,0" VerticalAlignment="Top" Height="128" Width="219" Click="Bind">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/image/Cartes/Bind/bind.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="" HorizontalAlignment="Left" Margin="86,310,0,0" VerticalAlignment="Top" Height="128" Width="219" Click="Breeze">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/image/Cartes/Breeze/Breeze.png"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="" HorizontalAlignment="Left" Margin="450,315,0,0" VerticalAlignment="Top" Height="128" Width="219" Click="Fracture">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/image/Cartes/Fracture/fracture.jpeg"/>
+                        </Button.Background>
+                    </Button>
 
 
 
                 </Grid>
                 <Grid Height="450" Background="#FFC3B8B8">
-                    <Button Content="" HorizontalAlignment="Left" Margin="86,80,0,0" VerticalAlignment="Top" Height="128" Width="219"/>
-                    <Button Content="" HorizontalAlignment="Left" Margin="450,80,0,0" VerticalAlignment="Top" Height="128" Width="219"/>
-                    <Button Content="" HorizontalAlignment="Left" Margin="86,250,0,0" VerticalAlignment="Top" Height="128" Width="219"/>
+                    <Button Content="" HorizontalAlignment="Left" Margin="86,80,0,0" VerticalAlignment="Top" Height="128" Width="219" Click="Haven">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/image/Cartes/haven/haven.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="" HorizontalAlignment="Left" Margin="450,80,0,0" VerticalAlignment="Top" Height="128" Width="219" Click="Icebox">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/image/Cartes/icebox/icebox.jpg"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="" HorizontalAlignment="Left" Margin="86,250,0,0" VerticalAlignment="Top" Height="128" Width="219" Click="Split">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/image/Cartes/split/split.jpg"/>
+                        </Button.Background>
+                    </Button>
 
 
 

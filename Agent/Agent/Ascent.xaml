@@ -15,15 +15,15 @@
                     <GradientStop Color="#FFC57C7C" Offset="1"/>
                 </LinearGradientBrush>
             </Grid.Background>
-            <TextBlock HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="78" Width="180" Foreground="#FFCE0808" FontSize="48" FontFamily="Bauhaus 93"><Run Language="fr-fr" Text="ASCENT"/></TextBlock>
-            <Image Source="/image/Cartes/Ascent/InGame.png" HorizontalAlignment="Left" Height="264" Margin="31,136,0,0" VerticalAlignment="Top" Width="237"/>
-            <Image Source="/image/Cartes/Ascent/Ascent.jpeg" HorizontalAlignment="Left" Height="156" Margin="529,168,0,0" VerticalAlignment="Top" Width="240"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="78" Width="180" Foreground="#FFCE0808" FontSize="48" FontFamily="Bauhaus 93"><Run Language="fr-fr" Text="{Binding Nom}"/></TextBlock>
+            <Image Source="{Binding Ingame}" HorizontalAlignment="Left" Height="264" Margin="31,136,0,0" VerticalAlignment="Top" Width="237"/>
+            <Image Source="{Binding Image}" HorizontalAlignment="Left" Height="156" Margin="529,168,0,0" VerticalAlignment="Top" Width="240"/>
             <Button HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="47" Width="99" Grid.Column="1" Click="Menu">
                 <Button.Background>
                     <ImageBrush ImageSource="/riot-annonce-valorant-mobilev2.jpg"/>
                 </Button.Background>
             </Button>
-            <TextBlock HorizontalAlignment="Left" Margin="310,154,0,0" TextWrapping="Wrap" Text="Un terrain de jeu ouvert, idéal pour les guerres de position et d'attrition, divise les deux sites d'Ascent. Chacun d'entre eux peut être fortifié par d'épaisses portes de protection. Une fois ces dernières fermées, vous n'aurez pas d'autre choix que de les détruire ou de trouver un autre chemin. Cédez le moins de terrain possible à vos adversaires !" VerticalAlignment="Top" Height="202" Width="183"/>
+            <TextBlock HorizontalAlignment="Left" Margin="293,116,0,0" TextWrapping="Wrap" Text="{Binding Desc}" VerticalAlignment="Top" Height="324" Width="231"/>
 
         </Grid>
     </ContentControl>

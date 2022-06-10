@@ -66,21 +66,21 @@ namespace Agent
 
         private void ClickAstra(object sender, RoutedEventArgs e)
         {
-            page.Content = new USAstra();
+            page.Content = new USJett("Astra");
         }
         private void ClickBrim(object sender, RoutedEventArgs e)
         {
-            page.Content = new USBrim();
+            page.Content = new USJett("Brimstone");
 
         }
         private void ClickOmen(object sender, RoutedEventArgs e)
         {
-            page.Content = new USOmen();
+            page.Content = new USJett("Omen");
 
         }
         private void ClickViper(object sender, RoutedEventArgs e)
         {
-            page.Content = new USViper();
+            page.Content = new USJett("Viper");
 
         }
     }

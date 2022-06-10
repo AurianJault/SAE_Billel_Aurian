@@ -58,23 +58,23 @@ namespace Agent
         }
         private void ClickSky(object sender, RoutedEventArgs e)
         {
-            Duelliste.Content = new USSky();
+            Duelliste.Content = new USJett("Skye");
         }
         private void ClickSova(object sender, RoutedEventArgs e)
         {
-            Duelliste.Content = new USSova();
+            Duelliste.Content = new USJett("Sova");
         }
         private void ClickBreach(object sender, RoutedEventArgs e)
         {
-            Duelliste.Content = new USBreach();
+            Duelliste.Content = new USJett("Breach");
         }
         private void ClickKayo(object sender, RoutedEventArgs e)
         {
-            Duelliste.Content = new USKayo();
+            Duelliste.Content = new USJett("KAY/O");
         }
         private void ClickFade(object sender, RoutedEventArgs e)
         {
-            Duelliste.Content = new USFade();
+            Duelliste.Content = new USJett("Fade");
         }
     }
 }

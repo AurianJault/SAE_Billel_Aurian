@@ -30,7 +30,31 @@ namespace Agent
         }
         private void Ascent(object sender, RoutedEventArgs e)
         {
-            page.Content = new Ascent();
+            page.Content = new Ascent("Ascent");
+        }
+        private void Bind(object sender, RoutedEventArgs e)
+        {
+            page.Content = new Ascent("Bind");
+        }
+        private void Breeze(object sender, RoutedEventArgs e)
+        {
+            page.Content = new Ascent("Breeze");
+        }
+        private void Fracture(object sender, RoutedEventArgs e)
+        {
+            page.Content = new Ascent("Fracture");
+        }
+        private void Haven(object sender, RoutedEventArgs e)
+        {
+            page.Content = new Ascent("Haven");
+        }
+        private void Icebox(object sender, RoutedEventArgs e)
+        {
+            page.Content = new Ascent("Icebox");
+        }
+        private void Split(object sender, RoutedEventArgs e)
+        {
+            page.Content = new Ascent("Split");
         }
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8vYxzeoiB9kssZnJL3YKyutxQnqowk9lYRHe6SqrT/jHqx3DYIoJBnz3S9JtjzoVAz9mdi/XxpIHAjtX/0qQ5g==",
+  "dgSpecHash": "Niy/gkzOHxUmTknLK2GU7TVRepMP7+Q9lq1bS0Vuvi9Mm8uCSFHyHs0R4vDrUoYh+GXOIZjpFdtg6zOxaEtBPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\SAE\\Agent\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\Agent\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\exota\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

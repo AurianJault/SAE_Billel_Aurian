@@ -38,32 +38,32 @@ namespace Agent
         }
         private void ClickNeon(object sender, RoutedEventArgs e)
         {
-            Duellist.Content = new USNeon();
+            Duellist.Content = new USJett("Neon");
         }
         
         private void ClickReyna(object sender, RoutedEventArgs e)
         {
-            Duellist.Content = new USReyna();
+            Duellist.Content = new USJett("Reyna");
 
         }
         private void ClickPhoenix(object sender, RoutedEventArgs e)
         {
-            Duellist.Content = new USPhoenix();
+            Duellist.Content = new USJett("Phoenix");
 
         }
         private void ClickJett(object sender, RoutedEventArgs e)
         {
-            Duellist.Content = new USJett();
+            Duellist.Content = new USJett("Jett");
 
         }
         private void ClickYoru(object sender, RoutedEventArgs e)
         {
-            Duellist.Content = new USYoru();
+            Duellist.Content = new USJett("Yoru");
 
         }
         private void ClickRaze(object sender, RoutedEventArgs e)
         {
-            Duellist.Content = new USRaze();
+            Duellist.Content = new USJett("Raze");
 
         }
         private void ClickMenu(object sender, RoutedEventArgs e)
