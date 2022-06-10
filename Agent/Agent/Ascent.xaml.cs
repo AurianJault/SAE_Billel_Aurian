@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,14 @@ namespace Agent
     /// </summary>
     public partial class Ascent : UserControl
     {
-        public Ascent()
+        public Manager Manager => (App.Current as App).LeManager;
+        private string val;
+        public string Val { get { return val; } set { val = value; } }
+        public Ascent(string val)
         {
+            Val = val;
             InitializeComponent();
+            DataContext = Manager.GetCarte(val);
         }
         private void Menu(object sender, RoutedEventArgs e)
         {

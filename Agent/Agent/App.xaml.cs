@@ -19,6 +19,7 @@ namespace Agent
         public App()
         {
             LeManager.ChargeValorant();
+            LeManager.chargeCarte();
         }
     }
 }

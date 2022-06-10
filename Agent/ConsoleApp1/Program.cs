@@ -54,15 +54,6 @@ namespace Console_test
             List<Arme> Sentinels = new List<Arme>() { knife, sheriff, vandal, operatore, ares };
             List<Arme> Ruination = new List<Arme>() { knife, ghost, spectre, guardian, phantom, };
             List<Arme> Origin = new List<Arme>() { knife, frenzy, bucky, vandal, operatore, };
-
-            /*Carte*/
-            Carte c0 = new Carte("Bind");
-            Carte c1 = new Carte("Fracture");
-            Carte c2 = new Carte("Haven");
-            Carte c3 = new Carte("Split");
-            Carte c4 = new Carte("Ascent");
-            Carte c5 = new Carte("Icebox");
-            Carte c6 = new Carte("Breeze");
             /*Bundle*/
             Bundle reaver = new Bundle("Reaver", Reaver);
             Bundle prime = new Bundle("Prime", Prime);

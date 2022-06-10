@@ -9,33 +9,32 @@ namespace ClassLibrary1
 {
     public partial class Manager
     {
-        public bool AjoutCartes(Carte cart)
+        public bool AjoutCarte(Carte valor)
         {
-            if (carte.Contains(cart))
+            if (carte.Contains(valor))
             {
                 return false;
             }
-            carte.Add(cart);
+            carte.Add(valor);
             return true;
         }
-        public bool SuprimeCarte(Carte cart)
+        public bool SuprimeCarte(Carte valor)
         {
-            if (!carte.Contains(cart))
+            if (!carte.Contains(valor))
             {
                 return false;
             }
-            carte.Remove(cart);
+            carte.Remove(valor);
             return true;
         }
 
-        public Carte GetCarte(Carte cart)
+        public Carte GetCarte(Carte valor)
         {
-            return carte.SingleOrDefault(q => q.Equals(cart));
+            return carte.SingleOrDefault(r => r.Equals(valor));
         }
-
         public Carte GetCarte(string nom)
         {
-            return GetCarte(new Carte(nom));
+            return GetCarte(new Carte(nom,"Null","Null","Null"));
         }
     }
 }

@@ -61,22 +61,22 @@ namespace Agent
         }
         private void ClickSage(object sender, RoutedEventArgs e)
         {
-            page.Content = new USSage();
+            page.Content = new USJett("Sage");
 
         }
         private void ClickChamber(object sender, RoutedEventArgs e)
         {
-            page.Content = new USChamber();
+            page.Content = new USJett("Chamber");
 
         }
         private void ClickCypher(object sender, RoutedEventArgs e)
         {
-            page.Content = new USCypher();
+            page.Content = new USJett("Cypher");
 
         }
         private void ClickKJ(object sender, RoutedEventArgs e)
         {
-            page.Content = new USKJ();
+            page.Content = new USJett("Killjoy");
 
         }
     }
