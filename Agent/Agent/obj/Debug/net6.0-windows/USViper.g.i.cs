@@ -69,7 +69,7 @@ namespace Agent {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Agent;component/usviper.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Agent;V1.0.0.0;component/usviper.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\USViper.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

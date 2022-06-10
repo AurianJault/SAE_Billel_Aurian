@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hF4UuO/Ud8dKi+wS4npwBHHoc8khNFOBZAISA0sB2+65ywmakUJdYLOoh80C9qL7lxHTXens36ePb3IUUaivhw==",
+  "dgSpecHash": "ffY9cXK/9D8c8VQnYBHRzBf5AdbKzCKy09NTZ8hqfvPoSyzsrib7gPLa0GKRVBhcmk3ruWgInnFQ1vHix3Wlug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-billel-aurian\\sae-billel-aurian\\Agent\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\exota\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],

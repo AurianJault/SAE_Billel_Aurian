@@ -53,7 +53,7 @@ namespace Agent {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Agent;component/cypherspellc.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Agent;V1.0.0.0;component/cypherspellc.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CypherSpellC.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

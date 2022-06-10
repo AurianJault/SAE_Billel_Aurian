@@ -53,7 +53,7 @@ namespace Agent {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Agent;component/jettspelle.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Agent;V1.0.0.0;component/jettspelle.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\JettSpellE.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

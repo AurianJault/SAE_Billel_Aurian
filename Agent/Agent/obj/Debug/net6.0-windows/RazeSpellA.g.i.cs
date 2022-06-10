@@ -53,7 +53,7 @@ namespace Agent {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Agent;component/razespella.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Agent;V1.0.0.0;component/razespella.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RazeSpellA.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
