@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="453" Width="802">
+                <Grid Height="0" Width="802">
 
 
                     <Grid.Background>
@@ -32,7 +32,7 @@
                             <ImageBrush ImageSource="/VideoSpell/Raze/bresil.jpg"/>
                         </Rectangle.Fill>
                     </Rectangle>
-                    <TextBlock HorizontalAlignment="Left" Margin="435,104,0,0" TextWrapping="Wrap" Text="Armée de sa personnalité et de sa grosse artillerie, Raze fait une entrée explosive depuis le Brésil. Grâce à sa force brute, elle excelle à débusquer les ennemis retranchés et à faire le ménage dans les espaces étroits, le tout avec une bonne dose de « boum »" VerticalAlignment="Top" Height="214" Width="280" Background="#FFC7A0A0" FontSize="18" />
+                    <TextBlock HorizontalAlignment="Left" Margin="435,104,0,0" TextWrapping="Wrap" Text="   " VerticalAlignment="Top" Height="214" Width="280" Background="#FFC7A0A0" FontSize="18" />
 
 
                 </Grid>

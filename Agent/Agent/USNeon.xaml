@@ -9,7 +9,7 @@
     <ContentControl x:Name="Duelliste">
         <ScrollViewer>
             <StackPanel  Height="900" Width="800" MaxWidth="800" MaxHeight="900" MinHeight="900" MinWidth="800">
-                <Grid Height="453" Width="806">
+                <Grid Height="450" Width="806">
 
 
                     <Grid.Background>
@@ -22,7 +22,7 @@
                     </Button>
                     <Rectangle HorizontalAlignment="Left" Height="186" Margin="24,203,0,0" Stroke="Black" VerticalAlignment="Top" Width="314">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="VideoSpell/Neon/neon.jpg"/>
+                            <ImageBrush ImageSource="   "/>
                         </Rectangle.Fill>
                     </Rectangle>
                     <TextBlock HorizontalAlignment="Left" Margin="452,42,0,0" TextWrapping="Wrap" Text=" Biographie " VerticalAlignment="Top" Height="30" Width="97" Background="#FFC7A0A0" FontSize="18" />
