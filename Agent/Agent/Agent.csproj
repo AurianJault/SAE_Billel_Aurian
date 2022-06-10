@@ -21,6 +21,26 @@
     <None Remove="FIipg6hXMAMRxH3.jpg" />
     <None Remove="getstarted.png" />
     <None Remove="ImageBG.jpeg" />
+    <None Remove="image\Cartes\Ascent.jpeg" />
+    <None Remove="image\Cartes\Ascent\InGame.png" />
+    <None Remove="image\Cartes\bind.jpg" />
+    <None Remove="image\Cartes\Bind\bind.jpg" />
+    <None Remove="image\Cartes\Bind\InGame.png" />
+    <None Remove="image\Cartes\breeze.png" />
+    <None Remove="image\Cartes\Breeze\breeze.png" />
+    <None Remove="image\Cartes\Breeze\InGame.jpeg" />
+    <None Remove="image\Cartes\fracture.jpeg" />
+    <None Remove="image\Cartes\Fracture\fracture.jpeg" />
+    <None Remove="image\Cartes\Fracture\InGame.jpeg" />
+    <None Remove="image\Cartes\haven.jpg" />
+    <None Remove="image\Cartes\haven\Haven.jpg" />
+    <None Remove="image\Cartes\haven\InGame.png" />
+    <None Remove="image\Cartes\icebox.jpg" />
+    <None Remove="image\Cartes\Icebox\icebox.jpg" />
+    <None Remove="image\Cartes\Icebox\InGame.jpeg" />
+    <None Remove="image\Cartes\split.jpg" />
+    <None Remove="image\Cartes\Split\InGame.png" />
+    <None Remove="image\Cartes\Split\split.jpg" />
     <None Remove="image\icone\Controllerv2.png" />
     <None Remove="image\PersonnageValorant\Controlleur\astra.jpg" />
     <None Remove="image\PersonnageValorant\Controlleur\brim.jpg" />
@@ -312,6 +332,63 @@
     <Content Include="VideoSpell\VideoPresentation\valo.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="image\Cartes\Ascent\Ascent.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Ascent\InGame.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\bind.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Bind\bind.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Bind\InGame.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\breeze.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Breeze\breeze.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Breeze\InGame.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\fracture.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Fracture\fracture.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Fracture\InGame.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\haven.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\haven\InGame.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\icebox.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Icebox\icebox.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Icebox\InGame.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\split.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Split\InGame.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\Cartes\Split\split.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="VideoSpell\Breach\suede.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -912,6 +989,12 @@
     <Content Include="VideoSpell\Sage\SC.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\Cartes\haven\Haven.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>

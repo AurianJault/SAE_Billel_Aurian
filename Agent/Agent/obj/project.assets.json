@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\exota\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\Agent\\Agent.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Bureau\\SAE\\Agent\\Agent\\Agent.csproj",
       "projectName": "Agent",
-      "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\Agent\\Agent.csproj",
-      "packagesPath": "C:\\Users\\exota\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\Agent\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\SAE\\Agent\\Agent\\Agent.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\SAE\\Agent\\Agent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\exota\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\exota\\OneDrive\\Bureau\\sae-XAML\\Agent\\ClassLibrary1\\ClassLibrary1.csproj"
+            "C:\\Users\\ASUS\\OneDrive\\Bureau\\SAE\\Agent\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\OneDrive\\Bureau\\SAE\\Agent\\ClassLibrary1\\ClassLibrary1.csproj"
             }
           }
         }
@@ -86,7 +86,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

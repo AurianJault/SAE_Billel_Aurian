@@ -48,6 +48,10 @@ namespace Agent
         {
             page.Content = new PageRegle();
         }
-        
+        private void Cartes(object sender, RoutedEventArgs e)
+        {
+            page.Content = new PageCartes();
+        }
+
     }
 }
